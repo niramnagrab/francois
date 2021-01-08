@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { FaBars } from 'react-icons/fa'
 import { IconContext } from 'react-icons/lib'
 import { animateScroll as scroll } from 'react-scroll'
+import { BrowserRouter, Route, Link } from 'react-router-dom'
 import {
   Nav,
   NavbarContainer,
@@ -60,14 +61,13 @@ const Navbar = ({ toggle }) => {
               </NavItem>
               <NavItem>
                 <NavLinks
-                  to="/blog"
                   smooth={true}
                   duration={500}
                   spy={true}
                   exact="true"
                   offset={-80}
                 >
-                  Blog
+                  <Link to="/blog"> Blog</Link>
                 </NavLinks>
               </NavItem>
               <NavItem>

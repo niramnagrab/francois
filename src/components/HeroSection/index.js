@@ -37,13 +37,7 @@ const HeroSection = () => {
         </HeroH1>
 
         <HeroBtnWrapper>
-          <Button
-            Link
-            to={{
-              pathname: 'https://calendly.com/web-agency-shanghai/15min',
-            }}
-            target="_blank"
-          >
+          <Button>
             Visit Channel
             {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>

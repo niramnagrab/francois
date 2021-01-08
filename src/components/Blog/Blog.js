@@ -1,10 +1,9 @@
 import React from 'react'
+import { BrowserRouter, Route } from 'react-router-dom'
 
 function Blog() {
   return (
-    <div>
-      <h1>This is my blog</h1>
-    </div>
+    
   )
 }
 
