@@ -16,7 +16,7 @@ import {
 } from './NavbarElements'
 import logo from '../../images/logo.png'
 
-const Navbar = ({ toggle }) => {
+const Navbar2 = ({ toggle }) => {
   const [scrollNav, setScrollNav] = useState(false)
 
   const changeNav = () => {
@@ -37,14 +37,11 @@ const Navbar = ({ toggle }) => {
 
   return (
     <>
-      <IconContext.Provider value={{ color: 'white' }}>
+      <IconContext.Provider value={{ color: 'black' }}>
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
-            <NavLogo onClick={toggleHome}>
-              <Link to="/">
-                {' '}
-                <img src={logo} style={{ height: '80px' }} />
-              </Link>
+            <NavLogo to="/" onClick={toggleHome}>
+              <img src={logo} style={{ height: '80px' }} alr="logo" />
             </NavLogo>
             <MobileIcon onClick={toggle}>
               <FaBars />
@@ -52,14 +49,13 @@ const Navbar = ({ toggle }) => {
             <NavMenu>
               <NavItem>
                 <NavLinks
-                  to="about"
                   smooth={true}
                   duration={500}
                   spy={true}
                   exact="true"
                   offset={-80}
                 >
-                  About
+                  <Link to="/about"> About</Link>
                 </NavLinks>
               </NavItem>
               <NavItem>
@@ -70,19 +66,18 @@ const Navbar = ({ toggle }) => {
                   exact="true"
                   offset={-80}
                 >
-                  <Link to="/blog"> Blog</Link>
+                  <Link to="/"> Blog</Link>
                 </NavLinks>
               </NavItem>
               <NavItem>
                 <NavLinks
-                  to="social-media"
                   smooth={true}
                   duration={500}
                   spy={true}
                   exact="true"
                   offset={-80}
                 >
-                  Social Media
+                  <Link to="/"> Social Media</Link>
                 </NavLinks>
               </NavItem>
               <NavItem>
@@ -105,4 +100,4 @@ const Navbar = ({ toggle }) => {
   )
 }
 
-export default Navbar
+export default Navbar2

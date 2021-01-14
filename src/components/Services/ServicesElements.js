@@ -1,18 +1,21 @@
 import styled from 'styled-components'
 
 export const ServicesContainer = styled.div`
-  height: 670px;
+  /* height: 670px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background: #f9f9f9;
+  padding-bottom: 30px;
 
   @media screen and (max-width: 768px) {
     height: 1100px;
   }
   @media screen and (max-width: 480px) {
     height: 1000px;
+    margin: 0 -70px 20px -70px;
+    padding-top: 100px;
   }
 `
 
@@ -20,17 +23,19 @@ export const ServicesWrapper = styled.div`
   max-width: 1000px;
   margin: 0 auto;
   display: grid;
+  justify-content: space-evenly;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   grid-gap: 16px;
-  padding: 0 50px;
+  /* padding: 0 50px; */
 
   @media screen and (max-width: 1000px) {
     grid-template-columns: 1fr 1fr;
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 480px) {
     grid-template-columns: 1fr;
+    width: 80%;
   }
 `
 
@@ -62,11 +67,13 @@ export const ServicesIcon = styled.img`
 export const ServicesH1 = styled.h1`
   font-size: 2rem;
   color: black;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+  margin-top: 20px;
   text-align: center;
 
   @media screen and (max-width: 480px) {
-    font-size: 2rem;
+    font-size: 1.3rem;
+    width: 65%;
   }
 `
 

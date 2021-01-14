@@ -6,6 +6,7 @@ import InfoSection from '../components/InfoSection'
 import Services from '../components/Services'
 import Footer from '../components/Footer'
 import { homeObjOne } from '../components/InfoSection/Data'
+import Instagram from '../components/Instagram/Instagram'
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -21,6 +22,7 @@ const Home = () => {
       <HeroSection />
       <InfoSection {...homeObjOne} />
       <Services />
+      <Instagram />
       <Footer />
     </>
   )

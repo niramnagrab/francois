@@ -28,18 +28,19 @@ const HeroSection = () => {
       </HeroBg>
       <HeroContent>
         <HeroH1>
-          <Typing>
-            <span>
-              Join my Youtube channel where I talk everything coffee, tech and
-              lifestyle!
-            </span>
-          </Typing>
+          Join my Youtube channel where I talk everything coffee, tech and
+          lifestyle!
         </HeroH1>
 
         <HeroBtnWrapper>
-          <Button>
+          <Button
+            target="_blank"
+            onClick={(e) =>
+              (window.location =
+                'https://www.youtube.com/channel/UCXZEUlSUpG_aM-bcQr1Ej8A')
+            }
+          >
             Visit Channel
-            {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </HeroBtnWrapper>
       </HeroContent>
