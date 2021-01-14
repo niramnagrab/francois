@@ -18,17 +18,23 @@ const Sidebar = ({ isOpen, toggle }) => {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink to="about" onClick={toggle}>
+          <SidebarLink to="/about" onClick={toggle}>
             About
           </SidebarLink>
-          <SidebarLink to="discover" onClick={toggle}>
+          <SidebarLink to="/blog" onClick={toggle}>
             Blog
           </SidebarLink>
-          <SidebarLink to="services" onClick={toggle}>
+          <SidebarLink to="/footer" onClick={toggle}>
             Contact
           </SidebarLink>
-          <SidebarLink to="signup" onClick={toggle}>
-            My Youtube channel <a href="page"></a>
+          <SidebarLink
+            target="_blank"
+            onClick={(e) =>
+              (window.location =
+                'https://www.youtube.com/channel/UCXZEUlSUpG_aM-bcQr1Ej8A')
+            }
+          >
+            My Youtube channel
           </SidebarLink>
         </SidebarMenu>
       </SidebarWrapper>

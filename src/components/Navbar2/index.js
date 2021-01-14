@@ -66,7 +66,7 @@ const Navbar2 = ({ toggle }) => {
                   exact="true"
                   offset={-80}
                 >
-                  <Link to="/"> Blog</Link>
+                  <Link to="/blog"> Blog</Link>
                 </NavLinks>
               </NavItem>
               <NavItem>
