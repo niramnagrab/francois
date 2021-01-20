@@ -17,15 +17,33 @@ function Instagram() {
             }
             src={first}
             alt="insta image"
-            height={300}
+            height={250}
             width={250}
           />
         </div>
         <div className="second">
-          <img src={second} alt="insta image" height={300} width={250} />
+          <img
+            target="_blank"
+            onClick={(e) =>
+              (window.location = 'https://www.instagram.com/the_french_review/')
+            }
+            src={second}
+            alt="insta image"
+            height={300}
+            width={250}
+          />
         </div>
         <div className="third">
-          <img src={third} alt="insta image" height={300} width={250} />
+          <img
+            target="_blank"
+            onClick={(e) =>
+              (window.location = 'https://www.instagram.com/the_french_review/')
+            }
+            src={third}
+            alt="insta image"
+            height={300}
+            width={250}
+          />
         </div>
       </div>
     </div>

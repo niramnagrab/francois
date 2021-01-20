@@ -10,7 +10,7 @@ export const homeObjOne = {
   buttonLabel: 'Read mode ...',
   imgStart: false,
   img: require('../../images/photo.jpg').default,
-  alt: 'Car',
+  alt: 'Profile photo',
   dark: true,
   primary: true,
   darkText: true,
