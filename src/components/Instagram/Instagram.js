@@ -6,24 +6,27 @@ import third from '../../images/3.png'
 
 function Instagram() {
   return (
-    <div className="images">
-      <div className="first">
-        <img
-          target="_blank"
-          onClick={(e) =>
-            (window.location = 'https://www.instagram.com/the_french_review/')
-          }
-          src={first}
-          alt="insta image"
-          height={400}
-          width={300}
-        />
-      </div>
-      <div className="second">
-        <img src={second} alt="insta image" height={400} width={300} />
-      </div>
-      <div className="third">
-        <img src={third} alt="insta image" height={400} width={300} />
+    <div className="instagram-carousel">
+      <h1>Some of my latest Instagram posts</h1>
+      <div className="images">
+        <div className="first">
+          <img
+            target="_blank"
+            onClick={(e) =>
+              (window.location = 'https://www.instagram.com/the_french_review/')
+            }
+            src={first}
+            alt="insta image"
+            height={300}
+            width={250}
+          />
+        </div>
+        <div className="second">
+          <img src={second} alt="insta image" height={300} width={250} />
+        </div>
+        <div className="third">
+          <img src={third} alt="insta image" height={300} width={250} />
+        </div>
       </div>
     </div>
   )

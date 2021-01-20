@@ -46,6 +46,14 @@ export const VideoBg = styled.video`
   -o-object-fit: cover;
   object-fit: cover;
   background: #232a34;
+  display: block;
+
+  @media screen and (max-width: 480px) {
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+  }
 `
 
 export const HeroContent = styled.div`

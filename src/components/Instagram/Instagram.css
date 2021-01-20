@@ -11,10 +11,49 @@
   background-size: 100%;
   transition: 500ms;
   border-radius: 20px;
-  
+  padding: 15px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease-in-out;
 }
 
 .first:hover {
   background-size: 120%;
   opacity: 0.5;
+}
+
+.second {
+  background-size: 100%;
+  transition: 500ms;
+  border-radius: 20px;
+  padding: 15px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease-in-out;
+}
+
+.second:hover {
+  background-size: 120%;
+  opacity: 0.5;
+}
+
+.third {
+  background-size: 100%;
+  transition: 500ms;
+  border-radius: 20px;
+  padding: 15px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease-in-out;
+}
+
+.third:hover {
+  background-size: 120%;
+  opacity: 0.5;
+}
+
+.instagram-carousel h1 {
+  font-size: 2rem;
+  background-color: #f9f9f9;
+  color: black;
+  padding-bottom: 20px;
+  padding-top: 130px;
+  text-align: center;
 }

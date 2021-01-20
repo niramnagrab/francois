@@ -87,6 +87,21 @@ const Navbar = ({ toggle }) => {
               </NavItem>
               <NavItem>
                 <NavLinks
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  exact="true"
+                  offset={-80}
+                  target="_blank"
+                  onClick={(e) =>
+                    (window.location = 'https://kit.co/Thefrenchreview')
+                  }
+                >
+                  Shop
+                </NavLinks>
+              </NavItem>
+              <NavItem>
+                <NavLinks
                   to="footer"
                   smooth={true}
                   duration={500}

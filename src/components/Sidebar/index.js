@@ -24,6 +24,14 @@ const Sidebar = ({ isOpen, toggle }) => {
           <SidebarLink to="blog" onClick={toggle}>
             Blog
           </SidebarLink>
+          <SidebarLink
+            target="_blank"
+            onClick={(e) =>
+              (window.location = 'https://kit.co/Thefrenchreview')
+            }
+          >
+            Shop
+          </SidebarLink>
           <SidebarLink to="footer" onClick={toggle}>
             Contact
           </SidebarLink>
