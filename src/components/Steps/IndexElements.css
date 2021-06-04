@@ -1,0 +1,86 @@
+.container1 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 20px 20px;
+  position: relative;
+}
+
+.team-intro {
+  padding: 10px;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.subtitle-center-bold {
+  display: block;
+  border-bottom: none;
+  padding: 20px 0px 0px 5px;
+  font-size: 22px;
+  font-family: 'Gilroy', sans-serif;
+  color: black;
+  line-height: 25px;
+  text-align: center;
+  font-style: bold;
+  font-weight: 540;
+  /* width: 95%; */
+}
+
+.steps-text {
+  display: block;
+  border-bottom: none;
+  /* padding: 20px; */
+  font-size: 20px;
+  font-family: 'Gilroy', sans-serif;
+  color: black;
+  line-height: 25px;
+  text-align: center;
+  margin-top: 20px;
+  /* font-weight: 700; */
+}
+
+.text-center-simple {
+  display: block;
+  border-bottom: none;
+  /* padding: 20px; */
+  font-size: 18px;
+  font-family: 'Gilroy Light', sans-serif;
+  color: black;
+  line-height: 25px;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: 400;
+  /* width: 95%; */
+}
+
+.steps {
+  width: 350px !important;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.steps img {
+  text-align: center;
+  width: 85px;
+  height: 85px;
+  margin: 0 auto;
+}
+
+.contain {
+  display: flex;
+}
+
+.text-justified {
+  display: block;
+  border-bottom: none;
+  padding: 10px;
+  font-size: 18px;
+  font-family: 'Gilroy', sans-serif;
+  color: black;
+  line-height: 25px;
+  text-align: center !important;
+  /* margin: 0 auto; */
+  font-weight: 400;
+  /* width: 95%; */
+}

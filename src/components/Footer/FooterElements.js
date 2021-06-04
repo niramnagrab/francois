@@ -6,7 +6,7 @@ export const FooterContainer = styled.footer`
 `
 
 export const FooterWrap = styled.div`
-  padding: 5px 24px;
+  padding: 5px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -36,7 +36,7 @@ export const FooterLinkItems = styled.div`
   align-items: flex-start;
   margin: 16px;
   text-align: left;
-  width: 160px;
+  width: 260px;
   box-sizing: border-box;
   color: #fff;
 
@@ -49,7 +49,7 @@ export const FooterLinkItems = styled.div`
 
 export const FooterLinkTitle = styled.h1`
   font-size: 14px;
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
 `
 
 export const FooterLink = styled(Link)`
@@ -59,7 +59,7 @@ export const FooterLink = styled(Link)`
   font-size: 14px;
 
   &:hover {
-    color: #01bf71;
+    color: rgb(94, 202, 126);
     transition: 0.3s ease-out;
   }
 `
@@ -72,9 +72,9 @@ export const SocialMedia = styled.section`
 export const SocialMediaWrap = styled.div`
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center !important;
   max-width: 1100px;
-  margin: 40px auto 0 auto;
+  margin: 40px auto;
 
   @media screen and (max-width: 820px) {
     flex-direction: column;
@@ -89,19 +89,25 @@ export const SocialLogo = styled(Link)`
   font-size: 1.5rem;
   display: flex;
   align-items: center;
-  margin-bottom: 16px;
+  width: 20%;
+  /* margin-bottom: 16px; */
   font-weight: bold;
+
+  :hover {
+    color: rgb(94, 202, 126) !important;
+    text-decoration: none;
+  }
 `
 
 export const WebsiteRights = styled.small`
   color: #fff;
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
 `
 export const SocialIcons = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 240px;
+  width: 120px;
 `
 
 export const SocialIconLink = styled.a`
@@ -109,7 +115,35 @@ export const SocialIconLink = styled.a`
   font-size: 24px;
 
   &:hover {
-    color: #ec4067;
+    color: rgb(94, 202, 126);
     transition: 0.3s ease-out;
+  }
+`
+
+export const FooterLinks = styled.a`
+  .list-inline {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto !important;
+    padding: 15px;
+    /* width: 60% !important; */
+    color: white !important;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Gilroy';
+  }
+
+  .list-inline ul {
+    text-decoration: none;
+  }
+
+  .list-inline a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+  }
+
+  .list-inline a:hover {
+    color: rgb(94, 202, 126);
   }
 `

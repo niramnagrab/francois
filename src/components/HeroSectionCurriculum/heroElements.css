@@ -1,0 +1,85 @@
+.curriculumContainer {
+  background: rgb(94, 202, 126);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+  /* height: 850px; */
+  /* position: relative; */
+  /* z-index: 1; */
+  /* margin-top: -80px; */
+  height: 80vh !important;
+}
+
+/* 
+.heroContent {
+  z-index: 10;
+  max-width: 1200px;
+  position: absolute;
+  padding: 8px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+.heroLeftCurriculum {
+  position: absolute;
+  left: 100px;
+  top: 250px !important;
+}
+
+.heroVectorCurriculum {
+  position: absolute;
+  left: 0;
+  /* top: 0; */
+  height: 80vh !important;
+}
+
+.heroTitle {
+  color: black;
+  font-size: 50px;
+  font-weight: 700;
+  width: 500px;
+  line-height: 55px;
+}
+
+.heroDescription {
+  font-size: 25px;
+  width: 500px;
+  margin-top: 20px;
+}
+
+.heroRightCurriculum img {
+  position: absolute;
+  top: 135px;
+  right: 100px;
+}
+/* 
+.heroRight {
+  background-image: url('../../images/teachers.jpg');
+} */
+
+.steps-text {
+  display: block;
+  border-bottom: none;
+  /* padding: 20px; */
+  font-size: 20px;
+  font-family: 'Gilroy Light', sans-serif;
+  color: black;
+  line-height: 25px;
+  text-align: center;
+  margin-top: 20px;
+  /* font-weight: 700; */
+}
+
+.input {
+  background: transparent;
+  outline: none;
+  border: 0;
+  border-bottom: 1px solid grey;
+  /* padding: 0 0 10px 0; */
+  font-size: 1.2rem;
+  display: block;
+  margin: 5px;
+  width: 95%;
+}

@@ -43,7 +43,7 @@ const Navbar = ({ toggle }) => {
             <NavLogo onClick={toggleHome}>
               <Link to="/">
                 {' '}
-                <img src={logo} style={{ height: '80px' }} />
+                <img src={logo} />
               </Link>
             </NavLogo>
             <MobileIcon onClick={toggle}>
@@ -52,14 +52,19 @@ const Navbar = ({ toggle }) => {
             <NavMenu>
               <NavItem>
                 <NavLinks
-                  to="about"
+                  to="/"
                   smooth={true}
                   duration={500}
                   spy={true}
                   exact="true"
                   offset={-80}
                 >
-                  About
+                  <Link
+                    to="/"
+                    style={{ textDecoration: 'none', color: 'white' }}
+                  >
+                    Home{' '}
+                  </Link>
                 </NavLinks>
               </NavItem>
               <NavItem>
@@ -70,19 +75,29 @@ const Navbar = ({ toggle }) => {
                   exact="true"
                   offset={-80}
                 >
-                  <Link to="/blog"> Blog</Link>
+                  <Link
+                    to="/our-curriculum"
+                    style={{ textDecoration: 'none', color: 'white' }}
+                  >
+                    {' '}
+                    Curriculum
+                  </Link>
                 </NavLinks>
               </NavItem>
               <NavItem>
                 <NavLinks
-                  to="social-media"
                   smooth={true}
                   duration={500}
                   spy={true}
                   exact="true"
                   offset={-80}
                 >
-                  Social Media
+                  <Link
+                    to="/how-to"
+                    style={{ textDecoration: 'none', color: 'white' }}
+                  >
+                    How To
+                  </Link>
                 </NavLinks>
               </NavItem>
               <NavItem>
@@ -93,23 +108,30 @@ const Navbar = ({ toggle }) => {
                   exact="true"
                   offset={-80}
                   target="_blank"
-                  onClick={(e) =>
-                    (window.location = 'https://kit.co/Thefrenchreview')
-                  }
                 >
-                  Shop
+                  <Link
+                    to="/about-us"
+                    style={{ textDecoration: 'none', color: 'white' }}
+                  >
+                    {' '}
+                    About
+                  </Link>
                 </NavLinks>
               </NavItem>
               <NavItem>
                 <NavLinks
-                  to="footer"
                   smooth={true}
                   duration={500}
                   spy={true}
                   exact="true"
                   offset={80}
                 >
-                  Contact
+                  <Link
+                    to="/registration"
+                    style={{ textDecoration: 'none', color: 'white' }}
+                  >
+                    Free Class
+                  </Link>
                 </NavLinks>
               </NavItem>
             </NavMenu>

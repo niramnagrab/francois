@@ -66,7 +66,7 @@ export const TopLine = styled.p`
   letter-spacing: 1.4px;
   text-transform: uppercase;
   margin-bottom: 16px;
-  /* width: 90%; */
+  width: 90%;
 
   @media screen and (max-width: 480px) {
     font-size: 24px;

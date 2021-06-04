@@ -2,11 +2,13 @@ import React, { useState } from 'react'
 import Navbar from '../components/Navbar'
 import Sidebar from '../components/Sidebar'
 import HeroSection from '../components/HeroSection'
-import InfoSection from '../components/InfoSection'
-import Services from '../components/Services'
 import Footer from '../components/Footer'
-import { homeObjOne } from '../components/InfoSection/Data'
-import Instagram from '../components/Instagram/Instagram'
+import OneLiner from '../components/OneLiner'
+import WhyUs from '../components/Why'
+import Team from '../components/Team'
+import Steps from '../components/Steps'
+import Numbers from '../components/Numbers'
+import OneLinerBottom from '../components/OneLinerBottom'
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -20,9 +22,12 @@ const Home = () => {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <HeroSection />
-      <InfoSection {...homeObjOne} />
-      <Services />
-      <Instagram />
+      <OneLiner />
+      <WhyUs />
+      <Numbers />
+      <Team />
+      <Steps />
+      <OneLinerBottom />
       <Footer />
     </>
   )

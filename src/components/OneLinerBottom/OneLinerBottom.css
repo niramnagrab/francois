@@ -1,0 +1,72 @@
+.one-liner {
+  width: 100%;
+  /* background-color: #b7e4c7; */
+  opacity: 0.8;
+}
+
+.one-liner p {
+  display: block;
+  border-bottom: none;
+  padding: 150px 20px;
+  font-size: 36px;
+  font-family: 'Gilroy', sans-serif !important;
+  color: black;
+  line-height: 48px;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: 800 !important;
+  width: 70%;
+}
+
+.action {
+  position: relative;
+  color: white !important;
+  width: 100%;
+  /* margin: 45px 0; */
+  padding: 30px 0;
+  background: linear-gradient(rgba(61, 95, 38, 0.7), rgba(58, 95, 37, 0.7)),
+    url('../../images/teachers.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.action p {
+  color: white !important;
+}
+
+.buttons {
+  margin-top: 20px;
+  font-family: 'Gilroy', sans-serif;
+  background-color: #e95959;
+  color: white;
+  padding: 12px 60px;
+  font-size: 20px !important;
+  border-radius: 8px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  line-height: inherit;
+}
+
+.trial-class {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: -150px;
+  padding-bottom: 100px;
+}
+
+.buttons:hover {
+  cursor: pointer;
+  /* border: solid 2px red; */
+  background-color: #5eca7f;
+  color: #fefefe;
+  /* border: solid 2px #0ba725; */
+  /* padding: 12px 27px; */
+  /* opacity: 0.8; */
+  /* color: white; */
+  font-weight: bold;
+  /* transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; */
+}

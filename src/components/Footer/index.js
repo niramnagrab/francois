@@ -3,9 +3,10 @@ import { animateScroll as scroll } from 'react-scroll'
 import {
   FaFacebook,
   FaInstagram,
-  FaYoutube,
+  FaLinkedin,
   FaTwitter,
   FaPatreon,
+  FaWeixin,
 } from 'react-icons/fa'
 
 import {
@@ -17,6 +18,7 @@ import {
   WebsiteRights,
   SocialIcons,
   SocialIconLink,
+  FooterLinks,
 } from './FooterElements'
 
 const Footer = () => {
@@ -29,47 +31,34 @@ const Footer = () => {
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to="/" onClick={toggleHome}>
-              The French Review
+              Teach English Through Football
             </SocialLogo>
-            <WebsiteRights>
-              The French Review © {new Date().getFullYear()} All rights
-              reserved.
-            </WebsiteRights>
+            <FooterLinks>
+              <ul class="list-inline">
+                <li class="list-inline-item">
+                  <a href="about.html">About</a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="registration.html">Trial Class</a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="tours.html">Our Tours</a>
+                </li>
+              </ul>
+            </FooterLinks>
+            {/* <WebsiteRights>
+              Copyright © {new Date().getFullYear()} SP Sports Academy. All
+              rights Reserved
+            </WebsiteRights> */}
             <SocialIcons>
-              <SocialIconLink
-                href="https://www.facebook.com/thefrenchreview"
-                target="_blank"
-                aria-label="Facebook"
-              >
-                <FaFacebook />
+              <SocialIconLink href="#" target="_blank" aria-label="WeChat">
+                <FaWeixin />
               </SocialIconLink>
-              <SocialIconLink
-                href="https://www.instagram.com/the_french_review"
-                target="_blank"
-                aria-label="Instagram"
-              >
+              <SocialIconLink href="#" target="_blank" aria-label="Instagram">
                 <FaInstagram />
               </SocialIconLink>
-              <SocialIconLink
-                href="https://www.youtube.com/channel/UCXZEUlSUpG_aM-bcQr1Ej8A"
-                target="_blank"
-                aria-label="Youtube"
-              >
-                <FaYoutube />
-              </SocialIconLink>
-              <SocialIconLink
-                href="https://twitter.com/thefrenchreview"
-                target="_blank"
-                aria-label="Twitter"
-              >
-                <FaTwitter />
-              </SocialIconLink>
-              <SocialIconLink
-                href="https://www.patreon.com/user?u=47891414"
-                target="_blank"
-                aria-label="Patreon"
-              >
-                <FaPatreon />
+              <SocialIconLink href="#" target="_blank" aria-label="Linkedin">
+                <FaLinkedin />
               </SocialIconLink>
             </SocialIcons>
           </SocialMediaWrap>

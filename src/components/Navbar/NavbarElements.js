@@ -4,13 +4,16 @@ import { Link as LinkS } from 'react-scroll'
 
 export const Nav = styled.nav`
   background: ${({ scrollNav }) =>
-    scrollNav ? 'rgba(52, 52, 52, 0.8)' : 'transparent'};
-  height: 80px;
+    scrollNav ? 'rgba(109, 109, 109, 0.8)' : 'transparent'};
+  height: 100px;
   margin-top: -80;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.3rem;
+  font-size: 18px;
+  font-weight: 900px;
+  line-height: 20px;
+  /* font-style: bold; */
   position: fixed;
   width: 100%;
   top: 0;
@@ -28,20 +31,19 @@ export const NavbarContainer = styled.div`
   z-index: 1;
   width: 100%;
   padding: 0 24px;
-  max-width: 1100px;
+  max-width: 1300px;
 `
 
 export const NavLogo = styled(LinkR)`
   color: #fff;
   justify-self: flex-start;
   cursor: pointer;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   display: flex;
   align-items: center;
   margin-left: 24px;
   font-weight: bold;
   text-decoration: none;
-  require
 `
 
 export const MobileIcon = styled.div`
@@ -75,13 +77,29 @@ export const NavItem = styled.li`
 `
 
 export const NavLinks = styled(LinkS)`
-  color: #fff;
+  color: #fff !important;
   display: flex;
   align-items: center;
-  text-decoration: none;
-  padding: 0 1rem;
+  font-weight: 600;
+  text-decoration: none !important;
+  padding: 0 1.2rem;
   height: 100%;
   cursor: pointer;
+  font-family: 'Gilroy' !important;
+  line-height: 20px;
+  font-size: 20px;
+
+  :hover {
+    opacity: 0.8;
+    color: white !important;
+    font-weight: bold !important;
+  }
+
+  nav li:hover a {
+    color: white !important;
+    text-decoration: none !important;
+    font-weight: bold;
+  }
 
   &.active {
     border-bottom: 3px solid #01bf71;

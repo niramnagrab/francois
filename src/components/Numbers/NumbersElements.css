@@ -1,0 +1,57 @@
+.title-header {
+  justify-content: center;
+  padding: 60px;
+  background: rgb(94, 202, 126);
+  /* background: linear-gradient(
+      rgba(255, 255, 254, 0.6),
+      rgba(94, 202, 126, 100%)
+    ),
+    url('../../images/numbers-background.png'); */
+  /* background-image: url('images/numbers-background.png'); */
+  /* opacity: 0.8; */
+  position: relative;
+  min-width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 60px;
+  object-fit: contain;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  background-size: contain;
+  font-family: 'Gilroy', sans-serif !important;
+}
+
+.title-header h3 {
+  text-align: center;
+  color: white !important;
+  font-size: 50px;
+  /* font-style: bold; */
+  font-family: 'Gilroy', sans-serif !important;
+}
+
+.number1 p {
+  /* width: 300px; */
+  text-align: center;
+  color: white !important;
+}
+
+.title-text {
+  display: block;
+  border-bottom: none;
+  padding: 20px;
+  font-size: 50px !important;
+  font-family: 'Gilroy', sans-serif !important;
+  color: black !important;
+  line-height: 48px;
+  text-align: center;
+  margin: 0 auto;
+  /* font-weight: 700; */
+  /* width: 75%; */
+}
+
+.numbers {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
+  margin: 0 auto;
+}

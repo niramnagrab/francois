@@ -1,0 +1,78 @@
+.classin-container {
+  margin-bottom: 50px;
+  /* background: rgb(94, 202, 126); */
+  background-image: url('../../images/philosophy-joely.png');
+  /* position: relative; */
+  color: white !important;
+  max-width: 100% !important;
+  /* margin: 45px 0px; */
+  align-items: center;
+  padding: 100px 0px;
+  /* background-attachment: fixed; */
+}
+
+.classin-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  background-size: contain;
+}
+
+.classin-content {
+  width: 75%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.title-text-left {
+  display: block;
+  border-bottom: none;
+  /* padding: 20px; */
+  font-size: 40px;
+  font-family: 'Gilroy', sans-serif;
+  color: black;
+  line-height: 48px;
+  text-align: center;
+  /* margin: 0 auto; */
+  /* font-weight: 700; */
+  /* width: 75%; */
+}
+
+.text-justified {
+  display: block;
+  border-bottom: none;
+  /* padding: 20px; */
+  font-size: 18px;
+  font-family: 'Gilroy', sans-serif;
+  color: black;
+  line-height: 25px;
+  text-align: justify !important;
+  /* margin: 0 auto; */
+  font-weight: 400;
+  /* width: 95%; */
+}
+
+.buttons {
+  margin-top: 20px;
+  font-family: 'Gilroy', sans-serif;
+  background-color: #e95959;
+  color: white;
+  padding: 12px 60px;
+  font-size: 20px !important;
+  border-radius: 8px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+.image-text {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}

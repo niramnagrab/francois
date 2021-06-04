@@ -18,32 +18,17 @@ const Sidebar = ({ isOpen, toggle }) => {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink to="about" onClick={toggle}>
-            About
+          <SidebarLink to="/" onClick={toggle}>
+            Home
           </SidebarLink>
-          <SidebarLink to="blog" onClick={toggle}>
-            Blog
+          <SidebarLink to="/curriculum" onClick={toggle}>
+            Curriculum
           </SidebarLink>
-          <SidebarLink
-            target="_blank"
-            onClick={(e) =>
-              (window.location = 'https://kit.co/Thefrenchreview')
-            }
-          >
-            Shop
+          <SidebarLink target="_blank">How To</SidebarLink>
+          <SidebarLink to="/how" onClick={toggle}>
+            How To
           </SidebarLink>
-          <SidebarLink to="footer" onClick={toggle}>
-            Contact
-          </SidebarLink>
-          <SidebarLink
-            target="_blank"
-            onClick={(e) =>
-              (window.location =
-                'https://www.youtube.com/channel/UCXZEUlSUpG_aM-bcQr1Ej8A')
-            }
-          >
-            My Youtube channel
-          </SidebarLink>
+          <SidebarLink target="_blank">Free Trial Class</SidebarLink>
         </SidebarMenu>
       </SidebarWrapper>
     </SidebarContainer>

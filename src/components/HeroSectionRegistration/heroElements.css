@@ -1,0 +1,123 @@
+.heroContainer {
+  background: rgb(94, 202, 126);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+  height: 850px;
+  /* position: relative; */
+  /* z-index: 1; */
+  /* margin-top: -80px; */
+  display: flex;
+}
+
+/* 
+.heroContent {
+  z-index: 10;
+  max-width: 1200px;
+  position: absolute;
+  padding: 8px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+.heroLeft {
+  position: absolute;
+  left: 100px;
+  top: 250px;
+}
+
+.heroVector {
+  position: absolute;
+  left: 0;
+  /* top: 0; */
+  height: 100vh !important;
+}
+
+.heroTitle {
+  color: black;
+  font-size: 50px;
+  font-weight: 700;
+  width: 500px;
+  line-height: 55px;
+}
+
+.heroDescription {
+  font-size: 25px;
+  width: 500px;
+  margin-top: 20px;
+}
+
+.heroRightRegistration img {
+  position: absolute;
+  bottom: 0px !important;
+  right: -15px !important;
+}
+/* 
+.heroRight {
+  background-image: url('../../images/teachers.jpg');
+} */
+
+.registration {
+  z-index: -1;
+  display: block !important;
+  bottom: 20px !important;
+  margin-top: 50px;
+  width: 400px;
+  margin-right: 50px;
+  right: 50px !important;
+  background-color: #fff !important;
+  font-family: 'Gilroy', sans-serif;
+  padding: 40px;
+}
+
+.registration {
+  margin-top: 40px;
+  z-index: 1;
+  /* position: relative; */
+  /* bottom: 20px; */
+  /* right: 30px; */
+  background-color: #fff;
+  font-family: 'Gilroy', sans-serif;
+}
+
+.steps-text {
+  display: block;
+  border-bottom: none;
+  /* padding: 20px; */
+  font-size: 20px;
+  font-family: 'Gilroy', sans-serif;
+  color: black;
+  line-height: 25px;
+  text-align: center;
+  margin-top: 20px;
+  /* font-weight: 700; */
+}
+
+.input {
+  background: transparent;
+  outline: none;
+  border: 0;
+  border-bottom: 1px solid grey;
+  /* padding: 0 0 10px 0; */
+  font-size: 1.2rem;
+  display: block;
+  margin: 5px;
+  /* width: 95%; */
+}
+
+.qr-code {
+  position: fixed;
+  padding: 10px;
+  color: white;
+  /* background-color: black; */
+  bottom: 10px !important;
+  right: 10px;
+  z-index: 10;
+  /* display: none; */
+}
+
+.qr-code:hover {
+  transform: scale(1.5);
+}

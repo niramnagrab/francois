@@ -1,0 +1,65 @@
+.sportsacademy-container {
+  margin-bottom: 50px;
+  /* background: rgb(94, 202, 126); */
+  background-image: linear-gradient(
+      rgba(61, 95, 38, 0.8),
+      rgba(58, 95, 37, 0.8)
+    ),
+    url('../../images/football-team.jpg');
+  /* position: relative; */
+  color: white !important;
+  width: 100%;
+  /* margin: 45px 0px; */
+  padding: 100px 0px;
+
+  /* background-attachment: fixed; */
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size: contain; */
+}
+
+.sportsacademy-container img {
+  max-width: 100%;
+}
+
+.sportsacademy-content {
+  width: 75%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.text-left-about {
+  display: block;
+  border-bottom: none;
+  /* padding: 20px; */
+  font-size: 40px;
+  font-family: 'Gilroy', sans-serif;
+  color: white;
+  line-height: 48px;
+  text-align: center;
+  /* margin: 0 auto; */
+  /* font-weight: 700; */
+  /* width: 75%; */
+}
+
+.text-justified-about {
+  color: white;
+  font-size: 25px;
+  text-align: justify;
+  font-weight: 600 !important;
+}
+
+.buttons {
+  margin-top: 20px;
+  font-family: 'Gilroy', sans-serif;
+  background-color: #e95959;
+  color: white;
+  padding: 12px 60px;
+  font-size: 20px !important;
+  border-radius: 8px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
