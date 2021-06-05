@@ -24,7 +24,7 @@
 .title-header h3 {
   text-align: center;
   color: white !important;
-  font-size: 50px;
+  font-size: 50px !important;
   /* font-style: bold; */
   font-family: 'Gilroy', sans-serif !important;
 }
@@ -35,17 +35,17 @@
   color: white !important;
 }
 
-.title-text {
+.numbers-text {
   display: block;
   border-bottom: none;
-  padding: 20px;
+  padding: 5px;
   font-size: 50px !important;
   font-family: 'Gilroy', sans-serif !important;
   color: black !important;
-  line-height: 48px;
+  /* line-height: 48px; */
   text-align: center;
   margin: 0 auto;
-  /* font-weight: 700; */
+  font-weight: 700;
   /* width: 75%; */
 }
 

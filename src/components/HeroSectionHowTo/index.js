@@ -1,6 +1,6 @@
 import React, { useState, useEffect, Link } from 'react'
 import './heroElements.css'
-import HeroImage from '../../images/howto-hero.png'
+import HeroImage from '../../images/hero-carlos.png'
 import WhiteBackground from '../../images/white-vector-half.png'
 import QRCode from '../../images/qr-code.jpg'
 
@@ -23,7 +23,12 @@ const HeroSectionHowTo = () => {
         </h3> */}
       </div>
       <div className="heroRightHow">
-        <img src={HeroImage} height="280px" width="500px" />
+        <img
+          src={HeroImage}
+          className="hero-how"
+          height="620px"
+          width="400px"
+        />
       </div>
       <div className="qr-code">
         {' '}

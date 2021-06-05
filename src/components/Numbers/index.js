@@ -10,13 +10,13 @@ function Numbers() {
         </h3>
         <div class="numbers">
           <div class="number1">
-            <p class="title-text" id="0101">
+            <p class="numbers-text" id="0101">
               100%
             </p>
             <p class="subtitle-center-bold">Native English Teachers</p>
           </div>
           <div class="number1">
-            <p class="title-text" id="0102">
+            <p class="numbers-text" id="0102">
               {' '}
               5 years
             </p>
@@ -25,13 +25,13 @@ function Numbers() {
             </p>
           </div>
           <div class="number1">
-            <p class="title-text">UEFA</p>
+            <p class="numbers-text">UEFA</p>
             <p class="subtitle-center-bold">
               Licenced coach and course developer
             </p>
           </div>
           <div class="number1">
-            <p class="title-text" id="0103">
+            <p class="numbers-text" id="0103">
               150
             </p>
             <p class="subtitle-center-bold">

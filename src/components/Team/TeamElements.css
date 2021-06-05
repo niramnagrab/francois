@@ -13,8 +13,8 @@
 }
 
 .card-image img {
-  width: 250px;
-  height: 250px;
+  width: 250px !important;
+  height: 250px !important;
   border-radius: 50% !important;
   /* margin: 1rem auto 1rem auto; */
 }

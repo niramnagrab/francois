@@ -6,7 +6,7 @@ function AboutSportsAcademy() {
     <div class="sportsacademy-container">
       <div class="sportsacademy-content">
         <div>
-          <h1 class="text-left-about pt-3">English inspired by football</h1>
+          <h1 class="text-left-about">English inspired by football</h1>
           <p class="text-justified-about">
             We are an online English academy inspiring and motivating English
             language learners every day through a context that unites millions!

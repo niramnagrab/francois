@@ -15,6 +15,7 @@
   /* background-attachment: fixed; */
   background-position: center;
   background-repeat: no-repeat;
+  background-size: 100% 100%;
   /* background-size: contain; */
 }
 
@@ -47,8 +48,9 @@
 .text-justified-about {
   color: white;
   font-size: 25px;
-  text-align: justify;
+  text-align: center;
   font-weight: 600 !important;
+  font-family: 'Gilroy';
 }
 
 .buttons {

@@ -49,14 +49,18 @@
   border-radius: 0.25rem;
 }
 
-.card img {
+.service-images {
   height: 65px !important;
   width: 50px !important;
 }
 
+/* .service-images:hover {
+  opacity: 0.8;
+} */
+
 .services p {
   width: 90% !important;
-  text-align: justify;
+  text-align: center;
 }
 
 .card:hover {

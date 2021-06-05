@@ -20,6 +20,7 @@ import {
   SocialIconLink,
   FooterLinks,
 } from './FooterElements'
+import Logo from '../../images/logo-white.png'
 
 const Footer = () => {
   const toggleHome = () => {
@@ -31,7 +32,7 @@ const Footer = () => {
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to="/" onClick={toggleHome}>
-              Teach English Through Football
+              <img src={Logo} />
             </SocialLogo>
             <FooterLinks>
               <ul class="list-inline">

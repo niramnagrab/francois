@@ -20,10 +20,18 @@ function OurServices() {
           <div class="col-md-4">
             <div class="card shadow text-center p-4 services">
               <div class="justify-content-center">
-                <img src={Service1} alt="lan" height="58px" width="55px" />
+                <img
+                  src={Service1}
+                  className="service-images"
+                  alt="lan"
+                  height="58px"
+                  width="55px"
+                />
               </div>
 
-              <h5 class="steps-text mt-4">English Inspired by Football</h5>
+              <h5 class="subtitle-center-bold mt-4">
+                English Inspired by Football
+              </h5>
               <p class="text-justified mb-3">
                 Lorem ipsum dolor amet, consectetur adipiscing elit. Mattis et
                 sed nam sem tellus erat Lorem ipsum dolor amet, consectetur
@@ -34,10 +42,16 @@ function OurServices() {
           <div class="col-md-4">
             <div class="card shadow text-center p-4 services">
               <div class="justify-content-center">
-                <img src={Service2} alt="lan" height="58px" width="55px" />
+                <img
+                  src={Service2}
+                  className="service-images"
+                  alt="lan"
+                  height="58px"
+                  width="55px"
+                />
               </div>
 
-              <h5 class="steps-text mt-4">European Tours</h5>
+              <h5 class="subtitle-center-bold mt-4">European Tours</h5>
               <p class="text-justified mb-3">
                 Lorem ipsum dolor amet, consectetur adipiscing elit. Mattis et
                 sed nam sem tellus erat Lorem ipsum dolor amet, consectetur
@@ -48,10 +62,18 @@ function OurServices() {
           <div class="col-md-4">
             <div class="card shadow text-center p-4 services">
               <div class="justify-content-center">
-                <img src={Service3} alt="lan" height="58px" width="65px" />
+                <img
+                  src={Service3}
+                  className="service-images"
+                  alt="lan"
+                  height="58px"
+                  width="65px"
+                />
               </div>
 
-              <h5 class="steps-text mt-4">Coach & Play the Spanish Way</h5>
+              <h5 class="subtitle-center-bold mt-4">
+                Coach & Play the Spanish Way
+              </h5>
               <p class="text-justified mb-3">
                 Lorem ipsum dolor amet, consectetur adipiscing elit. Mattis et
                 sed nam sem tellus erat Lorem ipsum dolor amet, consectetur

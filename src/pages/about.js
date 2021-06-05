@@ -6,7 +6,7 @@ import SportsAcademy from '../components/SportsAcademy'
 import Footer from '../components/Footer'
 import OurServices from '../components/OurServices'
 import AboutSportsAcademy from '../components/AboutSportsAcademy/AboutSportsAcademy'
-
+import OneLinerAbout from '../components/OneLinerAbout'
 
 const About = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -21,6 +21,7 @@ const About = () => {
       <Navbar toggle={toggle} />
       <HeroSectionAbout />
       <SportsAcademy />
+      <OneLinerAbout />
       <AboutSportsAcademy />
       <OurServices />
       <Footer />

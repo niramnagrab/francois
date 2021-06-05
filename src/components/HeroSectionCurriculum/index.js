@@ -4,7 +4,6 @@ import HeroImage from '../../images/philosophy-teacher.png'
 import WhiteBackground from '../../images/white-vector-half.png'
 import QRCode from '../../images/qr-code.jpg'
 
-
 const HeroSectionCurriculum = () => {
   const [hover, setHover] = useState(false)
 
@@ -25,8 +24,8 @@ const HeroSectionCurriculum = () => {
           enhance results
         </h3> */}
       </div>
-      <div className="heroRightCurriculum">
-        <img src={HeroImage} height="280px" width="470px" />
+      <div className="heroRightCurriculumImage">
+        <img className="curriculum-hero" src={HeroImage} height="380px" width="570px" />
       </div>
       <div className="qr-code">
         {' '}

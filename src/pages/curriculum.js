@@ -22,7 +22,6 @@ const OurCurriculum = () => {
       <HeroSectionCurriculum />
       <Philosophy />
       <OneLinerHowTo1 />
-
       <CourseOptions />
       <OneLinerHowTo2 />
       <Footer />

@@ -49,9 +49,9 @@
   margin-top: 20px;
 }
 
-.heroRightCurriculum img {
+.curriculum-hero {
   position: absolute;
-  top: 135px;
+  top: 37px;
   right: 100px;
 }
 /* 
@@ -64,7 +64,7 @@
   border-bottom: none;
   /* padding: 20px; */
   font-size: 20px;
-  font-family: 'Gilroy Light', sans-serif;
+  font-family: 'Gilroy', sans-serif;
   color: black;
   line-height: 25px;
   text-align: center;
