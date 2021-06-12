@@ -17,11 +17,11 @@
 }
 
 .div1 {
-  background-color: rgb(212, 247, 155);
+  background-color: #e95959;
 }
 
 .div2 {
-  background-color: rgb(129, 216, 223);
+  background-color: #e95959;
 }
 
 .div1 h3,
@@ -31,7 +31,7 @@
   padding: 20px;
   font-size: 40px;
   font-family: 'Gilroy', sans-serif;
-  color: #e95959 !important;
+  color: white !important;
   line-height: 48px;
   text-align: center;
   margin: 0 auto;
@@ -54,7 +54,6 @@
 .div1,
 .div2 {
   width: 400px;
-
   padding: 50px;
   margin: 40px;
   /* background-color: white; */
@@ -107,4 +106,17 @@
   background: rgb(94, 202, 126);
   z-index: -10;
   align-items: center;
+}
+
+.course-info {
+  display: block;
+  border-bottom: none;
+  /* padding: 20px; */
+  font-size: 20px;
+  font-family: 'Gilroy', sans-serif;
+  color: black;
+  line-height: 25px;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 700;
 }

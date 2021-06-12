@@ -1,0 +1,63 @@
+.tourstop {
+  background-image: url('../../images/kids-playing.jpg');
+  color: white !important;
+  width: 100% !important;
+  height: 70vh;
+  /* margin-top: 20px; */
+  /* margin: 45px 0px; */
+  /* padding: 100px 0px; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.tourstopdescription {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 275px;
+}
+
+.tourstopdescription h1 {
+  color: white;
+  font-size: 45px !important;
+  font-weight: 700;
+  width: 500px;
+  line-height: 55px;
+  font-family: 'Gilroy' !important;
+}
+
+.tourstopdescription p {
+  color: white;
+  font-size: 35px !important;
+  font-weight: 700;
+  width: 500px;
+  line-height: 55px;
+  font-family: 'Gilroy' !important;
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  .tourstop {
+    height: 40vh;
+  }
+
+  .tourstopdescription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 80%; */
+    padding-top: 170px;
+  }
+
+  .tourstopdescription h1 {
+    width: 90%;
+    font-size: 40px !important;
+    line-height: 35px;
+    text-align: center;
+  }
+
+  .tourstopdescription p {
+    font-size: 35px;
+  }
+}

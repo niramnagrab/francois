@@ -42,7 +42,7 @@
   display: block;
   border-bottom: none;
   /* padding: 20px; */
-  font-size: 18px;
+  font-size: 20px;
   font-family: 'Gilroy', sans-serif;
   color: black;
   line-height: 25px;
@@ -75,7 +75,7 @@
   display: block;
   border-bottom: none;
   padding: 10px;
-  font-size: 18px;
+  font-size: 20px;
   font-family: 'Gilroy', sans-serif;
   color: black;
   line-height: 25px;
@@ -83,4 +83,15 @@
   /* margin: 0 auto; */
   font-weight: 400;
   /* width: 95%; */
+}
+
+@media (max-width: 500px) {
+  .contain {
+    display: flex;
+    flex-direction: column !important;
+  }
+
+  .text-justified {
+    text-align: justify !important;
+  }
 }

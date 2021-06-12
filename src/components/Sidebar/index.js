@@ -25,8 +25,8 @@ const Sidebar = ({ isOpen, toggle }) => {
             Curriculum
           </SidebarLink>
           <SidebarLink target="_blank">How To</SidebarLink>
-          <SidebarLink to="/how" onClick={toggle}>
-            How To
+          <SidebarLink to="/about-us" onClick={toggle}>
+            About
           </SidebarLink>
           <SidebarLink target="_blank">Free Trial Class</SidebarLink>
         </SidebarMenu>

@@ -41,7 +41,7 @@
 } */
 
 .why-box p {
-  font-size: 15px;
+  font-size: 19px;
   text-align: center;
 }
 
@@ -119,4 +119,28 @@
   /* margin-bottom: 20px; */
   font-weight: 700;
   width: 100%;
+}
+
+@media (max-width: 500px) {
+  .why-us {
+    padding-top: 30px;
+  }
+
+  .team-intro {
+    width: 90%;
+    padding: 5px;
+    text-align: center;
+  }
+
+  .why-box {
+    width: 450px !important;
+  }
+
+  .heroVector {
+    display: none;
+  }
+
+  .team-intro h2 {
+    font-size: 32px !important;
+  }
 }

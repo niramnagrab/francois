@@ -11,3 +11,22 @@
   font-weight: 800 !important;
   width: 85%;
 }
+
+@media (max-width: 500px) {
+  .one-liner {
+    max-width: 100% !important;
+    margin: 0 auto;
+  }
+
+  .one-liner p {
+    width: 95% !important;
+    font-size: 25px !important;
+    padding: 30px 0px !important;
+    line-height: 30px !important;
+    text-align: center !important;
+  }
+
+  .action {
+    padding: 0 !important;
+  }
+}

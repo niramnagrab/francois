@@ -24,7 +24,7 @@
 
 .heroLeft {
   position: absolute;
-  left: 100px;
+  left: 50px;
   top: 250px !important;
 }
 
@@ -41,6 +41,7 @@
   font-weight: 700;
   width: 500px;
   line-height: 55px;
+  left: 20px !important;
 }
 
 .heroDescription {

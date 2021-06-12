@@ -92,3 +92,18 @@
   z-index: -10;
   align-items: center;
 }
+
+@media (max-width: 500px) {
+  .container {
+    max-width: 100% !important;
+  }
+
+  .subtitle-centre-bold {
+    width: 100% !important;
+  }
+
+  .text-justified {
+    text-align: justify !important;
+  }
+
+}

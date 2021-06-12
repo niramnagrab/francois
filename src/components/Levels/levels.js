@@ -4,6 +4,7 @@ import './levels.css'
 
 function LevelComponent(props) {
   const [levelParagraph, setLevelParagraph] = useState('')
+  const [imagePath, setImagePath] = useState('../../images/Preliminary.png')
 
   const p1 =
     'Gain a good command of the verb to be in the present tenseRepeatedly ask questions using a variety of question words Learn the correct use of various prepositions Practice describing objects and their location Be able to identify countable and uncountable nouns Gain a foundational knowledge of the affirmative, interrogative, and negative in the present simple In levels 4, 5 and 6 new verbs and the use of auxiliary verbs are introduced, along with the present continuous, the imperative and the introduction of expressing opinions, likes and dislikes.'
@@ -16,69 +17,102 @@ function LevelComponent(props) {
   const p5 =
     'Continue to practice and perfect their agility with higher level grammar Learn a selection of new phrasal verbs during each 11-week course Learn how to challenge the opinions of others and justify their own Express themselves naturally using logical conclusions and suggestive language Practice real-word interview scenarios, answering difficult questions and giving respectful answers Practice debating and negotiationUnderstand jokes Use expressions Make presentations Practice job interviews and self-praise Improve comprehension of different accents .'
 
+  // const imgPath = "imgs/Preintermediate.png";
+
   useEffect(() => {
     setLevelParagraph(p1)
     return () => {}
   }, [])
 
   const changeLevelText = (id) => {
-    if (id === 1) setLevelParagraph(p1)
-    else if (id === 2) setLevelParagraph(p2)
-    else if (id === 3) setLevelParagraph(p3)
-    else if (id === 4) setLevelParagraph(p4)
-    else if (id === 5) setLevelParagraph(p5)
+    if (id === 1) {
+      setLevelParagraph(p1)
+      setImagePath('../../images/Preliminary.png')
+    } else if (id === 2) {
+      setLevelParagraph(p2)
+      setImagePath('../../images/Preintermediate.png')
+    } else if (id === 3) {
+      setLevelParagraph(p3)
+      setImagePath('../../images/Intermediate.png')
+    } else if (id === 4) {
+      setLevelParagraph(p4)
+      setImagePath('../../images/Preadvanced.png')
+    } else if (id === 5) {
+      setLevelParagraph(p5)
+      setImagePath('../../images/Advanced.png')
+    }
   }
 
   return (
     <div className="last-container">
-      <div className="upper-section">
-        <h1 className="title-text">Select Your Level</h1>
-        <div className="section-buttons">
-          <button
-            className="steps-text primary indexBtn btn2"
-            id="2"
-            onClick={() => changeLevelText(1)}
-          >
-            Preliminary
-          </button>
-          <button
-            className="steps-text primary indexBtn btn2"
-            id="2"
-            onClick={() => changeLevelText(2)}
-          >
-            Preintermediate
-          </button>
-          <button
-            className="steps-text primary indexBtn btn3"
-            id="3"
-            onClick={() => changeLevelText(3)}
-          >
-            Intermediate
-          </button>
-          <button
-            className="steps-text primary indexBtn btn4"
-            id="4"
-            onClick={() => changeLevelText(4)}
-          >
-            Preadvanced
-          </button>
-          <button
-            className="steps-text primary indexBtn btn5 active"
-            id="5"
-            onClick={() => changeLevelText(5)}
-          >
-            Advanced
-          </button>
+      <div className="container">
+        <div className="row">
+          <div className="col-12">
+            <div className="upper-section">
+              <h1 className="title-text tex-center">Select Your Level</h1>
+              <div className="section-buttons">
+                <button
+                  className="steps-text primary indexBtn btn2"
+                  id="2"
+                  onClick={() => changeLevelText(1)}
+                >
+                  Preliminary
+                </button>
+                <button
+                  className="steps-text primary indexBtn btn2"
+                  id="2"
+                  onClick={() => changeLevelText(2)}
+                >
+                  Preintermediate
+                </button>
+                <button
+                  className="steps-text primary indexBtn btn3"
+                  id="3"
+                  onClick={() => changeLevelText(3)}
+                >
+                  Intermediate
+                </button>
+                <button
+                  className="steps-text primary indexBtn btn4"
+                  id="4"
+                  onClick={() => changeLevelText(4)}
+                >
+                  Preadvanced
+                </button>
+                <button
+                  className="steps-text primary indexBtn btn5 active"
+                  id="5"
+                  onClick={() => changeLevelText(5)}
+                >
+                  Advanced
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div className="middle-section">
-        <div className="left">
-          <img src="imgs/Advanced.png" className="slider-image" alt="" />
-        </div>
-        <div className="right">
-          <p id="paraText" className="text-justified">
-            {levelParagraph}
-          </p>
+      <div className="container">
+        <div className="row">
+          <div className="col-12 col-md-6">
+            <div className="left">
+              <div className="img-resize">
+                <img
+                  src={imagePath}
+                  className="slider-image"
+                  alt="football img"
+                  width="40"
+                  height="40"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="col-12 col-md-6">
+            <div className="right">
+              <p id="paraText" className="text-justified">
+                {levelParagraph}
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

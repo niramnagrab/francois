@@ -52,7 +52,7 @@ export const MobileIcon = styled.div`
   @media screen and (max-width: 768px) {
     display: block;
     position: absolute;
-    top: 0;
+    top: 15px;
     right: 0;
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
@@ -87,7 +87,7 @@ export const NavLinks = styled(LinkS)`
   cursor: pointer;
   font-family: 'Gilroy' !important;
   line-height: 20px;
-  font-size: 20px;
+  font-size: 24px;
 
   :hover {
     opacity: 0.8;

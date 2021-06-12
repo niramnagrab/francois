@@ -65,7 +65,7 @@
   z-index: -1;
   display: block !important;
   bottom: 20px !important;
-  margin-top: 30px;
+  margin-top: 10px;
   width: 400px;
   margin-right: 50px;
   right: 50px !important;
@@ -140,4 +140,51 @@
 
 form {
   margin-top: 20px;
+}
+
+@media (max-width: 500px) {
+  .heroRightHomepage {
+    display: none;
+  }
+
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+    width: 100% !important;
+  }
+
+  .heroLeftArea {
+    /* display: none; */
+    position: absolute;
+    left: 0;
+    margin: 0 auto !important;
+    max-width: 100%;
+  }
+
+  .heroTitle {
+    color: white !important;
+    font-size: 30px !important;
+    font-weight: 700;
+    width: 100% !important;
+    line-height: 30px !important;
+    font-family: 'Gilroy' !important;
+    text-align: center !important;
+  }
+
+  .heroDescription {
+    width: 100% !important;
+    color: white;
+    font-size: 22px !important;
+  }
+
+  .register {
+    width: 90% !important;
+    padding: 10px 20px !important;
+    margin: 0 auto;
+  }
+
+  .steps-text {
+    color: black !important;
+    padding: 10px !important;
+  }
 }

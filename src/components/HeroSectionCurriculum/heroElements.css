@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 30px;
+  /* padding: 0 30px; */
   /* height: 850px; */
   /* position: relative; */
   /* z-index: 1; */
@@ -24,7 +24,7 @@
 
 .heroLeftCurriculum {
   position: absolute;
-  left: 100px;
+  left: 50px;
   top: 250px !important;
 }
 
@@ -41,6 +41,7 @@
   font-weight: 700;
   width: 500px;
   line-height: 55px;
+  left: 20px !important;
 }
 
 .heroDescription {
@@ -82,4 +83,44 @@
   display: block;
   margin: 5px;
   width: 95%;
+}
+
+@media (max-width: 500px) {
+  .heroRightCurriculumImage {
+    display: none;
+  }
+
+  .heroVectorCurriculum {
+    display: none;
+  }
+
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+    width: 100% !important;
+  }
+
+  .heroLeftArea {
+    /* display: none; */
+    position: absolute;
+    left: 0;
+    margin: 0 auto !important;
+    max-width: 100%;
+  }
+
+  .heroTitle {
+    color: white !important;
+    font-size: 30px !important;
+    font-weight: 700;
+    width: 100% !important;
+    line-height: 30px !important;
+    font-family: 'Gilroy' !important;
+    text-align: center !important;
+  }
+
+  .heroDescription {
+    width: 100% !important;
+    color: white;
+    font-size: 22px !important;
+  }
 }

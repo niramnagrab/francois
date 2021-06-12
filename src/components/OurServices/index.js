@@ -33,9 +33,10 @@ function OurServices() {
                 English Inspired by Football
               </h5>
               <p class="text-justified mb-3">
-                Lorem ipsum dolor amet, consectetur adipiscing elit. Mattis et
-                sed nam sem tellus erat Lorem ipsum dolor amet, consectetur
-                adipiscing elit.
+                An innovative and proven way to increase enjoyment in the
+                classroom, accelerate results and inspire young people. Learn
+                English with native teachers online through the subject of
+                football and never lose interest on your road to fluency.
               </p>
             </div>
           </div>
@@ -53,9 +54,10 @@ function OurServices() {
 
               <h5 class="subtitle-center-bold mt-4">European Tours</h5>
               <p class="text-justified mb-3">
-                Lorem ipsum dolor amet, consectetur adipiscing elit. Mattis et
-                sed nam sem tellus erat Lorem ipsum dolor amet, consectetur
-                adipiscing elit.
+                Tailor-made football tours in England, Spain, and Italy.
+                Experience the heart of football in the home of football. Visit
+                stadiums, play against local teams, watch league matches, speak
+                English and experience an unforgettable trip.
               </p>
             </div>
           </div>
@@ -75,9 +77,10 @@ function OurServices() {
                 Coach & Play the Spanish Way
               </h5>
               <p class="text-justified mb-3">
-                Lorem ipsum dolor amet, consectetur adipiscing elit. Mattis et
-                sed nam sem tellus erat Lorem ipsum dolor amet, consectetur
-                adipiscing elit.
+                Learn how to coach and play football through the Spanish
+                methodology. Our programs support amateur, semi-professional,
+                and professional clubs to adopt the unrivaled Spanish
+                methodology to improve their performance.
               </p>
             </div>
           </div>

@@ -22,13 +22,13 @@
 
 .classin-content {
   width: 75%;
-  margin: 0 auto;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  margin: 0 auto !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
 }
 
-.title-text-left {
+.classin-title {
   display: block;
   border-bottom: none;
   /* padding: 20px; */
@@ -39,7 +39,8 @@
   text-align: center;
   /* margin: 0 auto; */
   /* font-weight: 700; */
-  /* width: 75%; */
+  width: 75%;
+  margin: 0 auto;
 }
 
 .text-justified {

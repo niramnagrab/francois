@@ -6,7 +6,7 @@ function Classin() {
   return (
     <div class="classin-container">
       <div class="classin-content">
-        <h1 class="title-text-left pt-3">
+        <h1 class="classin-title pt-3">
           Classin brings your classes to life wherever you are in the world
         </h1>
         <p class="text-justified">

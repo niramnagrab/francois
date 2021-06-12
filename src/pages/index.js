@@ -10,6 +10,7 @@ import Steps from '../components/Steps'
 import Numbers from '../components/Numbers'
 import OneLinerBottom from '../components/OneLinerBottom'
 
+
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false)
 

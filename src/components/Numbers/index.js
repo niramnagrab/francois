@@ -4,7 +4,7 @@ import './NumbersElements.css'
 function Numbers() {
   return (
     <div>
-      <div class="title-header">
+      <div class="numbers-header">
         <h3 class="title-text">
           We focus on teaching students from aged 10 and above
         </h3>

@@ -9,6 +9,8 @@ import {
   FaWeixin,
 } from 'react-icons/fa'
 
+import { Link } from 'react-router-dom'
+
 import {
   FooterContainer,
   FooterWrap,
@@ -37,13 +39,40 @@ const Footer = () => {
             <FooterLinks>
               <ul class="list-inline">
                 <li class="list-inline-item">
-                  <a href="about.html">About</a>
+                  <Link
+                    to="/about-us"
+                    smooth={true}
+                    duration={500}
+                    spy={true}
+                    exact="true"
+                    offset={-80}
+                  >
+                    About
+                  </Link>
                 </li>
                 <li class="list-inline-item">
-                  <a href="registration.html">Trial Class</a>
+                  <Link
+                    to="/registration"
+                    smooth={true}
+                    duration={500}
+                    spy={true}
+                    exact="true"
+                    offset={-80}
+                  >
+                    Register
+                  </Link>
                 </li>
                 <li class="list-inline-item">
-                  <a href="tours.html">Our Tours</a>
+                  <Link
+                    to="/tours"
+                    smooth={true}
+                    duration={500}
+                    spy={true}
+                    exact="true"
+                    offset={-80}
+                  >
+                    Our Tours
+                  </Link>
                 </li>
               </ul>
             </FooterLinks>

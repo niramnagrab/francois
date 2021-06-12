@@ -1,10 +1,5 @@
 .last-container {
-  /* width: 90%; */
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  width: 100%;
 }
 
 .title-text {
@@ -12,20 +7,24 @@
   border-bottom: none;
   padding: 20px;
   font-size: 40px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Gilroy', sans-serif;
   color: black !important;
   line-height: 48px;
-  text-align: center;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   /* font-weight: 700; */
-  width: 75%;
+  /* width: 100%; */
 }
 
 .section-buttons {
   margin-bottom: 2rem;
+  display: flex;
+  color: white !important;
 }
 
-[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+[type='button']:not(:disabled),
+[type='reset']:not(:disabled),
+[type='submit']:not(:disabled),
+button:not(:disabled) {
   cursor: pointer;
 }
 
@@ -50,7 +49,7 @@
   /* padding: 20px; */
   font-size: 20px;
   font-family: 'Raleway', sans-serif;
-  color: #fff;
+  color: #fff !important;
   line-height: 25px;
   text-align: center;
   margin-top: 20px;
@@ -58,7 +57,7 @@
 }
 .middle-section {
   display: flex;
-  width: 70%;
+  /* width: 70%; */
   padding: 30px;
   margin-bottom: 2rem;
 }
@@ -69,14 +68,26 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* margin-bottom: 2rem; */
-  min-width: 200px;
+  height: 100%;
+}
+
+.img-resize {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 65.25%;
 }
 
 .slider-image {
-  height: 400px !important;
-  width: 600px !important;
-  margin-left: -100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  object-position: center;
 }
 
 .right {
@@ -92,12 +103,12 @@
   display: block;
   border-bottom: none;
   /* padding: 20px; */
-  font-size: 16px;
-  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-family: 'Gilroy', sans-serif;
   color: black;
   line-height: 25px;
-  text-align: justify;
+  text-align: justify !important;
   /* margin: 0 auto; */
   font-weight: 400;
-  width: 95%;
+  /* width: 95%; */
 }

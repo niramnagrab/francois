@@ -7,6 +7,7 @@ import OneLinerHowTo1 from '../components/OneLinerHowTo1'
 import OneLinerHowTo2 from '../components/OneLinerHowTo2'
 import Philosophy from '../components/Philosophy'
 import CourseOptions from '../components/CourseOptions'
+import LevelComponent from '../components/Levels/levels'
 
 const OurCurriculum = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -24,6 +25,7 @@ const OurCurriculum = () => {
       <OneLinerHowTo1 />
       <CourseOptions />
       <OneLinerHowTo2 />
+      <LevelComponent />
       <Footer />
     </>
   )

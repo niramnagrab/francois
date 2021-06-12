@@ -74,7 +74,7 @@ export const SocialMediaWrap = styled.div`
   justify-content: space-between;
   align-items: center !important;
   max-width: 1100px;
-  margin: 20px auto;
+  margin: 0px auto;
 
   @media screen and (max-width: 820px) {
     flex-direction: column;
@@ -96,6 +96,11 @@ export const SocialLogo = styled(Link)`
   :hover {
     color: rgb(94, 202, 126) !important;
     text-decoration: none;
+  }
+
+  @media screen and (max-width: 500px) {
+    width: 250px;
+    height: 150px;
   }
 `
 
