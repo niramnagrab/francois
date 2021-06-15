@@ -73,7 +73,6 @@ export const NavMenu = styled.ul`
   }
 `
 export const NavItem = styled.li`
-  position: relative; 
   height: 80px;
 `
 

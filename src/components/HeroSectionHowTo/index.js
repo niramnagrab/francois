@@ -3,8 +3,11 @@ import './heroElements.css'
 import HeroImage from '../../images/hero-carlos.png'
 import WhiteBackground from '../../images/white-vector-half.png'
 import QRCode from '../../images/qr-code.jpg'
-
+import { useTranslation } from 'react-i18next';
 const HeroSectionHowTo = () => {
+
+  const { t } = useTranslation();
+
   const [hover, setHover] = useState(false)
 
   const onHover = () => {
@@ -15,7 +18,7 @@ const HeroSectionHowTo = () => {
     <div className="howtoContainer">
       <img src={WhiteBackground} className="howtoVector" />
       <div className="heroLeft">
-        <h1 className="heroTitle">How to start learning with us</h1>
+        <h1 className="heroTitle">{t('how_to_start_learn')}</h1>
         {/* <h3 className="heroDescription">
           {' '}
           The online English academy that connects interest with learning to

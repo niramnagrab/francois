@@ -4,8 +4,9 @@ import HeroImage from '../../images/howto-hero.png'
 import WhiteBackground from '../../images/white-vector-hero.png'
 import Child from '../../images/child-wave.png'
 import QRCode from '../../images/qr-code.jpg'
-
+import { useTranslation } from 'react-i18next';
 const HeroSectionRegistration = () => {
+  const { t } = useTranslation();
   const [hover, setHover] = useState(false)
 
   const onHover = () => {
@@ -17,7 +18,7 @@ const HeroSectionRegistration = () => {
       <img src={WhiteBackground} className="heroVector" />
       <div className="heroLeft">
         <h1 className="heroTitle">
-          Register your interest for a free class with us!
+          {t('reg_your_interest')}
         </h1>
         <div class="registration">
           <div class="info">
@@ -26,7 +27,7 @@ const HeroSectionRegistration = () => {
               <input type="text" class="input" placeholder="Your Name" />
               <input type="email" class="input" placeholder="Email" />
               <input type="text" class="input" placeholder="We Chat ID" />
-              <button class="buttons">Request Free Trial</button>
+              <button class="buttons"> {t('req_free_trail')}</button>
             </form>
           </div>
         </div>

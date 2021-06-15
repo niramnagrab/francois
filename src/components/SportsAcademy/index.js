@@ -1,27 +1,25 @@
 import React from 'react'
 import './SportsAcademyElements.css'
+import { useTranslation } from 'react-i18next';
 
 
 function SportsAcademy() {
+  const { t } = useTranslation();
   return (
     <div className="aboutcontainer">
-      <h2>About SP Sports Academy</h2>
+      <h2>{ t('about_sp_academi')}</h2>
       <div className="aboutmainsection">
         <p className="aboutintro">
-          We are a European Sports Academy with football, growth, and experience
-          at the heart of everything we do. We offer our students, players, and
-          coaches a springboard toward their future goals through a combination
-          of services:
+         {t('about_Sp_academi_body')}
         </p>
         <div className="aboutlist">
-          <p className="reasonslist"> Football Development Tours</p>
-          <p className="reasonslist">English Inspired by Football</p>
-          <p className="reasonslist"> Coach & Play the Spanish Way</p>
+          <p className="reasonslist"> {t('about_football_dev_tours')}</p>
+          <p className="reasonslist">{t('about_inspired_football')}</p>
+          <p className="reasonslist">{t('about_coach')}</p>
         </div>
         <div>
           <p className="aboutintro">
-            All our services endeavour to inspire young people to develop
-            themselves and their abilities on and off the pitch.
+            {t('about_sp_service')}
           </p>
         </div>
       </div>

@@ -1,7 +1,8 @@
 import React from 'react'
 import CoachPlay from '../../images/coach-play.jpg'
-
+import { useTranslation } from 'react-i18next';
 function ToursContact() {
+  const { t } = useTranslation();
   return (
     <div class="container">
       <div class="row custom_margin_top">
@@ -9,15 +10,10 @@ function ToursContact() {
           <img src={CoachPlay} alt="mock" width="100%" />
         </div>
         <div class="col-md-6">
-          <h3 class="title-text">Coach & Play</h3>
+          <h3 class="title-text">{t('coach_and_play')}</h3>
           <p class="text-justified">
-            Are you looking to take your team to the next level, increase your
-            team’s performance and move up the league table? Receive our
-            methodology coaching and learn how to coach and play the Spanish
-            way. These programs are completely personalised based on your
-            budget, size and location. To receive more information about our
-            coaching send us an email and we will contact you with some
-            questions!
+            {t('coach_play_text')}
+           
           </p>
           <div class="row mt-3 mb-5">
             <div class="col-md-6 col-6 contact">

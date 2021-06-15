@@ -3,8 +3,10 @@ import './heroElements.css'
 import HeroImage from '../../images/philosophy-teacher.png'
 import WhiteBackground from '../../images/white-vector-half.png'
 import QRCode from '../../images/qr-code.jpg'
-
+import { useTranslation } from 'react-i18next';
 const HeroSectionCurriculum = () => {
+
+  const { t } = useTranslation();
   const [hover, setHover] = useState(false)
 
   const onHover = () => {
@@ -16,7 +18,8 @@ const HeroSectionCurriculum = () => {
       <img src={WhiteBackground} className="heroVectorCurriculum" />
       <div className="heroLeftCurriculum">
         <h1 className="heroTitle">
-          We connect interest with learning and teach English through football
+          {t('curr_hero_head')}
+         
         </h1>
         {/* <h3 className="heroDescription">
           {' '}

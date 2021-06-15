@@ -4,52 +4,46 @@ import Inspire from '../../images/inspire.png'
 import Engage from '../../images/engage.png'
 import Achieve from '../../images/achieve.png'
 import Child from '../../images/philosophy-child.png'
-
+import { useTranslation } from 'react-i18next';
 const Philosophy = () => {
+
+  const { t } = useTranslation();
   return (
     <div className="overall">
       <div class="teaching-philosophy">
         <div className="team-intro">
           {' '}
-          <h2 class="header">Our Teaching Philosophy</h2>
+          <h2 class="header">{t('curr_tec_phi')}</h2>
         </div>
 
         <ul class="folder">
           <li>
             <div className="icons-div image-margin">
               <img src={Inspire} />
-              <p>Inspire</p>
+              <p>{t('curr_ins')}</p>
             </div>
           </li>
           <li>
             <div className="icons-div">
               <img src={Engage} />
-              <p>Engage</p>
+              <p>{t('curr_eng')}</p>
             </div>
           </li>
           <li>
             <div className="icons-div">
               <img src={Achieve} />
-              <p>Achieve</p>
+              <p>{t('curr_ach')}</p>
             </div>
           </li>
         </ul>
         <div className="our-philosophy">
           <div className="philosophy-content">
-            {/* <h1 class="title-text-center pt-3">English inspired by football</h1> */}
+            <h1 class="title-text-center pt-3">{t('curr_ins_head')}</h1>
             <p class="text-justified-philosophy">
-              Our students learn how to communicate in English confidently and
-              correctly through the context of football. Linking interest with
-              learning is the key to our philosophy. We create incomparable
-              engagement and level of focus in our online classrooms because our
-              students are truly interested in the subject of discussion. We
-              teach grammar structures and vocabulary that can be used in a wide
-              variety of situations and environments, not only the world of
-              football. Learning with us is about inspiring, engaging and
-              achieving.
+              {t('curr_ins_txt')}
             </p>
             <button type="button" class="buttons">
-              Request Demo Class
+              {t('curr_btn_txt')}
             </button>
           </div>
         </div>

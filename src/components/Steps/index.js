@@ -4,53 +4,47 @@ import Number1 from '../../images/1.svg'
 import Number2 from '../../images/2.svg'
 import Number3 from '../../images/3.svg'
 import Number4 from '../../images/4.svg'
-
+import { useTranslation } from 'react-i18next';
 const Steps = () => {
+  const { t } = useTranslation();
   return (
     <>
       <div class="container1">
         <div class="team-intro">
-          <h2>Step-by-step</h2>
+          <h2>{t('how_to_step_txt')}</h2>
           <p class="subtitle-center-bold">
-            Embark on your road to fluency today with these 4 simple steps
+            {t('how_to_step_sub_txt')}
           </p>
         </div>
         <div class="sect1">
           <ul class="contain">
             <li class="steps">
               <img src={Number1} alt="" />
-              <h3 class="subtitle-center-bold">Register</h3>
+              <h3 class="subtitle-center-bold">{t('how_to_register')}</h3>
               <p class="text-justified">
-                Register for a free trial class with one of our
-                experienced,native teachers. Register for a free trial class
-                with one of our experienced, native teachers.
+                {t('how_to_register_txt')}
               </p>
             </li>
             <li class="steps">
               <img src={Number2} alt="" />
-              <h3 class="subtitle-center-bold">We contact you</h3>
+              <h3 class="subtitle-center-bold">{t('how_to_we_cnt')}</h3>
               <p class="text-justified">
-                Your dedicated course advisor will promptly contact you directly
-                via WeChat to request more information and organise the time of
-                the trial class
+                {t('how_to_we_cnt_txt')}
               </p>
             </li>
             <li class="steps">
               <img src={Number3} alt="" />
-              <h3 class="subtitle-center-bold">Download Classin</h3>
+              <h3 class="subtitle-center-bold">{t('how_to_download_classin')}</h3>
               <p class="text-justified">
-                Download the free Classin application to your preferred device
-                (we recommend a laptop or computer because of the level of
-                interactivity in our classes)
+                {t('how_to_download_classin_txt')}
               </p>
             </li>
 
             <li class="steps">
               <img src={Number4} alt="" />
-              <h3 class="subtitle-center-bold">We allocate the teams</h3>
+              <h3 class="subtitle-center-bold">{t('how_to_allocate')}</h3>
               <p class="text-justified">
-                After the trial class, our team of experienced teachers will
-                allocate the perfect group based on the student’s level and age
+                {t('how_to_allocate_txt')}
               </p>
             </li>
           </ul>

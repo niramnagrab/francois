@@ -3,17 +3,18 @@ import './TeamElements.css'
 import Joely from '../../images/joely.jpg'
 import Carlos from '../../images/carlos.jpg'
 import Ben from '../../images/ben.jpg'
-
+import { useTranslation } from 'react-i18next';
 const Team = () => {
+  const { t } = useTranslation();
   return (
     <>
       <div>
         <div class="container">
           <div class="team-intro">
-            <h2>Our team</h2>
+            <h2>{t('our_team')}</h2>
             <p class="subtitle-center-bold">
-              All our teachers are selected based on their qualifications, level
-              of experience and interest in football.
+              {t('our_team_txt')}
+              
             </p>
           </div>
           <div class="row">
@@ -23,15 +24,11 @@ const Team = () => {
                   <img src={Joely} class="img-fluid d-flex mx-auto" />
                 </div>
                 <div class="card-text">
-                  <div class="subtitle-center-bold">Teacher Joely</div>
+                  <div class="subtitle-center-bold">{t('teacher_joely')}</div>
 
                   <p class="text-justified">
-                    Hello, I’m Joely! After teaching English for 5 years, I am
-                    such an advocate for this kind of approach. Teaching a
-                    language in a targeted way through the context of the
-                    student’s existing, genuine interest is genius. I have seen
-                    students progress far quicker and I believe it is because of
-                    their level of enjoyment, engagement, and interest.
+                    {t('teacher_joely_txt')}
+
                   </p>
                 </div>
               </div>
@@ -42,16 +39,9 @@ const Team = () => {
                   <img src={Carlos} class="img-fluid d-flex mx-auto" />
                 </div>
                 <div class="card-text">
-                  <div class="subtitle-center-bold">Teacher Carlos</div>
+                  <div class="subtitle-center-bold">{t('teacher_carlos')}</div>
                   <p class="text-justified">
-                    Hello, my name is Carlos. I am a UEFA licenced football
-                    coach and English teacher. I have been teaching English
-                    inspired by Football for more than 5 years to staff within
-                    professional football clubs to children at local football
-                    clubs. I would only recommend this approach if your goal
-                    were to achieve results and see improvement in your English,
-                    apply it to something you love, and the motivation is always
-                    there.
+                    {t('teacher_carlos_txt')}
                   </p>
                 </div>
               </div>
@@ -62,14 +52,9 @@ const Team = () => {
                   <img src={Ben} class="img-fluid d-flex mx-auto" />
                 </div>
                 <div class="card-text">
-                  <div class="subtitle-center-bold">Teacher Ben</div>
+                  <div class="subtitle-center-bold">{t('teacher_ben')}</div>
                   <p class="text-justified">
-                    Hi! I am Ben and I have been teaching English inspired by
-                    Football online for over a year, I am as passionate about
-                    football as my students. The environment in the online
-                    classroom is always high energy, fun and joyful. Students
-                    stay focused and are so interested in the activities they
-                    hardly notice they are learning grammar!
+                    {t('teacher_ben_txt')}
                   </p>
                 </div>
               </div>
@@ -79,7 +64,7 @@ const Team = () => {
       </div>
 
       <div class="trial-class">
-        <button class="buttons">Request Demo Class</button>
+        <button class="buttons">{t('how_to_btn')}</button>
       </div>
     </>
   )

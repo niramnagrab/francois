@@ -1,12 +1,13 @@
 import React from 'react'
 import './OneLinerHowTo2.css'
-
+import { useTranslation } from 'react-i18next';
 const OneLinerHowTo2 = () => {
+  const { t } = useTranslation();
   return (
     <div class="one-liner">
       <p>
-        We have seen proven results that linking interest with learning
-        accelerates the learning speed and increases student enjoyment
+        {t('curr_one_how_to_2')}
+       
       </p>
     </div>
   )

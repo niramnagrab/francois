@@ -3,9 +3,8 @@ import { FaBars } from 'react-icons/fa'
 import { IconContext } from 'react-icons/lib'
 import { animateScroll as scroll } from 'react-scroll'
 import { BrowserRouter, Route, Link } from 'react-router-dom'
-import { useTranslation } from 'react-i18next'
-import Dropdown from './Dropdown'
-import Chinese from '../../images/china.png'
+import { useTranslation } from 'react-i18next';
+
 import {
   Nav,
   NavbarContainer,
@@ -20,9 +19,9 @@ import {
 import logo from '../../images/logo.png'
 
 const Navbar = ({ toggle }) => {
-  const { t, i18n } = useTranslation()
+  const { t, i18n } = useTranslation();
   const [scrollNav, setScrollNav] = useState(false)
-  const [dropdowns, setDropdowns] = useState(false)
+
   const changeNav = () => {
     if (window.scrollY >= 0) {
       setScrollNav(true)
@@ -30,31 +29,13 @@ const Navbar = ({ toggle }) => {
       setScrollNav(false)
     }
   }
-  const dropdownClick = () => setDropdowns(!dropdowns)
-  //  setDropdowns(!dropdowns);
-  // const onMouseEnter = () => {
 
-  //   console.log('mouse enter');
-  //   // if (window.innerWidth < 960) {
-  //   //   setDropdown(false);
-  //   // } else {
-  //   //   setDropdown(true);
-  //   // }
-  // };
-
-  // const onMouseLeave = () => {
-  //   if (window.innerWidth < 960) {
-  //     setDropdown(false);
-  //   } else {
-  //     setDropdown(false);
-  //   }
-  // };
   useEffect(() => {
     window.addEventListener('scroll', changeNav)
-    let lang = localStorage.getItem('lang')
-    if (lang == null || lang == undefined) {
-      i18n.changeLanguage('en')
-      localStorage.setItem('lang', 'en')
+    let lang = localStorage.getItem("lang");
+    if(lang == null || lang == undefined){
+      i18n.changeLanguage('en');
+      localStorage.setItem("lang","en");
     }
   }, [])
 
@@ -63,8 +44,8 @@ const Navbar = ({ toggle }) => {
   }
 
   const setLanguage = (lang) => {
-    i18n.changeLanguage(lang)
-    localStorage.setItem('lang', lang)
+    i18n.changeLanguage(lang);
+    localStorage.setItem("lang",lang);
   }
 
   return (
@@ -167,24 +148,10 @@ const Navbar = ({ toggle }) => {
                 </NavLinks>
               </NavItem>
 
-              <NavItem>
-                <NavLinks
-                  smooth={true}
-                  duration={500}
-                  spy={true}
-                  exact="true"
-                  onClick={dropdownClick}
-                  offset={80}
-                >
-                  <img src={Chinese} width="30px" height="25px" />{' '}
-                  <i className="fa fa-caret-down" />
-                </NavLinks>
-                {dropdowns && <Dropdown />}
-                {/* <div>
-                  <button onClick={() => setLanguage('ch')}>Chines</button> | 
-                  <button onClick={() => setLanguage('en')}>English</button>
-                </div> */}
-              </NavItem>
+              <div>
+                <button onClick={() => setLanguage('ch')}>Chines</button> | 
+                <button onClick={() => setLanguage('en')}>English</button>
+              </div>
             </NavMenu>
           </NavbarContainer>
         </Nav>
@@ -192,4 +159,5 @@ const Navbar = ({ toggle }) => {
     </>
   )
 }
-export default Navbar
+export default Navbar;
+

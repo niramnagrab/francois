@@ -1,4 +1,5 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next';
 import { animateScroll as scroll } from 'react-scroll'
 import {
   FaFacebook,
@@ -25,6 +26,7 @@ import {
 import Logo from '../../images/logo-white.png'
 
 const Footer = () => {
+  const { t } = useTranslation();
   const toggleHome = () => {
     scroll.scrollToTop()
   }
@@ -47,7 +49,7 @@ const Footer = () => {
                     exact="true"
                     offset={-80}
                   >
-                    About
+                    { t('about')}
                   </Link>
                 </li>
                 <li class="list-inline-item">
@@ -59,7 +61,8 @@ const Footer = () => {
                     exact="true"
                     offset={-80}
                   >
-                    Register
+                    { t('Register')}
+                    
                   </Link>
                 </li>
                 <li class="list-inline-item">
@@ -71,7 +74,8 @@ const Footer = () => {
                     exact="true"
                     offset={-80}
                   >
-                    Our Tours
+                    { t('Our Tours')}
+                    
                   </Link>
                 </li>
               </ul>

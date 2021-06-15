@@ -1,12 +1,12 @@
 import React from 'react'
 import './OneLinerHowTo1.css'
-
+import { useTranslation } from 'react-i18next';
 const OneLinerHowTo1 = () => {
+  const { t } = useTranslation();
   return (
     <div class="one-liner">
       <p>
-        Our mission is to be the change in the world of English teaching that
-        links interest with learning to enhance enjoyment and achieve results
+        {t('curr_one_howto')}
       </p>
     </div>
   )
