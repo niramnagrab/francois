@@ -14,7 +14,9 @@ const resources = {
 let lang = localStorage.getItem("lang");
   if(lang == null || lang == undefined){
     localStorage.setItem("lang","en");
+    lang = 'en'
   }
+
 i18n
   .use(initReactI18next) // passes i18n down to react-i18next
   .init({
