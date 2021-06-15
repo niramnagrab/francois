@@ -37,7 +37,7 @@
 }
 
 .buttons {
-  margin-top: 20px;
+  margin-top: 40px !important;
   font-family: 'Gilroy', sans-serif;
   background-color: #e95959;
   color: white;

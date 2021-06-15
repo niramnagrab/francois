@@ -34,15 +34,7 @@
   /* top: 0; */
   height: 100vh !important;
 }
-@media screen and (max-width: 767px) {
-  .howtoVector {
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 80vh !important;
-    display: none;
-  }
-}
+
 .heroTitle {
   color: black;
   font-size: 45px !important;
@@ -64,6 +56,10 @@
   bottom: 0px;
   right: 50px;
 }
+/* 
+.heroRight {
+  background-image: url('../../images/teachers.jpg');
+} */
 
 .register {
   z-index: -1;
@@ -79,14 +75,12 @@
   box-shadow: -8px 10px 26px -17px rgba(0, 0, 0, 0.75);
 }
 
-@media screen and (max-width: 767px) {
-  .register {
-    background-color: #5eca7e !important;
-    box-shadow: -8px 10px 26px -17px rgba(0, 0, 0, 0.75);
-  }
-}
 .register {
+  /* margin-top: 40px; */
   z-index: 1;
+  /* position: relative; */
+  /* bottom: 20px; */
+  /* right: 30px; */
   background-color: #fff;
   font-family: 'Gilroy', sans-serif;
 }
@@ -115,6 +109,7 @@
   margin: 5px;
   /* width: 95%; */
 }
+
 .qr-code {
   position: fixed;
   padding: 10px;
@@ -135,8 +130,8 @@
   font-family: 'Gilroy', sans-serif;
   background-color: #e95959;
   color: white;
-  padding: 12px 50px;
-  font-size: 16px !important;
+  padding: 12px 60px;
+  font-size: 20px !important;
   border-radius: 8px;
   font-weight: 800 !important;
   border: none;
@@ -144,68 +139,7 @@
 }
 
 form {
-  margin-top: 104px;
-}
-@media (max-width: 767px) {
-  form {
-    margin-top: 25px;
-  }
-}
-@media (max-width: 990px) {
-  .heroRightHomepage {
-    display: none;
-  }
-}
-
-@media (max-width: 568px) {
-  .heroRightHomepage {
-    display: none;
-  }
-
-  .hero-container {
-    display: flex;
-    flex-direction: column;
-    width: 100% !important;
-  }
-
-  .heroLeftArea {
-    /* display: none; */
-    position: absolute;
-    left: 0;
-    margin: 0 auto !important;
-    max-width: 100%;
-  }
-
-  .heroTitle {
-    font-size: 30px !important;
-    font-weight: 700;
-    width: 100% !important;
-    line-height: 30px !important;
-    font-family: 'Gilroy' !important;
-    text-align: center !important;
-  }
-
-  .heroDescription {
-    width: 100% !important;
-    color: white;
-    font-size: 22px !important;
-  }
-
-  .register {
-    width: 95% !important;
-    padding: 10px 20px !important;
-    margin: 0 auto;
-  }
-
-  .steps-text {
-    color: black !important;
-    padding: 10px !important;
-  }
-
-  .buttons {
-    padding: 1rem 0;
-    width: 100%;
-  }
+  margin-top: 20px;
 }
 
 @media (max-width: 500px) {
@@ -244,18 +178,13 @@ form {
   }
 
   .register {
-    width: 100% !important;
-    padding: 20px 20px !important;
+    width: 90% !important;
+    padding: 10px 20px !important;
     margin: 0 auto;
   }
 
   .steps-text {
     color: black !important;
     padding: 10px !important;
-  }
-
-  .buttons {
-    padding: 1rem 0;
-    width: 100%;
   }
 }
