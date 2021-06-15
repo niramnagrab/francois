@@ -5,12 +5,26 @@
   align-items: center;
   padding: 0 30px;
   height: 850px;
+  margin-top: 0 !important;
   /* position: relative; */
   /* z-index: 1; */
   /* margin-top: -80px; */
   display: flex;
 }
-
+@media screen and (max-width: 767px) {
+  .heroContainer {
+    background: rgb(94, 202, 126);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+    height: 850px;
+    /* position: relative; */
+    z-index: 1;
+    margin-top: 58px;
+    display: flex;
+  }
+}
 /* 
 .heroContent {
   z-index: 10;
@@ -54,6 +68,11 @@
   bottom: 0px !important;
   right: -15px !important;
 }
+@media (max-width: 768px) {
+  .heroRightRegistration img {
+    display: none;
+  }
+}
 /* 
 .heroRight {
   background-image: url('../../images/teachers.jpg');
@@ -67,11 +86,24 @@
   width: 400px;
   margin-right: 50px;
   right: 50px !important;
-  background-color: #fff !important;
+  background-color: #5eca7e !important;
   font-family: 'Gilroy', sans-serif;
   padding: 40px;
 }
-
+@media screen and (max-width: 575px) {
+  .registration {
+    z-index: -1;
+    display: block !important;
+    bottom: 20px !important;
+    margin-top: 50px;
+    width: 90%;
+    margin-right: 50px;
+    right: 50px !important;
+    background-color: #5eca7e !important;
+    font-family: 'Gilroy', sans-serif;
+    padding: 0px 10px;
+  }
+}
 .registration {
   margin-top: 40px;
   z-index: 1;
@@ -88,7 +120,7 @@
   /* padding: 20px; */
   font-size: 20px;
   font-family: 'Gilroy', sans-serif;
-  color: black;
+  color: #e085858585858585;
   line-height: 25px;
   text-align: center;
   margin-top: 20px;
@@ -106,7 +138,28 @@
   margin: 5px;
   /* width: 95%; */
 }
-
+@media screen and (max-width: 767px) {
+  .input {
+    background: transparent;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid white;
+    padding: 0 0 10px 0;
+    font-size: 1.2rem;
+    display: block;
+    margin: 5px;
+    /* width: 95%; */
+  }
+  ::placeholder {
+    color: white !important;
+  }
+  .yJHb {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-top: 60 !important;
+  }
+}
 .qr-code {
   position: fixed;
   padding: 10px;

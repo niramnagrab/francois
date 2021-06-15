@@ -3,6 +3,7 @@
   justify-content: center;
   width: 100%;
   padding: 0;
+  flex-wrap: wrap;
 }
 
 .teaching-philosophy {
@@ -66,6 +67,7 @@
 .contain {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .buttons {
@@ -83,7 +85,9 @@
 
 .row {
   display: flex;
+  flex-wrap: wrap;
   /* margin-bottom: 50px; */
+  padding: 60px 0px;
 }
 
 .philosophy-image {

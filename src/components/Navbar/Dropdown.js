@@ -19,7 +19,7 @@ function Dropdown() {
       <ul className="dropdown-menu">
         <li>
           <Link
-            to=""
+            to="/"
             onClick={() => setLanguage('en')}
             className="dropdown-link"
           >
@@ -29,7 +29,7 @@ function Dropdown() {
         </li>
         <li>
           <Link
-            to=""
+            to="/"
             onClick={() => setLanguage('ch')}
             className="dropdown-link"
           >

@@ -81,7 +81,7 @@ export const HeroH1 = styled.h1`
   @media screen and (max-width: 480px) {
     margin-top: 50px;
     font-size: 25px;
-    width: 95%;
+    /* width: 95%; */
   }
 `
 

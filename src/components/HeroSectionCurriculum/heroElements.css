@@ -85,6 +85,45 @@
   width: 95%;
 }
 
+@media (max-width: 768px) {
+  .heroRightCurriculumImage {
+    display: none;
+  }
+
+  .heroVectorCurriculum {
+    display: none;
+  }
+
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+    width: 100% !important;
+  }
+
+  .heroLeftArea {
+    /* display: none; */
+    position: absolute;
+    left: 0;
+    margin: 0 auto !important;
+    max-width: 100%;
+  }
+
+  .heroTitle {
+    font-size: 30px !important;
+    font-weight: 700;
+
+    line-height: 30px !important;
+    font-family: 'Gilroy' !important;
+    text-align: center !important;
+  }
+
+  .heroDescription {
+    width: 100% !important;
+    color: white;
+    font-size: 22px !important;
+  }
+}
+
 @media (max-width: 500px) {
   .heroRightCurriculumImage {
     display: none;
@@ -109,10 +148,10 @@
   }
 
   .heroTitle {
-    color: white !important;
+    color: black !important;
     font-size: 30px !important;
     font-weight: 700;
-    width: 100% !important;
+    /* width: 85% !important; */
     line-height: 30px !important;
     font-family: 'Gilroy' !important;
     text-align: center !important;

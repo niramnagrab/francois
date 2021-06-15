@@ -85,10 +85,29 @@
   /* width: 95%; */
 }
 
+@media (max-width: 768px) {
+  .contain {
+    display: flex;
+    flex-direction: column !important;
+    padding: 2rem 0;
+  }
+
+  .text-justified {
+    text-align: justify !important;
+  }
+  .container1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0 0px;
+    position: relative;
+  }
+}
+
 @media (max-width: 500px) {
   .contain {
     display: flex;
     flex-direction: column !important;
+    padding: 2rem 0;
   }
 
   .text-justified {

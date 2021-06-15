@@ -54,7 +54,17 @@
   font-weight: 600 !important;
   font-family: 'Gilroy';
 }
-
+@media screen and (max-width: 767px) {
+  .aboutintro {
+    width: 95%;
+    margin: 0 auto;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 600 !important;
+    font-family: 'Gilroy';
+  }
+}
 .aboutlist {
   display: flex;
   padding: 20px 90px;
@@ -64,8 +74,21 @@
   width: 80%;
   font-weight: 900 !important;
   font-family: 'Gilroy';
+  flex-wrap: wrap;
 }
-
+@media (max-width: 920px) {
+  .aboutlist {
+    display: flex;
+    padding: 20px 90px;
+    margin: 50px auto;
+    font-size: 20px;
+    /* line-height: 35px; */
+    /* width: 80%; */
+    /* font-weight: 900 !important; */
+    font-family: 'Gilroy';
+    padding: 0;
+  }
+}
 .reasonslist {
   padding: 20px;
 }

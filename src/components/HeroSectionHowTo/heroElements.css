@@ -55,6 +55,11 @@
   top: 92px;
   left: 820px;
 }
+@media (max-width: 768px) {
+  .hero-how {
+    display: none;
+  }
+}
 /* 
 .heroRight {
   background-image: url('../../images/teachers.jpg');

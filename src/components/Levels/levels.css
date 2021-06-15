@@ -1,5 +1,6 @@
 .last-container {
   width: 100%;
+  margin: 5rem 0;
 }
 
 .title-text {
@@ -20,7 +21,16 @@
   display: flex;
   color: white !important;
 }
-
+@media (max-width: 850px) {
+  .section-buttons {
+    font-size: 16px;
+  }
+}
+@media (max-width: 768px) {
+  .section-buttons {
+    flex-wrap: wrap;
+  }
+}
 [type='button']:not(:disabled),
 [type='reset']:not(:disabled),
 [type='submit']:not(:disabled),
@@ -111,4 +121,16 @@ button:not(:disabled) {
   /* margin: 0 auto; */
   font-weight: 400;
   /* width: 95%; */
+}
+
+@media (max-width: 768px) {
+  .primary {
+    padding: 0 1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .primary {
+    padding: 0 1rem;
+  }
 }

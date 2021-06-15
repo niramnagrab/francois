@@ -12,20 +12,46 @@
   width: 85%;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   .one-liner {
     max-width: 100% !important;
     margin: 0 auto;
+    margin-top: 15rem;
   }
-
+  h3.heroDescription {
+    color: #000;
+    text-align: center;
+  }
   .one-liner p {
     width: 95% !important;
     font-size: 25px !important;
-    padding: 30px 0px !important;
+    padding: 0px 0 41px 0px !important;
     line-height: 30px !important;
     text-align: center !important;
   }
 
+  .action {
+    padding: 0 !important;
+  }
+}
+
+@media (max-width: 550px) {
+  .one-liner {
+    max-width: 100% !important;
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+
+  .one-liner p {
+    padding-bottom: 50px;
+  }
+  .one-liner p {
+    width: 95% !important;
+    font-size: 25px !important;
+    padding: 72px 0 0px 0px !important;
+    line-height: 30px !important;
+    text-align: center !important;
+  }
   .action {
     padding: 0 !important;
   }

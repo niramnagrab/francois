@@ -93,9 +93,9 @@ const Sidebar = ({ isOpen, toggle }) => {
             <div>
               <button onClick={() => setLanguage('ch')}>
                 <img src={Chinese} width="40px" height="30px" />
-              </button>{' '}
+              </button>
+
               <button onClick={() => setLanguage('en')}>
-                {' '}
                 <img src={English} width="40px" height="30px" />
               </button>
             </div>

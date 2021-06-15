@@ -33,11 +33,11 @@
 }
 
 .buttons {
-  margin-top: 20px;
+  margin: 10px 5px;
   font-family: 'Gilroy', sans-serif;
   background-color: #e95959;
   color: white;
-  padding: 12px 60px;
+  padding: 12px 20px;
   font-size: 20px !important;
   border-radius: 8px;
   font-weight: 600;
@@ -93,6 +93,24 @@
   align-items: center;
 }
 
+@media (max-width: 768px) {
+  .container {
+    max-width: 100% !important;
+  }
+
+  .subtitle-centre-bold {
+    width: 100% !important;
+  }
+
+  .text-justified {
+    text-align: justify !important;
+  }
+  .buttons {
+    margin: 10px 5px;
+    width: 80%;
+  }
+}
+
 @media (max-width: 500px) {
   .container {
     max-width: 100% !important;
@@ -105,5 +123,7 @@
   .text-justified {
     text-align: justify !important;
   }
-
+  .buttons {
+    width: 80%;
+  }
 }

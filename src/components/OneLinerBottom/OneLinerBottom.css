@@ -41,7 +41,7 @@
   font-family: 'Gilroy', sans-serif;
   background-color: #e95959;
   color: white;
-  padding: 12px 60px;
+  padding: 12px 20px;
   font-size: 20px !important;
   border-radius: 8px;
   font-weight: 600;
@@ -56,7 +56,14 @@
   margin-top: -100px;
   padding-bottom: 100px;
 }
-
+@media screen and (max-width: 575px) {
+  .trial-class {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: -100px;
+    padding-bottom: 72px;
+  }
+}
 .buttons:hover {
   cursor: pointer;
   /* border: solid 2px red; */

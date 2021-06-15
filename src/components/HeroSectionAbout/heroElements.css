@@ -10,7 +10,20 @@
   /* margin-top: -80px; */
   height: 80vh !important;
 }
-
+@media screen and (max-width: 767px) {
+  .aboutheroContainer {
+    background: rgb(94, 202, 126);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+    height: 850px;
+    position: relative;
+    z-index: 1;
+    margin-top: -44px;
+    height: 90vh !important;
+  }
+}
 /* 
 .heroContent {
   z-index: 10;
@@ -34,7 +47,11 @@
   /* top: 0; */
   height: 80vh !important;
 }
-
+@media screen and (max-width: 767px) {
+  .heroVectorAbout {
+    display: none;
+  }
+}
 .heroTitle {
   color: black;
   font-size: 50px;
