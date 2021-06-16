@@ -22,10 +22,10 @@
   align-items: center;
 } */
 
-.heroLeft {
+.heroLeftRegistration {
   position: absolute;
   left: 50px;
-  top: 250px;
+  top: 150px;
 }
 
 .heroVector {
@@ -134,6 +134,13 @@
     background-color: #5eca7e !important;
     font-family: 'Gilroy', sans-serif;
     padding: 0px 10px;
+    margin: 0 auto !important;
+  }
+
+  .heroLeftRegistration {
+    position: absolute;
+    left: 0px;
+    top: 150px;
   }
 }
 

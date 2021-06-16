@@ -24,7 +24,7 @@
 
 .heroLeftCurriculum {
   position: absolute;
-  left: 50px;
+  left: 0px;
   top: 250px !important;
 }
 
@@ -129,6 +129,12 @@
     display: none;
   }
 
+  .heroLeftCurriculum {
+    position: absolute;
+    left: 15px;
+    top: 300px !important;
+  }
+
   .heroVectorCurriculum {
     display: none;
   }
@@ -148,10 +154,9 @@
   }
 
   .heroTitle {
-    color: black !important;
+    color: white !important;
     font-size: 30px !important;
     font-weight: 700;
-    /* width: 85% !important; */
     line-height: 30px !important;
     font-family: 'Gilroy' !important;
     text-align: center !important;

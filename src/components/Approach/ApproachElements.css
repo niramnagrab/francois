@@ -110,3 +110,9 @@
   z-index: -10;
   align-items: center;
 }
+
+@media screen and (max-width: 767px) {
+  .team-intro h2 {
+    margin-bottom: 5px;
+  }
+}

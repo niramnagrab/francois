@@ -4,9 +4,9 @@ import HeroImage from '../../images/howto-hero.png'
 import WhiteBackground from '../../images/white-vector-hero.png'
 import Child from '../../images/child-wave.png'
 import QRCode from '../../images/qr-code.jpg'
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from 'react-i18next'
 const HeroSectionRegistration = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation()
   const [hover, setHover] = useState(false)
 
   const onHover = () => {
@@ -16,10 +16,8 @@ const HeroSectionRegistration = () => {
   return (
     <div className="heroContainer">
       <img src={WhiteBackground} className="heroVector" />
-      <div className="heroLeft">
-        <h1 className="heroTitle">
-          {t('reg_your_interest')}
-        </h1>
+      <div className="heroLeftRegistration">
+        <h1 className="heroTitle">{t('reg_your_interest')}</h1>
         <div class="registration">
           <div class="info">
             <h3 class="steps-text">Get a Free Trial Class</h3>

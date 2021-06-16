@@ -5,7 +5,7 @@
       rgba(61, 95, 38, 0.8),
       rgba(58, 95, 37, 0.8)
     ),
-    url('../../images/football-team.jpg');
+    url('../../images/IMG_3398.JPG');
   /* position: relative; */
   color: white !important;
   width: 100%;
@@ -64,4 +64,10 @@
   font-weight: 600;
   border: none;
   cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  .sportsacademy-container {
+    padding: 20px 0px;
+  }
 }

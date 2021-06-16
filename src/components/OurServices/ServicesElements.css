@@ -90,3 +90,15 @@
   width: 80%;
   margin: 0 auto;
 }
+
+@media (max-width: 500px) {
+  .centered-div {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0 !important;
+  }
+
+  .custom_margin_top {
+    padding-top: 0 !important;
+  }
+}

@@ -89,7 +89,7 @@ const Sidebar = ({ isOpen, toggle }) => {
               Free Trial Class
             </Link>
           </SidebarLink>
-          <SidebarLink>
+          <SidebarLink onClick={toggle}>
             <div>
               <button onClick={() => setLanguage('ch')}>
                 <img src={Chinese} width="40px" height="30px" />

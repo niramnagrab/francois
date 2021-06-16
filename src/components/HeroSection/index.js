@@ -4,10 +4,10 @@ import HeroImage from '../../images/hero-teacher-computer.png'
 import WhiteBackground from '../../images/white-vector-hero.png'
 import { StickyContainer, Sticky } from 'react-sticky'
 import QRCode from '../../images/qr-code.jpg'
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from 'react-i18next'
 
 const HeroSection = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation()
   const [hover, setHover] = useState(false)
 
   const onHover = () => {
@@ -19,16 +19,11 @@ const HeroSection = () => {
       <div className="heroContainer">
         <img src={WhiteBackground} className="heroVector" />
         <div className="heroLeftArea">
-          <h1 className="heroTitle">
-            { t('home_hero_heading') }
-          </h1>
-          <h3 className="heroDescription">
-            {' '}
-            {t('home_hero_sub_heading')}
-          </h3>
+          <h1 className="heroTitle">{t('home_hero_heading')}</h1>
+          <h3 className="heroDescription"> {t('home_hero_sub_heading')}</h3>
           <div class="register">
             <div class="info">
-              <h3 class="steps-text">Get a Free Trial Class</h3>
+              <h3 class="trial-form-title">Get a Free Trial Class</h3>
               <form action="">
                 <input type="text" class="input" placeholder="Your Name" />
                 <input type="email" class="input" placeholder="Email" />

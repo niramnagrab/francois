@@ -52,13 +52,8 @@
 
 .hero-how {
   position: absolute;
-  top: 92px;
-  left: 820px;
-}
-@media (max-width: 768px) {
-  .hero-how {
-    display: none;
-  }
+  top: 197px;
+  left: 700px;
 }
 /* 
 .heroRight {
@@ -76,4 +71,44 @@
   text-align: center;
   margin-top: 20px;
   /* font-weight: 700; */
+}
+
+@media (max-width: 500px) {
+  .heroRightHomepage {
+    display: none;
+  }
+
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+    width: 100% !important;
+  }
+
+  .heroLeftArea {
+    /* display: none; */
+    position: absolute;
+    left: 0;
+    margin: 0 auto !important;
+    max-width: 100%;
+  }
+
+  .hero-how {
+    display: none;
+  }
+
+  .howtoVector {
+    display: none;
+  }
+
+  .heroTitle {
+    font-size: 30px !important;
+    font-weight: 700;
+    /* width: 100% !important; */
+    line-height: 30px !important;
+    font-family: 'Gilroy' !important;
+    text-align: center !important;
+    margin: 0 auto;
+    padding-right: 50px;
+    padding-top: 50px;
+  }
 }

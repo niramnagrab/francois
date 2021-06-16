@@ -72,10 +72,13 @@
     padding: 20px 5px !important;
   }
 
+  .numbers-header {
+    padding: 20px;
+  }
+
   .numbers-header h3 {
     width: 100%;
     font-size: 30px !important;
-    padding: 0 !important;
   }
 
   .numbers {
@@ -87,7 +90,7 @@
   .subtitle-center-bold {
     padding: 0 !important;
     margin: 0 !important;
-    margin-top: 25px !important;
+    margin-top: 5px !important;
     margin-bottom: 25px !important;
   }
 }

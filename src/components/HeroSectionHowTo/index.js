@@ -1,12 +1,11 @@
 import React, { useState, useEffect, Link } from 'react'
 import './heroElements.css'
-import HeroImage from '../../images/hero-carlos.png'
+import HeroImage from '../../images/hero-carlos1.png'
 import WhiteBackground from '../../images/white-vector-half.png'
 import QRCode from '../../images/qr-code.jpg'
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from 'react-i18next'
 const HeroSectionHowTo = () => {
-
-  const { t } = useTranslation();
+  const { t } = useTranslation()
 
   const [hover, setHover] = useState(false)
 
@@ -29,8 +28,8 @@ const HeroSectionHowTo = () => {
         <img
           src={HeroImage}
           className="hero-how"
-          height="620px"
-          width="400px"
+          height="1100px"
+          width="600px"
         />
       </div>
       <div className="qr-code">

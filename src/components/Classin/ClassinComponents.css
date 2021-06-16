@@ -42,6 +42,7 @@
   width: 75%;
   margin: 0 auto;
 }
+
 @media screen and (max-width: 767px) {
   .classin-title {
     display: block;
@@ -56,6 +57,16 @@
     font-weight: 500;
     width: 96%;
     margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .classin-content {
+    width: 90%;
+    margin: 0 auto !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
   }
 }
 .text-justified {
