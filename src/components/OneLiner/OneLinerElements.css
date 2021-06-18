@@ -60,9 +60,9 @@
 @media (max-width: 378px) {
 }
 
-@media (max-width: 360px) {
+@media (max-width: 640px) {
   .one-liner {
-    margin-top: 200px;
+    margin-top: 175px;
     text-align: justify;
   }
 }

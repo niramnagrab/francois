@@ -24,7 +24,7 @@
 
 .heroLeftCurriculum {
   position: absolute;
-  left: 0px;
+  left: 50px;
   top: 250px !important;
 }
 
@@ -132,7 +132,7 @@
   .heroLeftCurriculum {
     position: absolute;
     left: 15px;
-    top: 300px !important;
+    /* top: 300px !important; */
   }
 
   .heroVectorCurriculum {

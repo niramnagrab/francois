@@ -53,10 +53,14 @@
     display: none;
   }
 
+  .aboutheroContainer {
+    background-image: url('../../images/child-wave.png');
+  }
+
   .heroLeftAbout {
     position: absolute;
     left: 50px;
-    top: 300px !important;
+    /* top: 300px !important; */
   }
 }
 .heroTitle {
