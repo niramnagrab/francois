@@ -70,4 +70,25 @@
   .sportsacademy-container {
     padding: 20px 0px;
   }
+
+  .sportsacademy-container {
+    margin-bottom: 50px;
+    /* background: rgb(94, 202, 126); */
+    background-image: linear-gradient(
+        rgba(61, 95, 38, 0.8),
+        rgba(58, 95, 37, 0.8)
+      ),
+      url('../../images/mobile-sports-trainers.png');
+    /* position: relative; */
+    color: white !important;
+    width: 100%;
+    /* margin: 45px 0px; */
+    padding: 150px 0px;
+
+    /* background-attachment: fixed; */
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* background-size: contain; */
+  }
 }

@@ -23,11 +23,23 @@ const HeroSection = () => {
           <h3 className="heroDescription"> {t('home_hero_sub_heading')}</h3>
           <div class="register">
             <div class="info">
-              <h3 class="trial-form-title">Get a Free Trial Class</h3>
+              <h3 class="trial-form-title">{t('form_heading')}</h3>
               <form action="">
-                <input type="text" class="input" placeholder="Your Name" />
-                <input type="email" class="input" placeholder="Email" />
-                <input type="text" class="input" placeholder="We Chat ID" />
+                <input
+                  type="text"
+                  class="input"
+                  placeholder={t('subscriber_name')}
+                />
+                <input
+                  type="email"
+                  class="input"
+                  placeholder={t('subscriber_email')}
+                />
+                <input
+                  type="text"
+                  class="input"
+                  placeholder={t('subscriber_wechat')}
+                />
                 <button class="buttons">{t('req_free_trail')}</button>
               </form>
             </div>

@@ -20,11 +20,23 @@ const HeroSectionRegistration = () => {
         <h1 className="heroTitle">{t('reg_your_interest')}</h1>
         <div class="registration">
           <div class="info">
-            <h3 class="steps-text">Get a Free Trial Class</h3>
+            <h3 class="steps-text">{t('form_heading')}</h3>
             <form action="">
-              <input type="text" class="input" placeholder="Your Name" />
-              <input type="email" class="input" placeholder="Email" />
-              <input type="text" class="input" placeholder="We Chat ID" />
+              <input
+                type="text"
+                class="input"
+                placeholder={t('subscriber_name')}
+              />
+              <input
+                type="email"
+                class="input"
+                placeholder={t('subscriber_email')}
+              />
+              <input
+                type="text"
+                class="input"
+                placeholder={t('subscriber_wechat')}
+              />
               <button class="buttons"> {t('req_free_trail')}</button>
             </form>
           </div>

@@ -61,7 +61,7 @@ const Footer = () => {
                     exact="true"
                     offset={-80}
                   >
-                    { t('Register')}
+                    { t('register')}
                     
                   </Link>
                 </li>
@@ -74,7 +74,7 @@ const Footer = () => {
                     exact="true"
                     offset={-80}
                   >
-                    { t('Our Tours')}
+                    { t('our_tours')}
                     
                   </Link>
                 </li>

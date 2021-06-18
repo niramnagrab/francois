@@ -14,6 +14,7 @@ import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import Chinese from '../../images/china.png'
 import English from '../../images/united-kingdom.png'
+import Logo from '../../images/logo-white.png'
 
 const Sidebar = ({ isOpen, toggle }) => {
   const { t, i18n } = useTranslation()
@@ -51,10 +52,13 @@ const Sidebar = ({ isOpen, toggle }) => {
         <CloseIcon />
       </Icon>
       <SidebarWrapper>
+        {/* <div>
+          <img src={Logo} />
+        </div> */}
         <SidebarMenu>
           <SidebarLink onClick={toggle}>
             <Link to="/" style={{ textDecoration: 'none', color: 'white' }}>
-              Home
+              {t('home')}
             </Link>
           </SidebarLink>
           <SidebarLink to="/curriculum" onClick={toggle}>
@@ -62,7 +66,7 @@ const Sidebar = ({ isOpen, toggle }) => {
               to="our-curriculum"
               style={{ textDecoration: 'none', color: 'white' }}
             >
-              Curriculum
+              {t('curriculum')}
             </Link>
           </SidebarLink>
           <SidebarLink>
@@ -70,7 +74,7 @@ const Sidebar = ({ isOpen, toggle }) => {
               to="/how-to"
               style={{ textDecoration: 'none', color: 'white' }}
             >
-              How To
+              {t('howto')}
             </Link>
           </SidebarLink>
           <SidebarLink onClick={toggle}>
@@ -78,7 +82,7 @@ const Sidebar = ({ isOpen, toggle }) => {
               to="/about-us"
               style={{ textDecoration: 'none', color: 'white' }}
             >
-              About
+              {t('about')}
             </Link>
           </SidebarLink>
           <SidebarLink>
@@ -86,17 +90,27 @@ const Sidebar = ({ isOpen, toggle }) => {
               to="/registration"
               style={{ textDecoration: 'none', color: 'white' }}
             >
-              Free Trial Class
+              {t('register')}
             </Link>
           </SidebarLink>
           <SidebarLink onClick={toggle}>
             <div>
               <button onClick={() => setLanguage('ch')}>
-                <img src={Chinese} width="40px" height="30px" />
+                <img
+                  src={Chinese}
+                  width="40px"
+                  height="30px"
+                  style={{ padding: '5px' }}
+                />
               </button>
 
               <button onClick={() => setLanguage('en')}>
-                <img src={English} width="40px" height="30px" />
+                <img
+                  src={English}
+                  width="40px"
+                  height="30px"
+                  style={{ padding: '5px' }}
+                />
               </button>
             </div>
           </SidebarLink>

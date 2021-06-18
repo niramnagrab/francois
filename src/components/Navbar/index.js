@@ -95,7 +95,7 @@ const Navbar = ({ toggle }) => {
                     to="/"
                     style={{ textDecoration: 'none', color: 'white' }}
                   >
-                    Home{' '}
+                    {t('home')}
                   </Link>
                 </NavLinks>
               </NavItem>
@@ -111,8 +111,7 @@ const Navbar = ({ toggle }) => {
                     to="/our-curriculum"
                     style={{ textDecoration: 'none', color: 'white' }}
                   >
-                    {' '}
-                    Curriculum
+                    {t('curriculum')}
                   </Link>
                 </NavLinks>
               </NavItem>
@@ -128,7 +127,7 @@ const Navbar = ({ toggle }) => {
                     to="/how-to"
                     style={{ textDecoration: 'none', color: 'white' }}
                   >
-                    How To
+                    {t('howto')}
                   </Link>
                 </NavLinks>
               </NavItem>
@@ -145,8 +144,7 @@ const Navbar = ({ toggle }) => {
                     to="/about-us"
                     style={{ textDecoration: 'none', color: 'white' }}
                   >
-                    {' '}
-                    About
+                    {t('about')}
                   </Link>
                 </NavLinks>
               </NavItem>
@@ -162,7 +160,7 @@ const Navbar = ({ toggle }) => {
                     to="/registration"
                     style={{ textDecoration: 'none', color: 'white' }}
                   >
-                    Free Class
+                    {t('register')}
                   </Link>
                 </NavLinks>
               </NavItem>

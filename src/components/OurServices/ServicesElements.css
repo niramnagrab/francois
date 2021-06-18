@@ -91,6 +91,10 @@
   margin: 0 auto;
 }
 
+.card-height {
+  height: 450px !important;
+}
+
 @media (max-width: 500px) {
   .centered-div {
     width: 90%;

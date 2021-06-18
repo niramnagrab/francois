@@ -64,6 +64,22 @@
     font-weight: 600 !important;
     font-family: 'Gilroy';
   }
+
+  .aboutmainsection {
+    background-image: linear-gradient(
+        rgba(61, 95, 38, 0.8),
+        rgba(58, 95, 37, 0.8)
+      ),
+      url('../../images/mobile-football-team.png');
+    color: white !important;
+    width: 100% !important;
+    margin-top: 20px;
+    /* margin: 45px 0px; */
+    padding: 50px 0px;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
 }
 .aboutlist {
   display: flex;
@@ -79,6 +95,7 @@
   flex-wrap: wrap;
   margin: 0 auto;
 }
+
 @media (max-width: 920px) {
   .aboutlist {
     display: flex;

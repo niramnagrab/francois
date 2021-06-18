@@ -11,10 +11,10 @@ function Approach() {
         <div className="team-intro">
           <h2 class="header">{t('how_to_appr_head')}</h2>
         </div>
-        <p class="subtitle-center-bold">
+        {/* <p class="subtitle-center-bold">
           Lorem ipsum dolor sit amet, consectetur. Lorem ipsum dolor sit amet,
           consectetur.
-        </p>
+        </p> */}
 
         <div className="sect5">
           <div class="class-time">

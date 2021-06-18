@@ -21,6 +21,7 @@
     position: relative;
     z-index: 1;
     margin-top: -44px;
+    margin-left: -40px;
     height: 90vh !important;
   }
 }
