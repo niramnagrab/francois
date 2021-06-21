@@ -90,7 +90,7 @@ export const SocialLogo = styled(Link)`
   display: flex;
   align-items: center;
   width: 20%;
-  /* margin-bottom: 16px; */
+  margin-bottom: 16px;
   font-weight: bold;
 
   :hover {
@@ -106,7 +106,7 @@ export const SocialLogo = styled(Link)`
 
 export const WebsiteRights = styled.small`
   color: #fff;
-  /* margin-bottom: 16px; */
+  margin-bottom: 16px;
 `
 export const SocialIcons = styled.div`
   display: flex;

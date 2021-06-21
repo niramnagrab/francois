@@ -39,7 +39,7 @@
   width: 100% !important;
   margin-top: 20px;
   /* margin: 45px 0px; */
-  padding: 50px 0px;
+  padding: 150px 0px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -84,7 +84,6 @@
 .aboutlist {
   display: flex;
   flex-direction: row;
-
   padding: 10px 90px;
   margin: 50px auto;
   font-size: 30px;
@@ -108,8 +107,15 @@
     font-family: 'Gilroy';
     padding: 0;
   }
-}
-.reasonslist {
-  padding: 20px;
-  width: 300px;
+
+  .reasonslist {
+    padding: 20px !important;
+    /* width: 300px; */
+  }
+
+  .title-text {
+    padding: 10px !important;
+    width: 100% !important;
+    font-size: 30px !important;
+  }
 }

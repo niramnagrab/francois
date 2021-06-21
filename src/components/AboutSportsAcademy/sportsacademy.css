@@ -71,6 +71,11 @@
     padding: 20px 0px;
   }
 
+  .text-left-about {
+    font-size: 25px;
+    font-weight: 800;
+  }
+
   .sportsacademy-container {
     margin-bottom: 50px;
     /* background: rgb(94, 202, 126); */
@@ -83,12 +88,21 @@
     color: white !important;
     width: 100%;
     /* margin: 45px 0px; */
-    padding: 150px 0px;
+    padding: 100px 0px;
 
     /* background-attachment: fixed; */
     /* background-position: center; */
     background-repeat: no-repeat;
     background-size: 100% 100%;
     /* background-size: contain; */
+  }
+
+  .sportsacademy-content {
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
   }
 }

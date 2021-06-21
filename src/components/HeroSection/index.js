@@ -17,7 +17,7 @@ const HeroSection = () => {
   return (
     <>
       <div className="heroContainer">
-        <img src={WhiteBackground} className="heroVector" />
+        <img src={WhiteBackground} className="heroVector" alt="white-vector" />
         <div className="heroLeftArea">
           <h1 className="heroTitle">{t('home_hero_heading')}</h1>
           <h3 className="heroDescription"> {t('home_hero_sub_heading')}</h3>

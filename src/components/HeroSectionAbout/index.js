@@ -3,9 +3,9 @@ import './heroElements.css'
 import HeroImage from '../../images/about-hero.png'
 import WhiteBackground from '../../images/white-vector-half.png'
 import QRCode from '../../images/qr-code.jpg'
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from 'react-i18next'
 const HeroSectionAbout = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation()
   const [hover, setHover] = useState(false)
 
   const onHover = () => {
@@ -16,9 +16,7 @@ const HeroSectionAbout = () => {
     <div className="aboutheroContainer">
       <img src={WhiteBackground} className="heroVectorAbout" />
       <div className="heroLeftAbout">
-        <h1 className="heroTitle">
-          {t('about_heading')}
-        </h1>
+        <h1 className="heroTitle">{t('about_heading')}</h1>
         {/* <h3 className="heroDescription">
           {' '}
           The online English academy that connects interest with learning to
@@ -26,7 +24,12 @@ const HeroSectionAbout = () => {
         </h3> */}
       </div>
       <div className="heroRightAbout">
-        <img src={HeroImage} height="500px" width="500px" />
+        <img
+          className="heroRightAboutImage"
+          src={HeroImage}
+          height="500px"
+          width="500px"
+        />
       </div>
       <div className="qr-code">
         {' '}

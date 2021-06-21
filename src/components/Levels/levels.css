@@ -48,6 +48,7 @@ button:not(:disabled) {
   border-radius: 8px;
   cursor: pointer;
   transition: all 0.5s;
+  outline: none;
 }
 .primary:hover {
   transform: scale(1.1);

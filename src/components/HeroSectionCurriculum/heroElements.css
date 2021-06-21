@@ -86,10 +86,6 @@
 }
 
 @media (max-width: 768px) {
-  .heroRightCurriculumImage {
-    display: none;
-  }
-
   .heroVectorCurriculum {
     display: none;
   }
@@ -122,17 +118,25 @@
     color: white;
     font-size: 22px !important;
   }
+
+  .curriculum-hero {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    margin-top: 175px;
+    left: 30px;
+  }
 }
 
 @media (max-width: 500px) {
-  .heroRightCurriculumImage {
+  /* .heroRightCurriculumImage {
     display: none;
-  }
+  } */
 
   .heroLeftCurriculum {
     position: absolute;
     left: 15px;
-    /* top: 300px !important; */
+    top: 130px !important;
   }
 
   .heroVectorCurriculum {
@@ -143,6 +147,11 @@
     display: flex;
     flex-direction: column;
     width: 100% !important;
+  }
+
+  .curriculumContainer {
+    display: flex;
+    flex-direction: column;
   }
 
   .heroLeftArea {

@@ -43,7 +43,12 @@ const HeroSectionRegistration = () => {
         </div>
       </div>
       <div className="heroRightRegistration">
-        <img src={Child} height="680px" width="670px" />
+        <img
+          className="heroRightRegistrationImage"
+          src={Child}
+          height="680px"
+          width="670px"
+        />
       </div>
       <div className="qr-code">
         {' '}

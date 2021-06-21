@@ -1,5 +1,5 @@
 import React from 'react'
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from 'react-i18next'
 import { animateScroll as scroll } from 'react-scroll'
 import {
   FaFacebook,
@@ -26,7 +26,7 @@ import {
 import Logo from '../../images/logo-white.png'
 
 const Footer = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation()
   const toggleHome = () => {
     scroll.scrollToTop()
   }
@@ -49,7 +49,7 @@ const Footer = () => {
                     exact="true"
                     offset={-80}
                   >
-                    { t('about')}
+                    {t('about')}
                   </Link>
                 </li>
                 <li class="list-inline-item">
@@ -61,8 +61,7 @@ const Footer = () => {
                     exact="true"
                     offset={-80}
                   >
-                    { t('register')}
-                    
+                    {t('register')}
                   </Link>
                 </li>
                 <li class="list-inline-item">
@@ -74,8 +73,7 @@ const Footer = () => {
                     exact="true"
                     offset={-80}
                   >
-                    { t('our_tours')}
-                    
+                    {t('our_tours')}
                   </Link>
                 </li>
               </ul>
@@ -85,13 +83,13 @@ const Footer = () => {
               rights Reserved
             </WebsiteRights> */}
             <SocialIcons>
-              <SocialIconLink href="#" target="_blank" aria-label="WeChat">
+              <SocialIconLink href="/" target="_blank" aria-label="WeChat">
                 <FaWeixin />
               </SocialIconLink>
-              <SocialIconLink href="#" target="_blank" aria-label="Instagram">
+              <SocialIconLink href="/" target="_blank" aria-label="Instagram">
                 <FaInstagram />
               </SocialIconLink>
-              <SocialIconLink href="#" target="_blank" aria-label="Linkedin">
+              <SocialIconLink href="/" target="_blank" aria-label="Linkedin">
                 <FaLinkedin />
               </SocialIconLink>
             </SocialIcons>

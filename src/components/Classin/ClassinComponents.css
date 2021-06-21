@@ -99,7 +99,7 @@
     text-align: justify;
   }
 }
-..text-justified-classin {
+.text-justified-classin {
   display: block;
   border-bottom: none;
   padding: 25px 0px;

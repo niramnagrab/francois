@@ -346,4 +346,13 @@ h3 {
     margin: 0 auto;
     padding-bottom: 20px;
   }
+
+  .tours-choices {
+    margin-top: 40px !important;
+  }
+
+  .left-container,
+  .right-container {
+    margin-bottom: 40px;
+  }
 }

@@ -74,14 +74,22 @@
 }
 
 @media (max-width: 500px) {
-  .heroRightHomepage {
+  /* .heroRightHomepage {
     display: none;
+  } */
+
+  .hero-how {
+    height: 300px;
+    /* width: 300px; */
+    position: absolute;
+    margin-top: 15px;
+    left: 0px;
   }
 
   .heroLeft {
     position: absolute;
     left: 0px;
-    /* top: 250px !important; */
+    top: 150px !important;
   }
 
   .hero-container {
@@ -98,9 +106,9 @@
     max-width: 100%;
   }
 
-  .hero-how {
+  /* .hero-how {
     display: none;
-  }
+  } */
 
   .howtoVector {
     display: none;
@@ -118,3 +126,13 @@
     padding-top: 50px;
   }
 }
+
+/* @media (max-width: 380px) {
+  .hero-how {
+    height: 250px !important;
+    width: 300px !important;
+    position: absolute !important;
+    margin-top: 65px !important;
+    left: 20px !important;
+  }
+} */

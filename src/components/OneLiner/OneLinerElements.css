@@ -62,7 +62,7 @@
 
 @media (max-width: 640px) {
   .one-liner {
-    margin-top: 175px;
+    /* margin-top: 175px; */
     text-align: justify;
   }
 }

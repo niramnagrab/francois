@@ -139,9 +139,15 @@
 
   .heroLeftRegistration {
     position: absolute;
-    left: 0px;
+    left: 10px;
     top: 150px;
   }
+
+  /* .heroRightRegistrationImage {
+    position: absolute;
+    bottom: 0px !important;
+    right: 0px !important;
+  } */
 }
 
 @media screen and (max-width: 767px) {

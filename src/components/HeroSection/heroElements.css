@@ -82,7 +82,8 @@
 @media screen and (max-width: 767px) {
   .register {
     background-color: #5eca7e !important;
-    box-shadow: -8px 10px 26px -17px rgba(0, 0, 0, 0.75);
+    box-shadow: none;
+    border: none;
   }
 }
 .register {
@@ -100,7 +101,7 @@
   color: black !important;
   line-height: 25px;
   text-align: center;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   /* font-weight: 700; */
 }
 
@@ -144,7 +145,7 @@
 }
 
 form {
-  margin-top: 104px;
+  margin-top: 30px;
 }
 @media (max-width: 767px) {
   form {
@@ -162,10 +163,11 @@ form {
     display: none;
   }
 
-  .hero-container {
+  .heroContainer {
     display: flex;
     flex-direction: column;
     width: 100% !important;
+    margin-bottom: 170px;
   }
 
   .heroLeftArea {
