@@ -145,7 +145,7 @@
 
 @media (max-width: 500px) {
   .why-us {
-    padding-top: 30px;
+    /* padding-top: 30px; */
   }
 
   .team-intro {

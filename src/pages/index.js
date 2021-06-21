@@ -9,7 +9,7 @@ import Team from '../components/Team'
 import Steps from '../components/Steps'
 import Numbers from '../components/Numbers'
 import OneLinerBottom from '../components/OneLinerBottom'
-
+import HeroBottom from '../components/HeroBottom'
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -23,6 +23,7 @@ const Home = () => {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <HeroSection />
+      <HeroBottom />
       <OneLiner />
       <WhyUs />
       <Numbers />

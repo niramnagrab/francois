@@ -54,6 +54,13 @@
   font-weight: 600 !important;
   font-family: 'Gilroy';
 }
+
+.reasonslist {
+  width: 300px;
+  padding: 50px 0;
+  margin: 0 auto;
+}
+
 @media screen and (max-width: 767px) {
   .aboutintro {
     width: 95%;

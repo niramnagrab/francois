@@ -167,7 +167,7 @@ form {
     display: flex;
     flex-direction: column;
     width: 100% !important;
-    margin-bottom: 170px;
+    /* margin-bottom: 170px; */
   }
 
   .heroLeftArea {

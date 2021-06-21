@@ -1,8 +1,8 @@
 import React from 'react'
 import CoachPlay from '../../images/coach-play.jpg'
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from 'react-i18next'
 function ToursContact() {
-  const { t } = useTranslation();
+  const { t } = useTranslation()
   return (
     <div class="container">
       <div class="row custom_margin_top">
@@ -11,10 +11,7 @@ function ToursContact() {
         </div>
         <div class="col-md-6">
           <h3 class="title-text">{t('coach_and_play')}</h3>
-          <p class="text-justified">
-            {t('coach_play_text')}
-           
-          </p>
+          <p class="text-justified">{t('coach_play_text')}</p>
           <div class="row mt-3 mb-5">
             <div class="col-md-6 col-6 contact">
               <div class="row">
