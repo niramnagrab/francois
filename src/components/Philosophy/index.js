@@ -37,7 +37,7 @@ const Philosophy = () => {
         </ul>
         <div className="our-philosophy">
           <div className="philosophy-content">
-            <h1 class="title-text-center">{t('curr_ins_head')}</h1>
+            <h1 class="title-text-center-philosophy">{t('curr_ins_head')}</h1>
             <p class="text-justified-philosophy">{t('curr_ins_txt')}</p>
             <button type="button" class="buttons">
               {t('curr_btn_txt')}

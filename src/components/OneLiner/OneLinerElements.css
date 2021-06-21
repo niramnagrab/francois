@@ -23,7 +23,7 @@
     text-align: center;
   }
   .one-liner p {
-    width: 95% !important;
+    /* width: 95% !important; */
     font-size: 25px !important;
     padding: 50px 0 !important;
     line-height: 30px !important;
@@ -46,7 +46,7 @@
     padding-bottom: 50px !important;
   }
   .one-liner p {
-    width: 90% !important;
+    /* width: 90% !important; */
     font-size: 25px !important;
     /* padding: 72px 0 0px 0px !important; */
     line-height: 30px !important;

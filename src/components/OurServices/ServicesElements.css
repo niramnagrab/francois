@@ -16,7 +16,7 @@
   width: 75%;
 }
 
-.subtitle-center-bold {
+.subtitle-center-bold-services {
   display: block;
   border-bottom: none;
   /* padding: 20px; */
@@ -92,7 +92,7 @@
 }
 
 .card-height {
-  height: 450px !important;
+  height: 400px !important;
 }
 
 @media (max-width: 500px) {
@@ -105,4 +105,11 @@
   .custom_margin_top {
     padding-top: 0 !important;
   }
+
+  /* .subtitle-center-bold-services {
+    margin: 0 auto;
+    width: 100% !important;
+    justify-content: center;
+    text-align: center;
+  } */
 }

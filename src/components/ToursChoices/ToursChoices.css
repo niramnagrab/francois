@@ -341,8 +341,8 @@ h3 {
   }
 
   .description p {
-    width: 90%;
-    text-align: justify;
+    width: 100%;
+    text-align: center;
     margin: 0 auto;
     padding-bottom: 20px;
   }

@@ -126,7 +126,7 @@
   .div1,
   .div2 {
     width: 450px;
-    padding: 20px;
+    /* padding: 20px; */
     margin: 20px;
     /* background-color: white; */
     border-radius: 10px;
