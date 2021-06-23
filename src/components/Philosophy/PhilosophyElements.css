@@ -189,7 +189,7 @@
   padding-bottom: 10px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .text-justified-philosophy {
     color: white;
     font-size: 20px;

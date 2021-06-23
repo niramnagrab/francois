@@ -56,7 +56,7 @@
   margin-top: -100px;
   padding-bottom: 100px;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .trial-class {
     text-align: center;
     margin: 0 auto;

@@ -13,42 +13,61 @@ const HeroSectionRegistration = () => {
     setHover(!hover)
   }
 
+  const showMessage = (e) => {
+    e.preventDefault()
+    document.getElementById('Bene').value = ''
+    document.getElementById('Email').value = ''
+    document.getElementById('WeChatId').value = ''
+    document.getElementById('showMessage').innerHTML = t(
+      'free_trail_request_success',
+    )
+  }
+
   return (
     <div className="heroContainer">
       <img src={WhiteBackground} className="heroVector" />
-      <div className="heroLeftRegistration">
+      <div className="heroLeft">
         <h1 className="heroTitle">{t('reg_your_interest')}</h1>
-        <div class="registration">
+        <div class="register">
           <div class="info">
-            <h3 class="steps-text">{t('form_heading')}</h3>
-            <form action="">
+            <h3 class="steps-text">Get a Free Trial Class</h3>
+            <form
+              action=""
+              name="Get a Free Trial"
+              onSubmit={(e) => showMessage(e)}
+            >
               <input
                 type="text"
                 class="input"
-                placeholder={t('subscriber_name')}
+                required
+                id="Bene"
+                name="Bene"
+                placeholder="Your Name"
               />
               <input
                 type="email"
                 class="input"
-                placeholder={t('subscriber_email')}
+                required
+                id="Email"
+                name="Email"
+                placeholder="Email"
               />
               <input
                 type="text"
                 class="input"
-                placeholder={t('subscriber_wechat')}
+                required
+                id="WeChatId"
+                name="WeChatId"
+                placeholder="We Chat ID"
               />
-              <button class="buttons"> {t('req_free_trail')}</button>
+              <button class="buttons">{t('req_free_trail')}</button>
             </form>
           </div>
+          <p className="text-success" id="showMessage"></p>
         </div>
       </div>
       <div className="heroRightRegistration">
-        <img
-          className="heroRightRegistrationImage"
-          src={Child}
-          height="680px"
-          width="670px"
-        />
+        <img src={Child} height="680px" width="670px" />
       </div>
       <div className="qr-code">
         {' '}

@@ -95,7 +95,7 @@
   height: 400px !important;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .centered-div {
     width: 90%;
     margin: 0 auto;

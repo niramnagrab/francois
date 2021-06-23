@@ -1,0 +1,54 @@
+
+project-folder/public/index.html
+<!-- Start of HubSpot Embed Code -->
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/20105539.js"></script>
+<!-- End of HubSpot Embed Code -->
+
+project-folder/src/data/language/english.json
+"free_trail_request_success" : "Thank you for signing up. We will be in touch shortly"
+project-folder/src/data/language/chinese.json
+"free_trail_request_success" : "谢谢您注册。 我们会尽快与您联系."
+
+project-folder/src/components/HeroSection/indexe.js
+const showMessage = (e) => {
+  e.preventDefault()
+  document.getElementById('Bene').value = ''
+  document.getElementById('Email').value = ''
+  document.getElementById('WeChatId').value = ''
+  document.getElementById('showMessage').innerHTML=t('free_trail_request_success');
+}
+
+<div class="register">
+  <div class="info">
+    <h3 class="steps-text">Get a Free Trial Class</h3>
+    <form action="" name="Get a Free Trial" onSubmit={(e) => showMessage(e)}>
+      <input type="text" class="input" required id="Bene" name="Bene" placeholder="Your Name" />
+      <input type="email" class="input" required id="Email" name="Email" placeholder="Email" />
+      <input type="text" class="input" required id="WeChatId" name="WeChatId" placeholder="We Chat ID" />
+      <button class="buttons" >{t('req_free_trail')}</button>
+    </form>
+  </div>
+  <p className="text-success" id="showMessage"></p> 
+</div>
+
+project-folder/src/components/HeroSectionRegistration/indexe.js
+const showMessage = (e) => {
+  e.preventDefault()
+  document.getElementById('Bene').value = ''
+  document.getElementById('Email').value = ''
+  document.getElementById('WeChatId').value = ''
+  document.getElementById('showMessage').innerHTML=t('free_trail_request_success');
+}
+
+<div class="register">
+  <div class="info">
+    <h3 class="steps-text">Get a Free Trial Class</h3>
+    <form action="" name="Get a Free Trial" onSubmit={(e) => showMessage(e)}>
+      <input type="text" class="input" required id="Bene" name="Bene" placeholder="Your Name" />
+      <input type="email" class="input" required id="Email" name="Email" placeholder="Email" />
+      <input type="text" class="input" required id="WeChatId" name="WeChatId" placeholder="We Chat ID" />
+      <button class="buttons" >{t('req_free_trail')}</button>
+    </form>
+  </div>
+  <p className="text-success" id="showMessage"></p> 
+</div>

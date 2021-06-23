@@ -103,7 +103,7 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .contain {
     display: flex;
     flex-direction: column !important;

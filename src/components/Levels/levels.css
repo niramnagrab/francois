@@ -130,7 +130,7 @@ button:not(:disabled) {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .primary {
     padding: 0 1rem;
   }

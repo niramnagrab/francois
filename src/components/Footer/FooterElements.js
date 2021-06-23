@@ -98,7 +98,7 @@ export const SocialLogo = styled(Link)`
     text-decoration: none;
   }
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 600px) {
     width: 250px;
     height: 150px;
   }
