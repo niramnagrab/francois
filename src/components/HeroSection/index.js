@@ -45,7 +45,7 @@ const HeroSection = () => {
                   required
                   id="Bene"
                   name="Bene"
-                  placeholder="Your Name"
+                  placeholder={t('subscriber_name')}
                 />
                 <input
                   type="email"
@@ -53,7 +53,7 @@ const HeroSection = () => {
                   required
                   id="Email"
                   name="Email"
-                  placeholder="Email"
+                  placeholder={t('subscriber_email')}
                 />
                 <input
                   type="text"
@@ -61,7 +61,7 @@ const HeroSection = () => {
                   required
                   id="WeChatId"
                   name="WeChatId"
-                  placeholder="We Chat ID"
+                  placeholder={t('subscriber_wechat')}
                 />
                 <button class="buttons">{t('req_free_trail')}</button>
               </form>

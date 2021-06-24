@@ -1,5 +1,5 @@
 
-project-folder/public/index.html
+Teach English Through Football/public/index.html
 <!-- Start of HubSpot Embed Code -->
 <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/20105539.js"></script>
 <!-- End of HubSpot Embed Code -->
@@ -31,7 +31,7 @@ const showMessage = (e) => {
   <p className="text-success" id="showMessage"></p> 
 </div>
 
-project-folder/src/components/HeroSectionRegistration/indexe.js
+project-folder/src/components/HeroSectionRegistration/index.js
 const showMessage = (e) => {
   e.preventDefault()
   document.getElementById('Bene').value = ''
