@@ -33,7 +33,7 @@ const HeroSection = () => {
           <h3 className="heroDescription"> {t('home_hero_sub_heading')}</h3>
           <div class="register">
             <div class="info">
-              <h3 class="steps-text">Get a Free Trial Class</h3>
+              <h3 class="steps-text">{t('form_title')}</h3>
               <form
                 action=""
                 name="Get a Free Trial"

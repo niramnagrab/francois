@@ -95,6 +95,10 @@
   height: 450px !important;
 }
 
+.text-justified {
+  text-align: center !important;
+}
+
 @media (max-width: 600px) {
   .centered-div {
     width: 90%;

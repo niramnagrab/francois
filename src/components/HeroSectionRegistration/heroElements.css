@@ -143,6 +143,18 @@
     top: 150px;
   }
 
+  .heroLeft {
+    margin-top: 50px;
+  }
+
+  .heroTitle {
+    line-height: 35px !important;
+  }
+
+  .steps-text {
+    font-size: 28px !important;
+  }
+
   /* .heroRightRegistrationImage {
     position: absolute;
     bottom: 0px !important;

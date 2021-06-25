@@ -85,7 +85,15 @@ const Sidebar = ({ isOpen, toggle }) => {
               {t('about')}
             </Link>
           </SidebarLink>
-          <SidebarLink>
+          <SidebarLink onClick={toggle}>
+            <Link
+              to="/tours"
+              style={{ textDecoration: 'none', color: 'white' }}
+            >
+              {t('tour')}
+            </Link>
+          </SidebarLink>
+          <SidebarLink onClick={toggle}>
             <Link
               to="/registration"
               style={{ textDecoration: 'none', color: 'white' }}

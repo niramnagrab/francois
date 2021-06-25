@@ -30,7 +30,7 @@ const HeroSectionRegistration = () => {
         <h1 className="heroTitle">{t('reg_your_interest')}</h1>
         <div class="register">
           <div class="info">
-            <h3 class="steps-text">Get a Free Trial Class</h3>
+            <h3 class="steps-text">{t('form_title')}</h3>
             <form
               action=""
               name="Get a Free Trial"
@@ -42,7 +42,7 @@ const HeroSectionRegistration = () => {
                 required
                 id="Bene"
                 name="Bene"
-                placeholder="Your Name"
+                placeholder={t('subscriber_name')}
               />
               <input
                 type="email"
@@ -50,7 +50,7 @@ const HeroSectionRegistration = () => {
                 required
                 id="Email"
                 name="Email"
-                placeholder="Email"
+                placeholder={t('subscriber_email')}
               />
               <input
                 type="text"
@@ -58,7 +58,7 @@ const HeroSectionRegistration = () => {
                 required
                 id="WeChatId"
                 name="WeChatId"
-                placeholder="We Chat ID"
+                placeholder={t('subscriber_wechat')}
               />
               <button class="buttons">{t('req_free_trail')}</button>
             </form>
