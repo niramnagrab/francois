@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useSelector } from 'react-redux'
 import './levels.css'
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from 'react-i18next'
 import Preliminary from '../../images/Preliminary.png'
 import Preintermediate from '../../images/Preintermediate.png'
 import Intermediate from '../../images/Intermediate.png'
@@ -9,7 +9,7 @@ import Preadvanced from '../../images/Preadvanced.png'
 import Advanced from '../../images/Advanced.png'
 
 function LevelComponent(props) {
-  const { t } = useTranslation();
+  const { t } = useTranslation()
   const [levelParagraph, setLevelParagraph] = useState('')
   const [imagePath, setImagePath] = useState(Preliminary)
 
@@ -18,8 +18,8 @@ function LevelComponent(props) {
   const p3 = 'our-curriculum_p3'
   const p4 = 'our-curriculum_p4'
   const p5 = 'our-curriculum_p5'
-  
-  const imgPath = "imgs/Preintermediate.png";
+
+  const imgPath = 'imgs/Preintermediate.png'
 
   useEffect(() => {
     setLevelParagraph(p1)
@@ -66,7 +66,6 @@ function LevelComponent(props) {
                   onClick={() => changeLevelText(2)}
                 >
                   {t('preint')}
-                  
                 </button>
                 <button
                   className="steps-text primary indexBtn btn3"
@@ -74,7 +73,6 @@ function LevelComponent(props) {
                   onClick={() => changeLevelText(3)}
                 >
                   {t('inter')}
-                  
                 </button>
                 <button
                   className="steps-text primary indexBtn btn4"
@@ -82,7 +80,6 @@ function LevelComponent(props) {
                   onClick={() => changeLevelText(4)}
                 >
                   {t('prea')}
-                  
                 </button>
                 <button
                   className="steps-text primary indexBtn btn5 active"
@@ -90,7 +87,6 @@ function LevelComponent(props) {
                   onClick={() => changeLevelText(5)}
                 >
                   {t('advan')}
-                  
                 </button>
               </div>
             </div>

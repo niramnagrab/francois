@@ -1,6 +1,8 @@
 import React from 'react'
 import './PhilosophyElements.css'
 import Inspire from '../../images/inspire.png'
+import { Link } from 'react-router-dom'
+
 import Engage from '../../images/engage.png'
 import Achieve from '../../images/achieve.png'
 import Child from '../../images/philosophy-child.png'
@@ -39,9 +41,12 @@ const Philosophy = () => {
           <div className="philosophy-content">
             <h1 class="title-text-center-philosophy">{t('curr_ins_head')}</h1>
             <p class="text-justified-philosophy">{t('curr_ins_txt')}</p>
-            <button type="button" class="buttons">
-              {t('curr_btn_txt')}
-            </button>
+            <Link to="/registration">
+              {' '}
+              <button type="button" class="buttons">
+                {t('curr_btn_txt')}
+              </button>
+            </Link>
           </div>
         </div>
       </div>

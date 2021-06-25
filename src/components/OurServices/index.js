@@ -3,6 +3,8 @@ import './ServicesElements.css'
 import Service1 from '../../images/service1.svg'
 import Service2 from '../../images/service2.svg'
 import Service3 from '../../images/service3.svg'
+import { Link } from 'react-router-dom'
+
 import { useTranslation } from 'react-i18next'
 function OurServices() {
   const { t } = useTranslation()
@@ -25,13 +27,13 @@ function OurServices() {
                 width="55px"
               />
             </div>
-
             <h5 class="subtitle-center-bold mt-4">
               {t('about_inspired_football')}
             </h5>
             <p class="text-justified mb-3">{t('about_inspired_card_txt')}</p>
           </div>
         </div>
+
         <div class="col-md-4">
           <div class="card shadow text-center p-4 services card-height ">
             <div class="justify-content-center">

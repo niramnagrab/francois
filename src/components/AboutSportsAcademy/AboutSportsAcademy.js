@@ -1,6 +1,8 @@
 import React from 'react'
 import './sportsacademy.css'
 import { useTranslation } from 'react-i18next'
+import { Link } from 'react-router-dom'
+
 function AboutSportsAcademy() {
   const { t } = useTranslation()
   return (
@@ -22,9 +24,12 @@ function AboutSportsAcademy() {
             a faster pace, in a motivating environment and through a context
             they enjoy.')} */}
         </p>
-        <button type="button" class="buttons">
-          Request Demo Class
-        </button>
+        <Link to="/registration">
+          {' '}
+          <button type="button" class="buttons">
+            Request Demo Class
+          </button>
+        </Link>
       </div>
     </div>
   )

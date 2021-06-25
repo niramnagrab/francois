@@ -22,7 +22,7 @@
   border-bottom: none;
   padding: 20px;
   font-size: 40px;
-  font-family: 'Gilroy-Black', sans-serif;
+  font-family: 'Gilroy', sans-serif;
   color: black !important;
   line-height: 48px;
   text-align: center;
@@ -193,7 +193,7 @@
   .text-justified-philosophy {
     color: white;
     font-size: 20px;
-    text-align: justify;
+    text-align: center;
     font-weight: 600 !important;
   }
 
