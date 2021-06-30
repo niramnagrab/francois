@@ -28,8 +28,8 @@ const HeroSectionHowTo = () => {
         <img
           src={HeroImage}
           className="hero-how"
-          height="1100px"
-          width="600px"
+          height="300px"
+          width="200px"
         />
       </div>
       <div className="qr-code">

@@ -11,15 +11,22 @@
   /* box-shadow: -8px 10px 26px -17px rgba(0, 0, 0, 0.75); */
 }
 
-.steps-text {
+.registration-text {
   display: block;
   border-bottom: none;
   /* padding: 20px; */
   font-size: 20px;
   font-family: 'Gilroy', sans-serif;
-  color: black;
+  color: black !important;
   line-height: 25px;
   text-align: center;
   margin-top: 20px;
   /* font-weight: 700; */
+}
+
+@media screen and (max-width: 600px) {
+  .registration-text {
+    color: white !important;
+    font-size: 20px !important;
+  }
 }

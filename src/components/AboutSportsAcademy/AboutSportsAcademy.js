@@ -6,10 +6,10 @@ import { Link } from 'react-router-dom'
 function AboutSportsAcademy() {
   const { t } = useTranslation()
   return (
-    <div class="sportsacademy-container">
-      <div class="sportsacademy-content">
-        <h1 class="text-left-about">English inspired by football</h1>
-        <p class="text-justified-about">
+    <div className="sportsacademy-container">
+      <div className="sportsacademy-content">
+        <h1 className="text-left-about">English inspired by football</h1>
+        <p className="text-justified-about">
           {t('about_heading')}
 
           {/* {t ,('')   ('We are an online English academy inspiring and motivating English
@@ -26,7 +26,7 @@ function AboutSportsAcademy() {
         </p>
         <Link to="/registration">
           {' '}
-          <button type="button" class="buttons">
+          <button type="button" className="buttons">
             Request Demo Class
           </button>
         </Link>

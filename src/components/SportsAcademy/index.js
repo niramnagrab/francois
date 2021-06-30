@@ -1,37 +1,32 @@
 import React from 'react'
 import './SportsAcademyElements.css'
-import { useTranslation } from 'react-i18next';
-
+import { useTranslation } from 'react-i18next'
 
 function SportsAcademy() {
-  const { t } = useTranslation();
+  const { t } = useTranslation()
   return (
     <div className="aboutcontainer">
-      <h2>{ t('about_sp_academi')}</h2>
+      <h2>{t('about_sp_academi')}</h2>
       <div className="aboutmainsection">
-        <p className="aboutintro">
-         {t('about_Sp_academi_body')}
-        </p>
+        <p className="aboutintro">{t('about_Sp_academi_body')}</p>
         <div className="aboutlist">
           <p className="reasonslist"> {t('about_football_dev_tours')}</p>
           <p className="reasonslist">{t('about_inspired_football')}</p>
           <p className="reasonslist">{t('about_coach')}</p>
         </div>
         <div>
-          <p className="aboutintro">
-            {t('about_sp_service')}
-          </p>
+          <p className="aboutintro">{t('about_sp_service')}</p>
         </div>
       </div>
     </div>
     // <div>
-    //   <div class="container">
-    //     <div class="row custom_margin_top">
-    //       <div class="col-md-12"></div>
-    //       <div class="col-md-6 mt-3">
+    //   <div className="container">
+    //     <div className="row custom_margin_top">
+    //       <div className="col-md-12"></div>
+    //       <div className="col-md-6 mt-3">
     //         <div className="image-text">
-    //           <h1 class="title-text-left">About SP Sports Academy</h1>
-    //           <p class="text-justified">
+    //           <h1 className="title-text-left">About SP Sports Academy</h1>
+    //           <p className="text-justified">
     //             We are a European Sports Academy with football, growth, and
     //             experience at the heart of everything we do. We offer our
     //             students, players, and coaches a springboard toward their future
@@ -43,7 +38,7 @@ function SportsAcademy() {
     //           </p>
     //         </div>
     //       </div>
-    //       <div class="col-md-6 mt-3">
+    //       <div className="col-md-6 mt-3">
     //         <img src={About} alt="mock" width="100%" />
     //       </div>
     //     </div>

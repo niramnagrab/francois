@@ -28,9 +28,9 @@ const HeroSectionRegistration = () => {
       <img src={WhiteBackground} className="heroVector" />
       <div className="heroLeft">
         <h1 className="heroTitle">{t('reg_your_interest')}</h1>
-        <div class="register">
-          <div class="info">
-            <h3 class="steps-text">{t('form_title')}</h3>
+        <div className="register">
+          <div className="info">
+            <h3 className="registration-text">{t('form_title')}</h3>
             <form
               action=""
               name="Get a Free Trial"
@@ -38,7 +38,7 @@ const HeroSectionRegistration = () => {
             >
               <input
                 type="text"
-                class="input"
+                className="input"
                 required
                 id="Bene"
                 name="Bene"
@@ -46,7 +46,7 @@ const HeroSectionRegistration = () => {
               />
               <input
                 type="email"
-                class="input"
+                className="input"
                 required
                 id="Email"
                 name="Email"
@@ -54,13 +54,13 @@ const HeroSectionRegistration = () => {
               />
               <input
                 type="text"
-                class="input"
+                className="input"
                 required
                 id="WeChatId"
                 name="WeChatId"
                 placeholder={t('subscriber_wechat')}
               />
-              <button class="buttons">{t('req_free_trail')}</button>
+              <button className="buttons">{t('req_free_trail')}</button>
             </form>
           </div>
           <p className="text-success" id="showMessage"></p>

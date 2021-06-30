@@ -1,14 +1,11 @@
 import React from 'react'
 import './OneLinerHowTo2.css'
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from 'react-i18next'
 const OneLinerHowTo2 = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation()
   return (
-    <div class="one-liner">
-      <p>
-        {t('curr_one_how_to_2')}
-       
-      </p>
+    <div className="one-liner">
+      <p>{t('curr_one_how_to_2')}</p>
     </div>
   )
 }

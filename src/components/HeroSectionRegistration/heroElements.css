@@ -82,13 +82,13 @@
   font-family: 'Gilroy', sans-serif;
 }
 
-.steps-text {
+.registration-text {
   display: block;
   border-bottom: none;
   /* padding: 20px; */
   font-size: 20px;
   font-family: 'Gilroy', sans-serif;
-  color: black;
+  color: black !important;
   line-height: 25px;
   text-align: center;
   margin-top: 20px;

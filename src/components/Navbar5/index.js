@@ -3,7 +3,7 @@ import { FaBars } from 'react-icons/fa'
 import { IconContext } from 'react-icons/lib'
 import { animateScroll as scroll } from 'react-scroll'
 import { BrowserRouter, Route, Link } from 'react-router-dom'
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from 'react-i18next'
 
 import {
   Nav,
@@ -19,7 +19,7 @@ import {
 import logo from '../../images/logo.png'
 
 const Navbar = ({ toggle }) => {
-  const { t, i18n } = useTranslation();
+  const { t, i18n } = useTranslation()
   const [scrollNav, setScrollNav] = useState(false)
 
   const changeNav = () => {
@@ -32,10 +32,10 @@ const Navbar = ({ toggle }) => {
 
   useEffect(() => {
     window.addEventListener('scroll', changeNav)
-    let lang = localStorage.getItem("lang");
-    if(lang == null || lang == undefined){
-      i18n.changeLanguage('en');
-      localStorage.setItem("lang","en");
+    let lang = localStorage.getItem('lang')
+    if (lang == null || lang == undefined) {
+      i18n.changeLanguage('en')
+      localStorage.setItem('lang', 'en')
     }
   }, [])
 
@@ -44,8 +44,8 @@ const Navbar = ({ toggle }) => {
   }
 
   const setLanguage = (lang) => {
-    i18n.changeLanguage(lang);
-    localStorage.setItem("lang",lang);
+    i18n.changeLanguage(lang)
+    localStorage.setItem('lang', lang)
   }
 
   return (
@@ -149,7 +149,7 @@ const Navbar = ({ toggle }) => {
               </NavItem>
 
               <div>
-                <button onClick={() => setLanguage('ch')}>Chines</button> | 
+                <button onClick={() => setLanguage('ch')}>Chines</button> |
                 <button onClick={() => setLanguage('en')}>English</button>
               </div>
             </NavMenu>
@@ -159,5 +159,4 @@ const Navbar = ({ toggle }) => {
     </>
   )
 }
-export default Navbar;
-
+export default Navbar

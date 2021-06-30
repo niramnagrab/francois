@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { animateScroll as scroll } from 'react-scroll'
+
 import {
   SidebarContainer,
   Icon,
@@ -14,7 +15,6 @@ import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import Chinese from '../../images/china.png'
 import English from '../../images/united-kingdom.png'
-import Logo from '../../images/logo-white.png'
 
 const Sidebar = ({ isOpen, toggle }) => {
   const { t, i18n } = useTranslation()
@@ -52,9 +52,6 @@ const Sidebar = ({ isOpen, toggle }) => {
         <CloseIcon />
       </Icon>
       <SidebarWrapper>
-        {/* <div>
-          <img src={Logo} />
-        </div> */}
         <SidebarMenu>
           <SidebarLink onClick={toggle}>
             <Link to="/" style={{ textDecoration: 'none', color: 'white' }}>

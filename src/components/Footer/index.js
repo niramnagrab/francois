@@ -43,6 +43,7 @@ const Footer = () => {
                 <li class="list-inline-item">
                   <Link
                     to="/about-us"
+                    onClick={toggleHome}
                     smooth={true}
                     duration={500}
                     spy={true}
@@ -55,6 +56,7 @@ const Footer = () => {
                 <li class="list-inline-item">
                   <Link
                     to="/registration"
+                    onClick={toggleHome}
                     smooth={true}
                     duration={500}
                     spy={true}
@@ -67,6 +69,7 @@ const Footer = () => {
                 <li class="list-inline-item">
                   <Link
                     to="/tours"
+                    onClick={toggleHome}
                     smooth={true}
                     duration={500}
                     spy={true}

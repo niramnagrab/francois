@@ -18,8 +18,8 @@ const OurCurriculum = () => {
 
   return (
     <>
-      <Sidebar isOpen={isOpen} toggle={toggle} />
-      <Navbar toggle={toggle} />
+      <Sidebar isOpen={isOpen} />
+      <Navbar />
       <HeroSectionCurriculum />
       <Philosophy />
       <OneLinerHowTo1 />

@@ -50,16 +50,6 @@
   margin-top: 20px;
 }
 
-.hero-how {
-  position: absolute;
-  top: 197px;
-  left: 700px;
-}
-/* 
-.heroRight {
-  background-image: url('../../images/teachers.jpg');
-} */
-
 .steps-text {
   display: block;
   border-bottom: none;
@@ -73,17 +63,50 @@
   /* font-weight: 700; */
 }
 
+.heroRightHow {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-how {
+  position: absolute;
+  top: 0;
+  left: 530px;
+  bottom: 0;
+  right: 0;
+  height: 400px !important;
+  min-width: 600px !important;
+
+  height: auto; /* to keep proportions */
+  max-width: 100%; /* not to stand out from div */
+  max-height: 100%; /* not to stand out from div */
+  margin: auto auto 0; /* position to bottom and center */
+}
+
 @media (max-width: 600px) {
   /* .heroRightHomepage {
     display: none;
   } */
 
+  .heroRightHow {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
   .hero-how {
-    height: 300px;
-    /* width: 300px; */
     position: absolute;
-    margin-top: 15px;
-    left: 0px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: auto;
+    height: 250px !important;
+    width: 300px !important;
+    height: auto; /* to keep proportions */
+
+    margin: auto auto 0; /* position to bottom and center */
   }
 
   .heroLeft {
@@ -106,10 +129,6 @@
     max-width: 100%;
   }
 
-  /* .hero-how {
-    display: none;
-  } */
-
   .howtoVector {
     display: none;
   }
@@ -126,13 +145,3 @@
     padding-top: 50px;
   }
 }
-
-/* @media (max-width: 380px) {
-  .hero-how {
-    height: 250px !important;
-    width: 300px !important;
-    position: absolute !important;
-    margin-top: 65px !important;
-    left: 20px !important;
-  }
-} */

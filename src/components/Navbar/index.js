@@ -85,6 +85,7 @@ const Navbar = ({ toggle }) => {
               <NavItem>
                 <NavLinks
                   to="/"
+                  onClick={toggleHome}
                   smooth={true}
                   duration={500}
                   spy={true}
@@ -93,7 +94,9 @@ const Navbar = ({ toggle }) => {
                 >
                   <Link
                     to="/"
+                    onClick={toggleHome}
                     style={{ textDecoration: 'none', color: 'white' }}
+                  
                   >
                     {t('home')}
                   </Link>
@@ -109,6 +112,7 @@ const Navbar = ({ toggle }) => {
                 >
                   <Link
                     to="/our-curriculum"
+                    onClick={toggleHome}
                     style={{ textDecoration: 'none', color: 'white' }}
                   >
                     {t('curriculum')}
@@ -122,9 +126,11 @@ const Navbar = ({ toggle }) => {
                   spy={true}
                   exact="true"
                   offset={-80}
+                  onClick={toggleHome}
                 >
                   <Link
                     to="/how-to"
+                    onClick={toggleHome}
                     style={{ textDecoration: 'none', color: 'white' }}
                   >
                     {t('howto')}
@@ -139,9 +145,11 @@ const Navbar = ({ toggle }) => {
                   exact="true"
                   offset={-80}
                   target="_blank"
+                  onClick={toggleHome}
                 >
                   <Link
                     to="/about-us"
+                    onClick={toggleHome}
                     style={{ textDecoration: 'none', color: 'white' }}
                   >
                     {t('about')}
@@ -155,9 +163,11 @@ const Navbar = ({ toggle }) => {
                   spy={true}
                   exact="true"
                   offset={80}
+                  onClick={toggleHome}
                 >
                   <Link
                     to="/registration"
+                    onClick={toggleHome}
                     style={{ textDecoration: 'none', color: 'white' }}
                   >
                     {t('register')}

@@ -4,14 +4,14 @@ import './RegistrationFormElements.css'
 function RegistrationForm() {
   return (
     <div>
-      <div class="register">
-        <div class="info">
-          <h3 class="steps-text">Get a Free Trial Class</h3>
+      <div className="register">
+        <div className="info">
+          <h3 className="registration-text">Get a Free Trial Class</h3>
           <form action="">
-            <input type="text" class="input" placeholder="Your Name" />
-            <input type="email" class="input" placeholder="Email" />
-            <input type="text" class="input" placeholder="We Chat ID" />
-            <button class="buttons">Request Free Trial</button>
+            <input type="text" className="input" placeholder="Your Name" />
+            <input type="email" className="input" placeholder="Email" />
+            <input type="text" className="input" placeholder="We Chat ID" />
+            <button className="buttons">Request Free Trial</button>
           </form>
         </div>
       </div>

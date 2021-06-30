@@ -14,8 +14,8 @@ const Registration = () => {
 
   return (
     <>
-      <Sidebar isOpen={isOpen} toggle={toggle} />
-      <Navbar toggle={toggle} />
+      <Sidebar isOpen={isOpen} />
+      <Navbar />
       <HeroSectionRegistration />
       {/* <RegistrationForm /> */}
       <Footer />
