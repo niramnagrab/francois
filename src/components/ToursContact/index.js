@@ -19,7 +19,7 @@ function ToursContact() {
                   <i className="fas fa-phone-alt fa-2x"></i>
                 </div>
                 <div className="col-md-9">
-                  <h5>Call Us</h5>
+                  <h5 className="contact__details">Call Us</h5>
                   <h6 className="text-secondary">+44 0747 137 0804</h6>
                 </div>
               </div>
