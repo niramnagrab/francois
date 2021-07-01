@@ -1,5 +1,10 @@
 import './App.css'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from 'react-router-dom'
 import Home from './pages/index'
 import OurCurriculum from './pages/curriculum'
 import How from './pages/how'
