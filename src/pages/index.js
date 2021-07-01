@@ -21,8 +21,8 @@ const Home = () => {
 
   return (
     <>
-      <Sidebar isOpen={isOpen} />
-      <Navbar />
+      <Sidebar isOpen={isOpen} toggle={toggle} />
+      <Navbar toggle={toggle}/>
       <HeroSection />
       <HeroBottom />
       <OneLiner />

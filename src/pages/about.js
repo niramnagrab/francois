@@ -11,10 +11,14 @@ import OneLinerAbout from '../components/OneLinerAbout'
 const About = () => {
   const [isOpen, setIsOpen] = useState(false)
 
+  const toggle = () => {
+    setIsOpen(!isOpen)
+  }
+
   return (
     <>
-      <Sidebar isOpen={isOpen} />
-      <Navbar />
+      <Sidebar isOpen={isOpen} toggle={toggle} />
+      <Navbar toggle={toggle} />
       <HeroSectionAbout />
       <SportsAcademy />
       <OneLinerAbout />

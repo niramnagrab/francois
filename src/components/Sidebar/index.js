@@ -106,6 +106,7 @@ const Sidebar = ({ isOpen, toggle }) => {
                   width="40px"
                   height="30px"
                   style={{ padding: '5px' }}
+                  alt="chinese-flag"
                 />
               </button>
 
@@ -115,6 +116,7 @@ const Sidebar = ({ isOpen, toggle }) => {
                   width="40px"
                   height="30px"
                   style={{ padding: '5px' }}
+                  alt="language-flag"
                 />
               </button>
             </div>
