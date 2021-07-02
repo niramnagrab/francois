@@ -6,11 +6,10 @@
 
 body {
   background-color: #f7f9fb !important;
+  font-family: 'Gilroy', sans-serif;
   font-family: 'Gilroy-Bold', sans-serif;
   font-family: 'Gilroy-Heavy', sans-serif;
   font-family: 'Gilroy-Light', sans-serif;
   font-family: 'Gilroy-Medium', sans-serif;
-  font-family: 'Gilroy-Regular', sans-serif;
+  /* font-family: 'Gilroy-Regular', sans-serif; */
 }
-
-

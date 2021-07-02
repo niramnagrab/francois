@@ -96,7 +96,6 @@ const Navbar = ({ toggle }) => {
                     to="/"
                     onClick={toggleHome}
                     style={{ textDecoration: 'none', color: 'white' }}
-                  
                   >
                     {t('home')}
                   </Link>

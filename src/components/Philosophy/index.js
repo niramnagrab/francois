@@ -4,7 +4,6 @@ import Inspire from '../../images/inspire.png'
 import { Link } from 'react-router-dom'
 import { animateScroll as scroll } from 'react-scroll'
 
-
 import Engage from '../../images/engage.png'
 import Achieve from '../../images/achieve.png'
 import Child from '../../images/philosophy-child.png'
@@ -15,6 +14,7 @@ const Philosophy = () => {
   const toggleHome = () => {
     scroll.scrollToTop()
   }
+
   return (
     <div className="overall">
       <div className="teaching-philosophy">

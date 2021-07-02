@@ -1,9 +1,12 @@
 import React, { useState } from 'react'
 import { SliderData } from './SliderData'
+import { useTranslation } from 'react-i18next'
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa'
 import './slider.css'
 
 const ImageSlider = ({ slides }) => {
+  const { t } = useTranslation()
+
   const [current, setCurrent] = useState(0)
   const length = slides.length
 
@@ -23,30 +26,13 @@ const ImageSlider = ({ slides }) => {
     <div className="slider__top">
       <div className="slider__content">
         <div className="slider__text">
-          <h1>Tours</h1>
-          <p>
-            Semper Paratus Sports Academy can help you arrange your cultural or
-            sporting trip, including hotel bookings, coach transfers, fixture
-            arrangements against local clubs, bilingual on-site assistance,
-            museum and restaurant reservations plus match tickets for Premier
-            League, La Liga, Serie A and other major European leagues. We have
-            many years of experience working with major sports tour agents in
-            the UK, Europe and the rest of the world, making all the
-            arrangements for all kinds of different tours, for a wide variety of
-            budgets and activities.
-          </p>
+          <h1>{t('our_tours')}</h1>
+
+          <p>{t('tour_text')}</p>
         </div>
         <div className="slider__text">
-          <h1>Coach + Play</h1>
-          <p>
-            Coach and Play the Spanish Way is a service that provides Spanish
-            football methodology coaching, guidance and support for football
-            clubs all over the world from amateur to professional. We provide
-            the professionals and the steps to adopt the Spanish methodology at
-            your club. Players and coaches are given the opportunity to push
-            their skills in a fun and dynamic way to better their performance on
-            the pitch and their results in the league.
-          </p>
+          <h1>{t('coach_play')}</h1>
+          <p>{t('coach_play_text')}</p>
         </div>
       </div>
       <div className="slider ">

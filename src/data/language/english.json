@@ -11,7 +11,7 @@
   "form_title": "Get a Free Trial Class",
   "subscriber_name": "Your name",
   "subscriber_email": "Email",
-  "subscriber_wechat": "Your WeChat",
+  "subscriber_wechat": "WeChat ID",
   "home_promo_heading": "We are an online English academy, inspiring and motivating English language learners every day through a context that unites millions!",
   "Why choose us": "Why choose us",
   "Professionally developed system": "Professionally developed system",
@@ -121,5 +121,11 @@
   "our-curriculum_p3": "Have a good command of the present, past and future tenses. Continue to improve their verbal agility. Learn a variety of new grammatical structures such as, the superlative, to take time, still-yet-already-anymore, to be able to, the accusative and many more. Be introduced to the present perfect tense. Start to regularly practice making suggestions and sharing opinions using modal verbs (must, should, have to). Start to build a knowledge of multiple phrasal verbs. Gain an extensive knowledge of football vocabulary.",
   "our-curriculum_p4": "Learn various conjunction words such as although, however, and despite. Improve their technical football vocabulary. Add to their inventory of adjectives. Gain knowledge of native football expressions. Learn suggestive language in order to confidently express opinions, make suggestions and use logical conclusions. Continue to practice previous grammatical forms. Be introduced to the second and third conditional  Be able to differentiate between the verbs to remind/remember and to be used to/used to (past form). Practice using expressions such as “I would rather...” and “It’s worth it”. Finish the course with the ability to express hopes, wishes and desires.",
   "our-curriculum_p5": "Continue to practice and perfect their agility with higher level grammar. Learn a selection of new phrasal verbs during each 11-week course. Learn how to challenge the opinions of others and justify their own. Express themselves naturally using logical conclusions and suggestive language. Practice real-word interview scenarios, answering difficult questions and giving respectful answers. Practice debating and negotiation. Understand jokes. Use expressions. Make presentations. Practice job interviews and self-praise. Improve comprehension of different accents.",
-  "free_trail_request_success": "Thank you for signing up. We will be in touch shortly!"
+  "free_trail_request_success": "Thank you for signing up. We will be in touch shortly!",
+  "call_us": "Call Us",
+  "email_us": "Email Us",
+  "testimonials_title": "Testimonials",
+  "testimonials_name1": "Yu Yan",
+  "testimonials_city1": "Shanghai",
+  "testimonials_quote1": "Joely always goes over and above, with so much interest in her students. She tries to make us get the most we possibly can from the course. If I had to rate her from 0-10, I would give her a 10. Excellent!"
 }

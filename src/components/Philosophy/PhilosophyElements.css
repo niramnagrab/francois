@@ -4,6 +4,7 @@
   width: 100%;
   padding: 0;
   flex-wrap: wrap;
+  color: white !important;
 }
 
 .teaching-philosophy {
@@ -72,7 +73,7 @@
 
 .buttons {
   margin-top: 20px;
-  font-family: 'Gilroy', sans-serif;
+  font-family: 'Gilroy';
   background-color: #e95959;
   color: white;
   padding: 12px 60px;
@@ -174,6 +175,7 @@
   /* text-align: center; */
   font-size: 25px;
   padding: 5px;
+  color: black !important;
 }
 
 .philosophy-content {

@@ -59,7 +59,6 @@ button:not(:disabled) {
   border-bottom: none;
   /* padding: 20px; */
   font-size: 20px;
-  font-family: 'Raleway', sans-serif;
   color: #fff !important;
   line-height: 25px;
   text-align: center;

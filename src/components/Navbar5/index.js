@@ -89,6 +89,7 @@ const Navbar = ({ toggle }) => {
                   offset={-80}
                 >
                   <Link
+                    onClick={toggleHome}
                     to="/our-curriculum"
                     style={{ textDecoration: 'none', color: 'white' }}
                   >
@@ -149,7 +150,7 @@ const Navbar = ({ toggle }) => {
               </NavItem>
 
               <div>
-                <button onClick={() => setLanguage('ch')}>Chines</button> |
+                <button onClick={() => setLanguage('ch')}>Chinese</button> |
                 <button onClick={() => setLanguage('en')}>English</button>
               </div>
             </NavMenu>
