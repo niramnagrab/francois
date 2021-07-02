@@ -98,15 +98,12 @@
   .hero-how {
     position: absolute;
     top: 0;
-    left: 0;
+    left: -250px;
     bottom: 0;
     right: 0;
     width: auto;
     height: 250px !important;
-    width: 300px !important;
-    height: auto; /* to keep proportions */
-
-    margin: auto auto 0; /* position to bottom and center */
+    /* width: 200px !important; */
   }
 
   .heroLeft {

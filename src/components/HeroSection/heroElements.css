@@ -247,6 +247,7 @@ form {
     line-height: 30px !important;
     font-family: 'Gilroy' !important;
     text-align: center !important;
+    padding: 20px !important;
   }
 
   .heroDescription {

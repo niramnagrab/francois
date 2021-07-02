@@ -145,11 +145,12 @@
   }
 
   .heroLeft {
-    margin-top: 50px;
+    margin-top: 0px;
   }
 
   .heroTitle {
     line-height: 35px !important;
+    padding: 20px !important;
   }
 
   .steps-text {

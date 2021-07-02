@@ -99,11 +99,12 @@
   .heroLeftAbout {
     position: absolute;
     /* left: 50px; */
-    /* top: 300px !important; */
+    top: 170px !important;
   }
 
   .heroTitle {
     width: 100%;
+    padding: 20px !important;
   }
 }
 .heroTitle {
