@@ -2,9 +2,13 @@ import React from 'react'
 import './sportsacademy.css'
 import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
+import { animateScroll as scroll } from 'react-scroll'
 
 function AboutSportsAcademy() {
   const { t } = useTranslation()
+  const toggleHome = () => {
+    scroll.scrollToTop()
+  }
   return (
     <div className="sportsacademy-container">
       <div className="sportsacademy-content">
@@ -24,7 +28,7 @@ function AboutSportsAcademy() {
             a faster pace, in a motivating environment and through a context
             they enjoy.')} */}
         </p>
-        <Link to="/registration">
+        <Link to="/registration" onClick={toggleHome}>
           {' '}
           <button type="button" className="buttons">
             Request Demo Class

@@ -11,6 +11,7 @@ import How from './pages/how'
 import About from './pages/about'
 import Tours from './pages/tours'
 import Registration from './pages/registration'
+import Course from './pages/course'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/how-to" component={How} />
         <Route path="/about-us" component={About} />
         <Route path="/tours" component={Tours} />
+        <Route path="/course" component={Course} />
         <Route path="/registration" component={Registration} />
       </Switch>
     </Router>

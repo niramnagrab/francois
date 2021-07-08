@@ -112,6 +112,10 @@
     margin: 10px 5px;
     width: 80%;
   }
+
+  .row {
+    display: flex;
+  }
 }
 
 @media (max-width: 600px) {

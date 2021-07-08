@@ -1,0 +1,13 @@
+.course-div {
+  height: 600px;
+  width: 80%;
+  background-color: green;
+  margin: 150px auto;
+}
+
+h1 {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+}

@@ -63,9 +63,10 @@
   .numbers {
     display: flex;
     flex-direction: column;
-    /* padding: 20px; */
+    padding: 20px;
   }
 }
+
 @media (max-width: 600px) {
   .title-text {
     font-size: 20px !important;

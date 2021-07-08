@@ -53,12 +53,16 @@ const Sidebar = ({ isOpen, toggle }) => {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink onClick={toggle}>
-            <Link to="/" style={{ textDecoration: 'none', color: 'white' }}>
+          <SidebarLink to="/" onClick={toggleHome}>
+            <Link
+              to="/"
+              onClick={toggleHome}
+              style={{ textDecoration: 'none', color: 'white' }}
+            >
               {t('home')}
             </Link>
           </SidebarLink>
-          <SidebarLink to="/curriculum" onClick={toggle}>
+          <SidebarLink to="/curriculum" onClick={toggleHome}>
             <Link
               to="our-curriculum"
               style={{ textDecoration: 'none', color: 'white' }}
@@ -66,7 +70,7 @@ const Sidebar = ({ isOpen, toggle }) => {
               {t('curriculum')}
             </Link>
           </SidebarLink>
-          <SidebarLink>
+          <SidebarLink onClick={toggleHome}>
             <Link
               to="/how-to"
               style={{ textDecoration: 'none', color: 'white' }}
@@ -74,7 +78,7 @@ const Sidebar = ({ isOpen, toggle }) => {
               {t('howto')}
             </Link>
           </SidebarLink>
-          <SidebarLink onClick={toggle}>
+          <SidebarLink onClick={toggleHome}>
             <Link
               to="/about-us"
               style={{ textDecoration: 'none', color: 'white' }}
@@ -82,7 +86,7 @@ const Sidebar = ({ isOpen, toggle }) => {
               {t('about')}
             </Link>
           </SidebarLink>
-          <SidebarLink onClick={toggle}>
+          <SidebarLink onClick={toggleHome}>
             <Link
               to="/tours"
               style={{ textDecoration: 'none', color: 'white' }}
@@ -90,7 +94,7 @@ const Sidebar = ({ isOpen, toggle }) => {
               {t('tour')}
             </Link>
           </SidebarLink>
-          <SidebarLink onClick={toggle}>
+          <SidebarLink onClick={toggleHome}>
             <Link
               to="/registration"
               style={{ textDecoration: 'none', color: 'white' }}
@@ -98,7 +102,7 @@ const Sidebar = ({ isOpen, toggle }) => {
               {t('register')}
             </Link>
           </SidebarLink>
-          <SidebarLink onClick={toggle}>
+          <SidebarLink onClick={toggleHome}>
             <div>
               <button onClick={() => setLanguage('ch')}>
                 <img
