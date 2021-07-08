@@ -185,6 +185,13 @@ h3 {
   text-align: justify;
 }
 
+.phone {
+  text-align: center !important;
+  /* margin: 0 auto;
+  justify-content: center;
+  align-items: center; */
+}
+
 .contact {
   font-family: 'Gilroy', sans-serif;
   style: bold;

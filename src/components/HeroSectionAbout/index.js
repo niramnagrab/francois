@@ -24,7 +24,12 @@ const HeroSectionAbout = () => {
         </h3> */}
       </div>
       <div className="heroRightAbout">
-        <img className="heroRightAboutImage" src={HeroImage} />
+        <img
+          className="heroRightAboutImage"
+          src={HeroImage}
+          height="500px"
+          width="500px"
+        />
       </div>
       <div className="qr-code">
         {' '}

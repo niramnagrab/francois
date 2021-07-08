@@ -12,31 +12,11 @@ function ToursContact() {
         <div className="col-md-6">
           <h3 className="title-text">{t('coach_and_play')}</h3>
           <p className="text-justified">{t('coach_play_text')}</p>
-          <div className="row mt-3 mb-5">
-            <div className="col-md-6 col-6 contact">
-              <div className="row">
-                <div className="col-md-3">
-                  <i className="fas fa-phone-alt fa-2x"></i>
-                </div>
-                <div className="col-md-9">
-                  <h5 className="contact__details">{t('call_us')}</h5>
-                  <h6 className="text-secondary">+44 0747 137 0804</h6>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6 col-6 contact">
-              <div className="row">
-                <div className="col-md-3">
-                  <i className="fas fa-envelope fa-2x"></i>
-                </div>
-                <div className="col-md-9">
-                  <h5>{t('email_us')}</h5>
-                  <h6 className="text-secondary">
-                    info@englishinspiredbyfootballsp.com
-                  </h6>
-                </div>
-              </div>
-            </div>
+          <div className="mt-3 mb-5 text-center">
+            <h5>{t('email_us')}</h5>
+            <h6 className="text-secondary">
+              info@englishinspiredbyfootballsp.com
+            </h6>
           </div>
         </div>
       </div>

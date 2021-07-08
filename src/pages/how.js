@@ -6,6 +6,7 @@ import Footer from '../components/Footer'
 import Steps from '../components/Steps'
 import Classin from '../components/Classin'
 import Approach from '../components/Approach'
+import HeroHow from '../components/HeroHow'
 
 const How = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -19,6 +20,7 @@ const How = () => {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <HeroSectionHowTo />
+      <HeroHow />
       <Steps />
       <Classin />
       <Approach />

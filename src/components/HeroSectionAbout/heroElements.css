@@ -38,12 +38,12 @@
     justify-content: center;
     align-items: center;
     padding: 0 30px;
-    height: 850px;
+    height: 450px;
     position: relative;
     z-index: 1;
     margin-top: -100px;
     margin-left: -40px;
-    height: 100vh !important;
+    height: 80vh !important;
   }
 
   .heroRightAbout {
@@ -53,6 +53,7 @@
   }
 
   .heroRightAboutImage {
+    display: none;
     position: absolute;
     top: 0;
     left: 0;
@@ -99,7 +100,7 @@
   .heroLeftAbout {
     position: absolute;
     /* left: 50px; */
-    top: 170px !important;
+    top: 250px !important;
   }
 
   .heroTitle {

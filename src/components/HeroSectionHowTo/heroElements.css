@@ -25,7 +25,7 @@
 .heroLeft {
   position: absolute;
   left: 50px;
-  top: 250px !important;
+  top: 200px !important;
 }
 
 .howtoVector {
@@ -96,6 +96,7 @@
   }
 
   .hero-how {
+    display: none;
     position: absolute;
     top: 0;
     left: -250px;
@@ -103,6 +104,7 @@
     right: 0;
     width: auto;
     height: 250px !important;
+
     /* width: 200px !important; */
   }
 

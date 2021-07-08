@@ -1,6 +1,6 @@
 import React, { useState, useEffect, Link } from 'react'
 import './heroElements.css'
-import HeroImage from '../../images/philosophy-teacher.png'
+import HeroImage from '../../images/curriculum_final.png'
 import WhiteBackground from '../../images/white-vector-half.png'
 import QRCode from '../../images/qr-code.jpg'
 import { useTranslation } from 'react-i18next'
@@ -27,8 +27,8 @@ const HeroSectionCurriculum = () => {
         <img
           className="curriculum-hero"
           src={HeroImage}
-          height="350px"
-          width="450px"
+          height="550px"
+          width="650px"
         />
       </div>
       <div className="qr-code">
