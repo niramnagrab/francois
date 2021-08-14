@@ -12,6 +12,7 @@ import About from './pages/about'
 import Tours from './pages/tours'
 import Registration from './pages/registration'
 import Course from './pages/course'
+import Payment from './pages/payment'
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
         <Route path="/how-to" component={How} />
         <Route path="/about-us" component={About} />
         <Route path="/tours" component={Tours} />
-        <Route path="/course" component={Course} />
+        <Route path="/payments" component={Payment} />
         <Route path="/registration" component={Registration} />
       </Switch>
     </Router>

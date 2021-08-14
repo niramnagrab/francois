@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import Dropdown from './Dropdown'
 import Chinese from '../../images/china.png'
+
 import {
   Nav,
   NavbarContainer,
@@ -155,6 +156,46 @@ const Navbar = ({ toggle }) => {
                   </Link>
                 </NavLinks>
               </NavItem>
+              {/* <NavItem>
+                <NavLinks
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  exact="true"
+                  offset={-80}
+                  target="_blank"
+                  onClick={toggleHome}
+                >
+                  <Link
+                    to="/testimonial"
+                    onClick={toggleHome}
+                    style={{ textDecoration: 'none', color: 'white' }}
+                  >
+                    {t('testimonial')}
+                  </Link>
+                </NavLinks>
+              </NavItem> */}
+
+              {/* <NavItem>
+                <NavLinks
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  exact="true"
+                  offset={-80}
+                  target="_blank"
+                  onClick={toggleHome}
+                >
+                  <Link
+                    to="/buy"
+                    onClick={toggleHome}
+                    style={{ textDecoration: 'none', color: 'white' }}
+                  >
+                    {t('buy')}
+                  </Link>
+                </NavLinks>
+              </NavItem> */}
+
               <NavItem>
                 <NavLinks
                   smooth={true}
@@ -173,25 +214,7 @@ const Navbar = ({ toggle }) => {
                   </Link>
                 </NavLinks>
               </NavItem>
-
-              <NavItem>
-                <NavLinks
-                  smooth={true}
-                  duration={500}
-                  spy={true}
-                  exact="true"
-                  onClick={dropdownClick}
-                  offset={80}
-                >
-                  <img src={Chinese} width="30px" height="25px" />{' '}
-                  <i className="fa fa-caret-down" />
-                </NavLinks>
-                {dropdowns && <Dropdown />}
-                {/* <div>
-                  <button onClick={() => setLanguage('ch')}>Chines</button> | 
-                  <button onClick={() => setLanguage('en')}>English</button>
-                </div> */}
-              </NavItem>
+              <Dropdown />
             </NavMenu>
           </NavbarContainer>
         </Nav>

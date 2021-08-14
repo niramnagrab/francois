@@ -6,26 +6,23 @@ const people = [
   {
     id: 1,
     image: Testimonial1,
-    name: 'Yu Yan',
+    name: 'testimonialname1',
     title: 'Shanghai ',
-    quote:
-      'Joely always goes over and above, with so much interest in her students. She tries to make us get the most we possibly can from the course. If I had to rate her from 0-10, I would give her a 10. Excellent!',
+    quote: 'quote1',
   },
   {
     id: 2,
     image: Testimonial2,
     name: 'Mo Chou',
     title: 'Beijing ',
-    quote:
-      'Ben is a fantastic teacher. You can see his passion for football and English in his classes. They are always fun, dynamic, and engaging.',
+    quote: 'quote2',
   },
   {
     id: 3,
     image: Testimonial3,
     name: 'Nian Zhen',
     title: 'Hangzhou',
-    quote:
-      'Carlos is an excellent coach and teacher. He does everything with passion and energy. My children have been studying with him for 5 years, and I have seen an incredible improvement in their confidence and ability with English.',
+    quote: 'quote3',
   },
 ]
 
