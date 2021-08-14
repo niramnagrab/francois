@@ -31,7 +31,7 @@ const Payments = () => {
   }
 
   const onChangeValueHandler = (event) => {
-    setCoupon(event.target.value);
+    setCoupon(event.target.value)
   }
 
   const showMessage = (e) => {
@@ -47,7 +47,7 @@ const Payments = () => {
   let quantity = 0
   let price = 0
   let total = 0
-  let discountValue = 0;
+  let discountValue = 0
   products.forEach((product) => {
     paymentData.forEach((item) => {
       if (item.id == product) {
@@ -56,30 +56,27 @@ const Payments = () => {
         total += Number(item.price)
       }
     })
-    if(couponApplied){
-      discountValue = total * (discount / 100);
+    if (couponApplied) {
+      discountValue = total * (discount / 100)
     }
   })
 
   const applyCoupon = (e) => {
-    voucherCode.forEach((voucher) =>{
-     
-      if(voucher.code == coupon.toLowerCase()){
+    voucherCode.forEach((voucher) => {
+      if (voucher.code == coupon.toLowerCase()) {
         setDiscount(voucher.value)
         setCouponApplied(true)
       }
     })
   }
-  
-  
+
   const removeCoupon = (e) => {
     setDiscount(0)
-    setCouponApplied(false) 
+    setCouponApplied(false)
   }
-  
 
   let disabled = true
-  if(total > 0){
+  if (total > 0) {
     disabled = false
   }
 
@@ -90,9 +87,6 @@ const Payments = () => {
       </div>
 
       <div className="table-area">
-
-
-        
         <div className="table-sec">
           <table className="customers">
             <tr>
@@ -129,18 +123,34 @@ const Payments = () => {
               <p>Got a voucher ? Add it here</p>
             </div>
             <div className="voucher-input">
-              <input type="text" name="coupon" id="coupon" onChange={onChangeValueHandler} value={coupon}/>
-              <input type="button" className="buy-btn" value="Apply" onClick={(e) => applyCoupon(e)} />
-              {discountValue > 0 &&
-                <p>{discount}% applied <span className="text-danger"  onClick={(e) => removeCoupon(e)}> Clear </span></p>
-              }
-             
+              <input
+                type="text"
+                name="coupon"
+                id="coupon"
+                onChange={onChangeValueHandler}
+                value={coupon}
+              />
+              <input
+                type="button"
+                className="buy-btn"
+                value="Apply"
+                onClick={(e) => applyCoupon(e)}
+              />
+              {discountValue > 0 && (
+                <p>
+                  {discount}% applied{' '}
+                  <span
+                    className="text-danger"
+                    onClick={(e) => removeCoupon(e)}
+                  >
+                    {' '}
+                    Clear{' '}
+                  </span>
+                </p>
+              )}
             </div>
           </div>
         </div>
-
-
-
 
         <div className="course-des">
           <div className="course-head">
@@ -159,27 +169,28 @@ const Payments = () => {
           <div className="course-cost">
             <p>Quantity : {quantity}</p>
             <p>Price : RMB {price}</p>
-           <p>{discountValue > 0 && `Discount : RMB ${discountValue}`}</p>
-            
+            <p>{discountValue > 0 && `Discount : RMB ${discountValue}`}</p>
+
             <p>Total : RMB {total - discountValue}</p>
           </div>
           <div className="course-btn">
             <form
-              action="http://englishinspiredbyfootballsp.comcheckout/index.php"
+              action="http://englishinspiredbyfootballsp.com/checkout/index.php"
               method="POST"
             >
               <input type="hidden" name="price" value={price} />
               <input type="hidden" name="quantity" value={quantity} />
               <input type="hidden" name="price" value={total - discountValue} />
-                <button type="submit" disabled={disabled} className="button buy-btn">
-                  {t('pay_now')} (RMB {total - discountValue})
-                </button>
+              <button
+                type="submit"
+                disabled={disabled}
+                className="button buy-btn"
+              >
+                {t('pay_now')} (RMB {total - discountValue})
+              </button>
             </form>
           </div>
         </div>
-
-
-
       </div>
     </>
   )
