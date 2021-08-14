@@ -165,7 +165,7 @@ const Payments = () => {
           </div>
           <div className="course-btn">
             <form
-              action="http://englishinspiredbyfootballsp.com/francois2/checkout/index.php"
+              action="http://englishinspiredbyfootballsp.comcheckout/index.php"
               method="POST"
             >
               <input type="hidden" name="price" value={price} />
