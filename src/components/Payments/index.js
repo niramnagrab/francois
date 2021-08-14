@@ -174,7 +174,7 @@ const Payments = () => {
             <p>Total : RMB {total - discountValue}</p>
           </div>
           <div className="course-btn">
-            <form action="checkout/index.php" method="POST">
+            <form action="francois/checkout/index.php" method="POST">
               <input type="hidden" name="price" value={price} />
               <input type="hidden" name="quantity" value={quantity} />
               <input type="hidden" name="price" value={total - discountValue} />
