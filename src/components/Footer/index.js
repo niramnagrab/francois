@@ -36,7 +36,7 @@ const Footer = () => {
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to="/" onClick={toggleHome}>
-              <img src={Logo} />
+              <img src={Logo} alt="Company Logo" />
             </SocialLogo>
             <FooterLinks>
               <ul class="list-inline">

@@ -9,7 +9,7 @@ const Testimonials = () => {
   const { t } = useTranslation()
   const [people, setPeople] = useState(data)
   const [index, setIndex] = React.useState(0)
-  const [levelParagraph,setLevelParagraph] = useState('');
+  const [levelParagraph, setLevelParagraph] = useState('')
 
   useEffect(() => {
     const lastIndex = people.length - 1
@@ -53,17 +53,25 @@ const Testimonials = () => {
           return (
             <article className={position} key={id}>
               <img src={image} alt={name} className="person-img" />
-              <h4>{name}</h4>
+              <h4>{t(name)}</h4>
               <p className="title">{title}</p>
               <p className="text">{t(quote)}</p>
               <FaQuoteRight className="icon" />
             </article>
           )
         })}
-        <button className="prev" onClick={() => setIndex(index - 1)}>
+        <button
+          className="prev"
+          onClick={() => setIndex(index - 1)}
+          aria-label="Left Align"
+        >
           <FiChevronLeft />
         </button>
-        <button className="next" onClick={() => setIndex(index + 1)}>
+        <button
+          className="next"
+          onClick={() => setIndex(index + 1)}
+          aria-label="Right Align"
+        >
           <FiChevronRight />
         </button>
       </div>

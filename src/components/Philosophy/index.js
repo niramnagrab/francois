@@ -26,19 +26,19 @@ const Philosophy = () => {
         <ul className="folder">
           <li>
             <div className="icons-div image-margin">
-              <img src={Inspire} />
+              <img src={Inspire} alt="Inspire Icon" />
               <p>{t('curr_ins')}</p>
             </div>
           </li>
           <li>
             <div className="icons-div">
-              <img src={Engage} />
+              <img src={Engage} alt="Engage Icon" />
               <p>{t('curr_eng')}</p>
             </div>
           </li>
           <li>
             <div className="icons-div">
-              <img src={Achieve} />
+              <img src={Achieve} alt="Achieve Icon" />
               <p>{t('curr_ach')}</p>
             </div>
           </li>
@@ -51,7 +51,11 @@ const Philosophy = () => {
             <p className="text-justified-philosophy">{t('curr_ins_txt')}</p>
             <Link to="/registration" onClick={toggleHome}>
               {' '}
-              <button type="button" className="buttons">
+              <button
+                type="button"
+                className="buttons"
+                aria-label="Toggle Home"
+              >
                 {t('curr_btn_txt')}
               </button>
             </Link>

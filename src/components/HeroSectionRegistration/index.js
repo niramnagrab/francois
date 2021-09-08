@@ -25,7 +25,7 @@ const HeroSectionRegistration = () => {
 
   return (
     <div className="heroContainer">
-      <img src={WhiteBackground} className="heroVector" />
+      <img src={WhiteBackground} className="heroVector" alt="Hero Image" />
       <div className="heroLeft">
         <h1 className="heroTitle">{t('reg_your_interest')}</h1>
         <div className="register">
@@ -60,18 +60,20 @@ const HeroSectionRegistration = () => {
                 name="WeChatId"
                 placeholder={t('subscriber_wechat')}
               />
-              <button className="buttons">{t('req_free_trail')}</button>
+              <button className="buttons" aria-label="Trial Class">
+                {t('req_free_trail')}
+              </button>
             </form>
           </div>
           <p className="text-success" id="showMessage"></p>
         </div>
       </div>
       <div className="heroRightRegistration">
-        <img src={Child} height="680px" width="670px" />
+        <img src={Child} height="680px" width="670px" alt="Child Image" />
       </div>
       <div className="qr-code">
         {' '}
-        <img src={QRCode} width="60px" height="60px" />
+        <img src={QRCode} width="60px" height="60px" alt="QR Code Image" />
       </div>
     </div>
   )

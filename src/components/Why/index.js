@@ -11,7 +11,6 @@ const WhyUs = () => {
   const { t, i18n } = useTranslation()
   return (
     <div className="why-us">
-      {/* <!-- <img className="why-vector" src="images/vector2.png" alt="" /> --> */}
       <div className="team-intro">
         {' '}
         <h2 className="header">{t('Why choose us')}</h2>
@@ -24,7 +23,7 @@ const WhyUs = () => {
             className="why-icon"
             width="50px"
             height="50px"
-            alt=""
+            alt="Why Choose Us"
           />
           <h3 className="subtitle-center-bold">
             {t('Professionally developed system')}
@@ -38,7 +37,7 @@ const WhyUs = () => {
             className="why-icon"
             width="50px"
             height="50px"
-            alt=""
+            alt="Why Choose Us"
           />
           <h3 className="subtitle-center-bold">{t('why_text_2_title')}</h3>
           <p className="text-center-simple">{t('why_text_2_body')}</p>
@@ -50,7 +49,7 @@ const WhyUs = () => {
             className="why-icon"
             width="50px"
             height="50px"
-            alt=""
+            alt="Why Choose Us"
           />
           <h3 className="subtitle-center-bold">{t('why_text_3')}</h3>
           <p className="text-center-simple">{t('why_text_3_body')}</p>
@@ -62,7 +61,7 @@ const WhyUs = () => {
             className="why-icon"
             width="50px"
             height="50px"
-            alt=""
+            alt="Why Choose Us"
           />
           <h3 className="subtitle-center-bold">{t('why_text_4')}</h3>
           <p className="text-center-simple">{t('why_text_4_body')}</p>
@@ -74,7 +73,7 @@ const WhyUs = () => {
             className="why-icon"
             width="50px"
             height="50px"
-            alt=""
+            alt="Why Choose Us"
           />
           <h3 className="subtitle-center-bold">{t('why_text_5')}</h3>
           <p className="text-center-simple">{t('why_text_5_body')}</p>

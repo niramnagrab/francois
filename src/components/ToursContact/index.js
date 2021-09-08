@@ -7,7 +7,7 @@ function ToursContact() {
     <div className="container">
       <div className="row custom_margin_top">
         <div className="col-md-6">
-          <img src={CoachPlay} alt="mock" width="100%" />
+          <img src={CoachPlay} alt="Our coaching plan" width="100%" />
         </div>
         <div className="col-md-6">
           <h3 className="title-text">{t('coach_and_play')}</h3>

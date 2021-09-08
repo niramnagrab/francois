@@ -30,7 +30,7 @@ function AboutSportsAcademy() {
         </p>
         <Link to="/registration" onClick={toggleHome}>
           {' '}
-          <button type="button" className="buttons">
+          <button type="button" className="buttons" aria-label="Demo Class">
             Request Demo Class
           </button>
         </Link>

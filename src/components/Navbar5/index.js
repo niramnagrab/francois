@@ -56,7 +56,7 @@ const Navbar = ({ toggle }) => {
             <NavLogo onClick={toggleHome}>
               <Link to="/">
                 {' '}
-                <img src={logo} />
+                <img src={logo} alt="Toggle Home Logo" />
               </Link>
             </NavLogo>
             <MobileIcon onClick={toggle}>
@@ -150,8 +150,19 @@ const Navbar = ({ toggle }) => {
               </NavItem>
 
               <div>
-                <button onClick={() => setLanguage('ch')}>Chinese</button> |
-                <button onClick={() => setLanguage('en')}>English</button>
+                <button
+                  onClick={() => setLanguage('ch')}
+                  aria-label="Change Language"
+                >
+                  Chinese
+                </button>{' '}
+                |
+                <button
+                  onClick={() => setLanguage('en')}
+                  aria-label="Change Language"
+                >
+                  English
+                </button>
               </div>
             </NavMenu>
           </NavbarContainer>

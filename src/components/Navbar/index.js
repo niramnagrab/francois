@@ -76,7 +76,7 @@ const Navbar = ({ toggle }) => {
             <NavLogo onClick={toggleHome}>
               <Link to="/">
                 {' '}
-                <img src={logo} />
+                <img src={logo} alt="Toggle Home Logo" />
               </Link>
             </NavLogo>
             <MobileIcon onClick={toggle}>

@@ -57,6 +57,7 @@ function LevelComponent(props) {
                   className="steps-text primary indexBtn btn2"
                   id="2"
                   onClick={() => changeLevelText(1)}
+                  aria-label="Next Level"
                 >
                   {t('preli')}
                 </button>
@@ -64,6 +65,7 @@ function LevelComponent(props) {
                   className="steps-text primary indexBtn btn2"
                   id="2"
                   onClick={() => changeLevelText(2)}
+                  aria-label="Next Level"
                 >
                   {t('preint')}
                 </button>
@@ -71,6 +73,7 @@ function LevelComponent(props) {
                   className="steps-text primary indexBtn btn3"
                   id="3"
                   onClick={() => changeLevelText(3)}
+                  aria-label="Next Level"
                 >
                   {t('inter')}
                 </button>
@@ -78,6 +81,7 @@ function LevelComponent(props) {
                   className="steps-text primary indexBtn btn4"
                   id="4"
                   onClick={() => changeLevelText(4)}
+                  aria-label="Next Level"
                 >
                   {t('prea')}
                 </button>
@@ -85,6 +89,7 @@ function LevelComponent(props) {
                   className="steps-text primary indexBtn btn5 active"
                   id="5"
                   onClick={() => changeLevelText(5)}
+                  aria-label="Next Level"
                 >
                   {t('advan')}
                 </button>
@@ -101,7 +106,7 @@ function LevelComponent(props) {
                 <img
                   src={imagePath}
                   className="slider-image"
-                  alt="football img"
+                  alt="Football Image"
                   width="40"
                   height="40"
                 />

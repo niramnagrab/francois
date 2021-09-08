@@ -30,7 +30,7 @@ function OurServices() {
                 <img
                   src={Service1}
                   className="service-images"
-                  alt="lan"
+                  alt="Services Images"
                   height="58px"
                   width="55px"
                 />
@@ -50,7 +50,7 @@ function OurServices() {
                 <img
                   src={Service2}
                   className="service-images"
-                  alt="lan"
+                  alt="Services Images"
                   height="58px"
                   width="55px"
                 />
@@ -70,7 +70,7 @@ function OurServices() {
                 <img
                   src={Service3}
                   className="service-images"
-                  alt="lan"
+                  alt="Services images"
                   height="58px"
                   width="65px"
                 />

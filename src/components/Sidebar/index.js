@@ -104,7 +104,10 @@ const Sidebar = ({ isOpen, toggle }) => {
           </SidebarLink>
           <SidebarLink onClick={toggleHome}>
             <div>
-              <button onClick={() => setLanguage('ch')}>
+              <button
+                onClick={() => setLanguage('ch')}
+                aria-label="Change Language"
+              >
                 <img
                   src={Chinese}
                   width="40px"
@@ -114,7 +117,10 @@ const Sidebar = ({ isOpen, toggle }) => {
                 />
               </button>
 
-              <button onClick={() => setLanguage('en')}>
+              <button
+                onClick={() => setLanguage('en')}
+                aria-label="Change Language"
+              >
                 <img
                   src={English}
                   width="40px"

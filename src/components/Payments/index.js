@@ -100,7 +100,11 @@ const Payments = () => {
               return (
                 <tr key={index}>
                   <td className="img-sec" width="80%">
-                    <img className="course-img" src={item.img} />
+                    <img
+                      className="course-img"
+                      src={item.img}
+                      alt="Course Detail"
+                    />
                     {t(item.desc)}
                   </td>
                   <td>{item.quantity}</td>
@@ -110,6 +114,7 @@ const Payments = () => {
                     <button
                       onClick={() => buyProduct(item.id)}
                       className="buy-btn"
+                      aria-label="Buy Button"
                     >
                       {products.includes(item.id) ? 'Remove' : 'Buy'}
                     </button>
@@ -157,7 +162,7 @@ const Payments = () => {
             <h4>Course Purchase Summary</h4>
           </div>
           <div className="couse-thumb">
-            <img src={img3} className="thumb-img" />
+            <img src={img3} className="thumb-img" alt="Course Summary" />
           </div>
           <div className="course-desc">
             <p>
@@ -185,6 +190,7 @@ const Payments = () => {
                 type="submit"
                 disabled={disabled}
                 className="button buy-btn"
+                aria-label="Submit Form"
               >
                 {t('pay_now')} (RMB {total - discountValue})
               </button>

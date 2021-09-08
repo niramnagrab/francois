@@ -25,7 +25,11 @@ const Team = () => {
             <div className="col-md-4">
               <div className="card d-flex mx-auto">
                 <div className="card-image">
-                  <img src={Joely} className="img-fluid d-flex mx-auto" />
+                  <img
+                    src={Joely}
+                    className="img-fluid d-flex mx-auto"
+                    alt="Teacher Joely"
+                  />
                 </div>
                 <div className="card-text">
                   <div className="subtitle-center-bold">
@@ -39,7 +43,11 @@ const Team = () => {
             <div className="col-md-4">
               <div className="card d-flex mx-auto">
                 <div className="card-image">
-                  <img src={Carlos} className="img-fluid d-flex mx-auto" />
+                  <img
+                    src={Carlos}
+                    className="img-fluid d-flex mx-auto"
+                    alt="Teacher Carlos"
+                  />
                 </div>
                 <div className="card-text">
                   <div className="subtitle-center-bold">
@@ -52,7 +60,11 @@ const Team = () => {
             <div className="col-md-4">
               <div className="card d-flex mx-auto">
                 <div className="card-image">
-                  <img src={Ben} className="img-fluid d-flex mx-auto" />
+                  <img
+                    src={Ben}
+                    className="img-fluid d-flex mx-auto"
+                    alt="Teacher Ben"
+                  />
                 </div>
                 <div className="card-text">
                   <div className="subtitle-center-bold">{t('teacher_ben')}</div>
@@ -66,7 +78,9 @@ const Team = () => {
 
       <div className="trial-class">
         <Link to="/registration" onClick={toggleHome}>
-          <button className="buttons">{t('how_to_btn')}</button>
+          <button className="buttons" aria-label="Toggle Home">
+            {t('how_to_btn')}
+          </button>
         </Link>
       </div>
     </>

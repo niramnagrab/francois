@@ -18,7 +18,7 @@ function Approach() {
 
         <div className="sect5">
           <div className="class-time">
-            <img className="mob1" src={Step2} alt="class-approach" />
+            <img className="mob1" src={Step2} alt="Class Approach" />
             <h3 className="approach-title">{t('how_to_20_minutes_head')}</h3>
             <p className="text-center-simple">{t('how_to_20_minutes_txt')}</p>
           </div>
@@ -29,7 +29,7 @@ function Approach() {
               src={Step1}
               width="59px"
               height="59px"
-              alt="class-approach"
+              alt="Class Approach"
             />
             <h3 className="approach-title">{t('how_to_25_minutes_cnted')}</h3>
             <p className="text-center-simple">
@@ -38,7 +38,12 @@ function Approach() {
           </div>
 
           <div className="class-time">
-            <img className="mob1" src={Step2} alt="class-approach" />
+            <img
+              className="mob1"
+              src={Step2}
+              alt="class-approach"
+              alt="Our Steps"
+            />
             <h3 className="approach-title">{t('how_to_15_be')}</h3>
             <p className="text-center-simple">{t('how_to_15_bef_txt')}</p>
           </div>

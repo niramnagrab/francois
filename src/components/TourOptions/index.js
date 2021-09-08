@@ -15,17 +15,17 @@ function TourOptions() {
             <h2 className="title-text">{t('our_tour_text')}</h2>
           </div>
           <div className="col-md-4 countries">
-            <img src={UK} alt="uk" width="100%" />
+            <img src={UK} alt="uk photo" width="100%" />
             <h2 className="title-text">{t('uk')}</h2>
             <p className="text-justified-tours">{t('uk_text')}</p>
           </div>
           <div className="col-md-4 countries">
-            <img src={Spain} alt="spain" width="100%" />
+            <img src={Spain} alt="spain photo" width="100%" />
             <h2 className="title-text">{t('spain')}</h2>
             <p className="text-justified-tours">{t('spain_text')}</p>
           </div>
           <div className="col-md-4 countries">
-            <img src={Italy} alt="italy" width="100%" />
+            <img src={Italy} alt="italy picture" width="100%" />
             <h2 className="title-text">{t('italy')}</h2>
             <p className="text-justified-tours">{t('italy_text')}</p>
           </div>

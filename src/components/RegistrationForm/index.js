@@ -11,7 +11,9 @@ function RegistrationForm() {
             <input type="text" className="input" placeholder="Your Name" />
             <input type="email" className="input" placeholder="Email" />
             <input type="text" className="input" placeholder="We Chat ID" />
-            <button className="buttons">Request Free Trial</button>
+            <button className="buttons" aria-label="Trial Class">
+              Request Free Trial
+            </button>
           </form>
         </div>
       </div>

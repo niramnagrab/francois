@@ -27,10 +27,10 @@ const HeroSection = () => {
   return (
     <>
       <div className="heroContainer">
-        <img src={WhiteBackground} className="heroVector" />
+        <img src={WhiteBackground} className="heroVector" alt="Hero Image" />
         <div className="heroLeftArea">
           <h1 className="heroTitle">{t('home_hero_heading')}</h1>
-          <h3 className="heroDescription"> {t('home_hero_sub_heading')}</h3>
+          <h4 className="heroDescription"> {t('home_hero_sub_heading')}</h4>
           <div className="register">
             <div className="info">
               <h3 className="steps-text">{t('form_title')}</h3>
@@ -63,7 +63,9 @@ const HeroSection = () => {
                   name="WeChatId"
                   placeholder={t('subscriber_wechat')}
                 />
-                <button className="buttons">{t('req_free_trail')}</button>
+                <button className="buttons" aria-label="Trial Class">
+                  {t('req_free_trail')}
+                </button>
               </form>
             </div>
             <p className="text-success" id="showMessage"></p>
@@ -74,7 +76,7 @@ const HeroSection = () => {
         </div>
         <div className="qr-code">
           {' '}
-          <img src={QRCode} width="60px" height="60px" />
+          <img src={QRCode} width="60px" height="60px" alt="QR Code Image" />
         </div>
       </div>
     </>

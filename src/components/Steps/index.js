@@ -17,17 +17,17 @@ const Steps = () => {
         <div className="sect1">
           <ul className="contain">
             <li className="steps">
-              <img src={Number1} alt="" />
+              <img src={Number1} alt="Steps to Take" />
               <h3 className="subtitle-center-bold">{t('how_to_register')}</h3>
               <p className="text-justified">{t('how_to_register_txt')}</p>
             </li>
             <li className="steps">
-              <img src={Number2} alt="" />
+              <img src={Number2} alt="Steps to Take" />
               <h3 className="subtitle-center-bold">{t('how_to_we_cnt')}</h3>
               <p className="text-justified">{t('how_to_we_cnt_txt')}</p>
             </li>
             <li className="steps">
-              <img src={Number3} alt="" />
+              <img src={Number3} alt="Steps to Take" />
               <h3 className="subtitle-center-bold">
                 {t('how_to_download_classin')}
               </h3>
@@ -37,7 +37,7 @@ const Steps = () => {
             </li>
 
             <li className="steps">
-              <img src={Number4} alt="" />
+              <img src={Number4} alt="Steps to Take" />
               <h3 className="subtitle-center-bold">{t('how_to_allocate')}</h3>
               <p className="text-justified">{t('how_to_allocate_txt')}</p>
             </li>

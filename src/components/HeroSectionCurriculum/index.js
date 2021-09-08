@@ -14,14 +14,13 @@ const HeroSectionCurriculum = () => {
 
   return (
     <div className="curriculumContainer">
-      <img src={WhiteBackground} className="heroVectorCurriculum" />
+      <img
+        src={WhiteBackground}
+        className="heroVectorCurriculum"
+        alt="Curriculum Hero Image"
+      />
       <div className="heroLeftCurriculum">
         <h1 className="heroTitle">{t('curr_hero_head')}</h1>
-        {/* <h3 className="heroDescription">
-          {' '}
-          The online English academy that connects interest with learning to
-          enhance results
-        </h3> */}
       </div>
       <div className="heroRightCurriculumImage">
         <img
@@ -29,11 +28,12 @@ const HeroSectionCurriculum = () => {
           src={HeroImage}
           height="550px"
           width="650px"
+          alt="Curriculum Hero Image"
         />
       </div>
       <div className="qr-code">
         {' '}
-        <img src={QRCode} width="60px" height="60px" />
+        <img src={QRCode} width="60px" height="60px" alt="QR Code" />
       </div>
     </div>
   )

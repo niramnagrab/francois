@@ -17,7 +17,11 @@ function Classin() {
         <p className="text-justified-classin">{t('how_to_classin_txt')}</p>
         <Link to="/registration" onClick={toggleHome}>
           {' '}
-          <button type="button" className="buttons font-weight-bold">
+          <button
+            type="button"
+            className="buttons font-weight-bold"
+            aria-label="How To"
+          >
             {t('how_to_btn')}
           </button>{' '}
         </Link>

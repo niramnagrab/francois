@@ -15,14 +15,9 @@ const HeroSectionHowTo = () => {
 
   return (
     <div className="howtoContainer">
-      <img src={WhiteBackground} className="howtoVector" />
+      <img src={WhiteBackground} className="howtoVector" alt="How To Image" />
       <div className="heroLeft">
         <h1 className="heroTitle">{t('how_to_start_learn')}</h1>
-        {/* <h3 className="heroDescription">
-          {' '}
-          The online English academy that connects interest with learning to
-          enhance results
-        </h3> */}
       </div>
       <div className="heroRightHow">
         <img
@@ -30,11 +25,12 @@ const HeroSectionHowTo = () => {
           className="hero-how"
           height="300px"
           width="200px"
+          alt="Hero Image"
         />
       </div>
       <div className="qr-code">
         {' '}
-        <img src={QRCode} width="60px" height="60px" />
+        <img src={QRCode} width="60px" height="60px" alt="QR Code" />
       </div>
     </div>
   )

@@ -5,7 +5,7 @@ import './style.css'
 function HeroHow() {
   return (
     <div className="herohowbottom">
-      <img src={HeroImage} />
+      <img src={HeroImage} alt="Hero Bottom Image" />
     </div>
   )
 }

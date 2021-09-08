@@ -14,7 +14,9 @@ function OneLinerBottom() {
       <p>{t('home_one_liner_bottom')}</p>
       <div className="trial-class">
         <Link to="/registration" onClick={toggleHome}>
-          <button className="buttons">{t('how_to_btn')}</button>
+          <button className="buttons" aria-label="Buy Button">
+            {t('how_to_btn')}
+          </button>
         </Link>
       </div>
     </div>
